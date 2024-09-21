@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/featured-services",
+    "title": "Featured Services",
+    "category": "text",
+    "description": "Add a list of top rated services",
+    "keywords": ["services"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "description": {
+            "type": "string",
+            "default": ""
+        },
+        "count": {
+            "type": "number",
+            "default": 3
+        },
+        "classifications": {
+            "type": "array",
+            "default": []
+        },
+        "alignment": {
+            "type": "string",
+            "default": "center"
+        },
+        "icon": {
+            "type": "string",
+            "default": "briefcase"
+        },
+        "icon_color": {
+            "type": "string",
+            "default": "#EE2A24"
+        },
+        "shadow": {
+            "type": "boolean",
+            "default": false
+        },
+        "text_color": {
+            "type": "string",
+            "default": "#003876"
+        }
+        
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-featured-services.js"
+}

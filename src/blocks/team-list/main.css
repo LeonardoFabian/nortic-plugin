@@ -1,0 +1,255 @@
+.wp-block-nortic-plugin-nortic-team-list {
+  background-color: var(--wp--preset--color--nortic-white);
+  /* background-color: var(--wp--preset--color--nortic-gray); */
+
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+  padding: 8px 8px 0 8px;
+  /* position: relative !important; */
+  /* overflow: hidden !important; */
+  /* display: flex; */
+  /*
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px; */
+}
+.wp-block-nortic-plugin-nortic-team-list .posts-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw !important;
+  height: 80vh !important;
+  /* height: 500px !important; */
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .wp-block-nortic-plugin-nortic-team-list .posts-container {
+    width: 80vw !important;
+    height: 80vh !important;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mySwiper2.h-full {
+  height: 100%;
+}
+
+.mySwiper2 .swiper-slide {
+  position: relative;
+}
+.mySwiper2 .swiper-slide.swiper-slide-active {
+  border-top: none !important;
+}
+.mySwiper2 .swiper-slide img {
+  display: block;
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mySwiper2 .swiper-slide .team-list__single_post--content {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 4px;
+  max-width: 50%;
+  background-color: var(--wp--preset--color--nortic-blue);
+  padding: 8px 20px 8px 50px;
+  /* padding: 4px 20px 8px 20px; */
+}
+
+.mySwiper2 .swiper-slide .team-list__single_post--content h5 {
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1 !important;
+  color: var(--wp--preset--color--nortic-white);
+  font-size: 1.1rem !important;
+}
+
+.mySwiper2 .swiper-slide .team-list__single_post--content a {
+  font-weight: 300;
+  color: var(--wp--preset--color--nortic-white);
+  margin-left: 0;
+  text-align: left;
+  font-size: 0.8rem !important;
+  line-height: 1 !important;
+  border-radius: 0;
+  display: block;
+}
+.mySwiper2 .swiper-slide .team-list__single_post--content h5 a:hover,
+.mySwiper2 .swiper-slide .team-list__single_post--content h5 a:visited {
+  color: var(--wp--preset--color--nortic-white);
+}
+
+.mySwiperThumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.mySwiperThumbs.hidden {
+  height: 0;
+}
+
+.mySwiperThumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiperThumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiperThumbs .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .wp-block-nortic-plugin-team-list .latest-post-container {
+  gap: 1.25em;
+}
+.wp-block-nortic-plugin-team-list .latest-post-container .nortic-plugin__post {
+  border-top: 2px solid red;
+}
+.wp-block-nortic-plugin-team-list .latest-post-container .col-1 {
+  width: calc(100% / 1);
+}
+.wp-block-nortic-plugin-team-list .latest-post-container .col-2 {
+  width: calc((100% / 2) - 0.83333em);
+}
+.wp-block-nortic-plugin-team-list .latest-post-container .col-3 {
+  width: calc((100% / 3) - 0.83333em);
+}
+.wp-block-nortic-plugin-team-list .latest-post-container .col-4,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-5,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-6,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-7,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-8,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-9,
+.wp-block-nortic-plugin-team-list .latest-post-container .col-10 {
+  width: calc((100% / 4) - 1em);
+}
+
+.wp-block-nortic-plugin-team-list .latest-post-container img {
+  width: 100%;
+  height: 213px;
+  object-fit: cover;
+  transition-duration: 500ms;
+}
+.wp-block-nortic-plugin-team-list .latest-post-container img:hover {
+  transform: scale(1.25);
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  h3.latest-posts-title
+  a {
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  h3.latest-posts-title
+  a:hover {
+  color: var(--wp--preset--color--nortic-azure-blue);
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  h3.latest-posts-title
+  a:visited {
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  a.latest-posts-cats {
+  color: var(--wp--preset--color--nortic-red);
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  a.latest-posts-cats:hover {
+  font-weight: 600;
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  a.latest-posts-cats:first-of-type::before {
+  display: inline-flex;
+  content: "";
+  border-top: 0.2rem solid var(--wp--preset--color--nortic-red);
+  width: 1.5rem;
+  margin-right: 0.8rem;
+  transform: translateY(-0.2rem);
+  align-items: center;
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  time.latest-posts-date {
+  display: block;
+  color: var(--wp--preset--color--nortic-dark-gray);
+  text-transform: uppercase;
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  .latest-posts-footer
+  span.latest-posts-comments-number {
+  display: inline-block;
+  color: var(--wp--preset--color--nortic-dark-gray);
+}
+.wp-block-nortic-plugin-team-list
+  .latest-post-container
+  .latest-posts-content
+  .latest-posts-footer
+  span.latest-posts-comments-number
+  i {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .wp-block-nortic-plugin-team-list .latest-post-container .col-2 {
+    width: calc(100% / 1);
+  }
+  .wp-block-nortic-plugin-team-list .latest-post-container .col-3 {
+    width: calc(100% / 1);
+  }
+  .wp-block-nortic-plugin-team-list .latest-post-container .col-4 {
+    width: calc(100% / 1);
+  }
+} */

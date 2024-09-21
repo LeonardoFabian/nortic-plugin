@@ -1,0 +1,166 @@
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/province-rd-trabaja-jobs/main.css ***!
+  \**************************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-province-rd-trabaja-jobs {
+  margin-bottom: 54px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* CTA */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-cta
+  img {
+  height: 150px;
+}
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-cta
+  h2 {
+  color: var(--wp--preset--color--nortic-blue);
+}
+
+/* job list header */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-header
+  h5 {
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-header
+  .jobs-platform-link,
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-header
+  .jobs-platform-link
+  a:visited {
+  color: var(--wp--preset--color--nortic-blue);
+  white-space: nowrap;
+}
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-header
+  .jobs-platform-link
+  a:hover {
+  cursor: pointer;
+  color: var(--wp--preset--color--nortic-azure-blue);
+}
+/* jobs list */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list {
+  -moz-column-count: 3;
+       column-count: 3; /* Define 3 columnas */
+  -moz-column-gap: 30px;
+       column-gap: 30px; /* Espacio entre las columnas */
+}
+
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item {
+  display: block;
+  width: 100%; /* Los items ocupan el 100% del ancho de la columna */
+  /* margin-bottom: 16px; */
+  /* padding: 16px; */
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border-radius: 8px; */
+  background-color: var(--wp--preset--color--nortic-white);
+  border-bottom: 1px solid var(--wp--preset--color--nortic-gray);
+  -moz-column-break-inside: avoid;
+       break-inside: avoid; /* Evita que un ítem se divida entre dos columnas */
+  /* box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1); */
+}
+
+/* .wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item {
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: var(--wp--preset--color--nortic-white);
+  box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+  flex-basis: calc(100% / 3 - 16px);
+  margin-bottom: 16px;
+} */
+
+/* header */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item-header {
+  display: flex;
+  flex-direction: column;
+}
+/* job title */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item-header
+  h5 {
+  font-size: 18px;
+  color: var(--wp--preset--color--nortic-black);
+  font-weight: 600;
+}
+/* published date */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-list-item-header
+  time {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-dark-gray);
+}
+
+/* footer */
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.wp-block-nortic-plugin-province-rd-trabaja-jobs
+  .wp-block-nortic-plugin-province-rd-trabaja-jobs-footer
+  a {
+  color: var(--wp--preset--color--nortic-white);
+  background-color: var(--wp--preset--color--nortic-red);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+}
+
+
+/*# sourceMappingURL=index.css.map*/

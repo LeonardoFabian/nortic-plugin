@@ -1,0 +1,79 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/hero-section",
+    "title": "Hero Section",
+    "category": "text",
+    "description": "Add a custom Hero Section block",
+    "keywords": ["hero"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "width": {
+            "type": "number",
+            "default": 1200
+        },
+        "height": {
+            "type": "number",
+            "default": 675
+        },
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h1",
+            "default": ""
+        },
+        "subtitle": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2",
+            "default": ""
+        },
+        "content": {
+            "type": "string",
+            "source": "html",
+            "selector": "p",
+            "default": ""
+        },
+        "headingColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "btnText": {
+            "type": "string"
+        },
+        "btnColor": {
+            "type": "string",
+            "default": "#ee2a24"
+        },
+        "readMoreText": {
+            "type": "string"
+        },
+        "readMoreColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "imageID": {
+            "type": "number",
+            "default": 0
+        },
+        "imageAlt": {
+            "type": "string",
+            "default": ""
+        },
+        "imageUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "alignment": {
+            "type": "string",
+            "default": "center"
+        }
+    },
+    "style": "file:./index.css"
+}

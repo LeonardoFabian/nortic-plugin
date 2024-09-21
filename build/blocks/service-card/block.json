@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/service-card",
+  "title": "Service Card",
+  "category": "text",
+  "description": "Show details of a service on a card",
+  "keywords": [
+    "servicio",
+    "service",
+    "summary",
+    "detalles",
+    "details",
+    "service card"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "useIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "icon": {
+      "type": "string",
+      "default": "admin-generic"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#ee2a24"
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "style": "file:./index.css"
+}

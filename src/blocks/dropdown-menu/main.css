@@ -1,0 +1,45 @@
+.editor-styles-wrapper
+  .wp-block-nortic-plugin-dropdown-menu
+  .dropdown-menu-content
+  .block-editor-inner-blocks
+  .block-editor-block-list__layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.hide-on-desktop {
+  display: none !important;
+}
+.wp-block-nortic-plugin-dropdown-menu.hide-on-desktop {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .wp-block-nortic-plugin-dropdown-menu.hide-on-mobile {
+    display: none;
+  }
+}
+
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu.block {
+  width: 350px;
+  max-width: 350px;
+  transform: translate3d(0, 40.8px, 0) !important;
+  inset: 0px 0px auto auto !important;
+}
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu.hidden {
+  display: none;
+}
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu .dropdown-menu-content {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu span,
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu a,
+.wp-block-nortic-plugin-dropdown-menu .dropdown-menu p {
+  font-family: var(--wp--preset--font-family--nortic-poppins);
+  font-size: var(--wp--preset--font-size--small);
+}

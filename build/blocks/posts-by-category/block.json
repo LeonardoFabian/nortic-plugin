@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/nortic-posts-by-category",
+  "title": "Posts by Category",
+  "category": "widgets",
+  "description": "Add a list of posts filtered by category",
+  "keywords": [
+    "posts",
+    "post",
+    "noticias",
+    "category",
+    "categories"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": 5
+    },
+    "categories": {
+      "type": "array",
+      "default": []
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "useTemplateQuery": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css"
+}

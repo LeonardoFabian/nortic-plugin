@@ -1,0 +1,9 @@
+.wp-block-nortic-plugin-faqs .faq-container button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.wp-block-nortic-plugin-faqs .faq-container a h3.faq-question {
+    font-weight: 600 !important;
+}

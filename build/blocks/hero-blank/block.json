@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/hero-blank",
+  "title": "Hero Blank Template",
+  "category": "text",
+  "description": "Add a custom Hero Blank Template block",
+  "keywords": [
+    "hero",
+    "blank"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "width": {
+      "type": "number",
+      "default": 1200
+    },
+    "height": {
+      "type": "number",
+      "default": 675
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "style": "file:./index.css"
+}

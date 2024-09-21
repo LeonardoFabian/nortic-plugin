@@ -1,0 +1,7 @@
+.wp-block-nortic-plugin-sharing-buttons .sharing-buttons a:hover {
+    color: var(--wp--preset--color--nortic-azure-blue) !important;
+    border-color: var(--wp--preset--color--nortic-azure-blue) !important;
+}
+.wp-block-nortic-plugin-sharing-buttons .sharing-buttons a:hover svg {
+    color: var(--wp--preset--color--nortic-azure-blue) !important;
+}

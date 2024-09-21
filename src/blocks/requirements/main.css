@@ -1,0 +1,25 @@
+.wp-block-nortic-plugin-requirements {
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-requirements h3, .wp-block-nortic-plugin-requirements h3 {
+    margin-bottom: 1rem;
+    font-size: var(--wp--preset--font-size--h-3);
+}
+
+.wp-block-nortic-plugin-requirements p {
+    font-size: var(--wp--preset--font-size--paragraph);
+    line-height: 1.5rem;
+}
+
+.wp-block-nortic-plugin-requirements li {
+    font-size: var(--wp--preset--font-size--paragraph);
+    line-height: 1.5rem;
+    padding-left: 1ch !important;
+}
+
+.wp-block-nortic-plugin-requirements li::marker {
+    color: var(--wp--preset--color--nortic-black);
+    margin-right: 1ch;
+}

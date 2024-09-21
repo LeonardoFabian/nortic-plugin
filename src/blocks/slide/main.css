@@ -1,0 +1,9 @@
+.wp-block-nortic-plugin-slide .slide_bg-image{
+    height: 100%;
+}
+.wp-block-nortic-plugin-slide .slide_bg-image .slide_content {
+    transition: background-color .3s ease-in-out;
+}
+.wp-block-nortic-plugin-slide .slide_bg-image .slide_content:hover{
+    background-color: rgba(0,0,0,.3);
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/faqs",
+  "title": "FAQs",
+  "category": "text",
+  "description": "Add a list of FAQs",
+  "keywords": [
+    "faqs"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "You ask? Weanswer",
+      "source": "html",
+      "selector": "h2"
+    },
+    "count": {
+      "type": "number",
+      "default": 10
+    }
+  },
+  "style": "file:./index.css"
+}

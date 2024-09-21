@@ -1,0 +1,22 @@
+/* Office Locations */
+.wp-block-nortic-plugin-office-locations {
+    margin-bottom: 2rem;
+  } 
+ 
+  .wp-block-nortic-plugin-office-locations .office-location-meta-img-wrap {
+  height: 11rem !important; /* 176px */
+}
+.wp-block-nortic-plugin-office-locations .office-location-meta-img-wrap img {
+  transition-duration: 500ms;
+}
+.wp-block-nortic-plugin-office-locations .office-location-meta-img-wrap img:hover {
+  transform: scale(1.25);
+}
+  .wp-block-nortic-plugin-office-locations a {
+    color: var(--wp--preset--color--nortic-black) !important;
+  }
+
+  .wp-block-nortic-plugin-office-locations span.office-location-name {
+    font-size: var(--wp--preset--font-size--paragraph);
+    color: var(--wp--preset--color--nortic-black);
+  }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/province-cloud",
+  "title": "Province cloud",
+  "category": "widgets",
+  "description": "Add a list of jobs published by RD-Trabaja in a given province",
+  "keywords": [
+    "province",
+    "jobs",
+    "vacant",
+    "vacancies",
+    "rd-trabaja",
+    "api"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "¡Estamos más cerca de ti!"
+    },
+    "subheading": {
+      "type": "string",
+      "default": "Entérate de todo lo que estamos realizando para tu provincia en materia laboral."
+    }
+  },
+  "supports": {
+    "multiple": false
+  },
+  "style": "file:./index.css"
+}

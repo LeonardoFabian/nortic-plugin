@@ -1,0 +1,15 @@
+.wp-block-nortic-plugin-breadcrumb span {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  /* color: #f00; */
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+a.current-breadcrumb-item,
+a.current-breadcrumb-item:visited,
+a.current-breadcrumb-item:where(:not(.wp-element-button)):visited {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  /* color: #f00; */
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

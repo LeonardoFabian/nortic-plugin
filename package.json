@@ -1,0 +1,47 @@
+{
+  "name": "nortic-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "watch": "npx tailwindcss -i ./src/public/css/style.css -o ./dist/public/css/tailwind.css --watch",
+    "js": "copyfiles -f ./src/public/js/*.js ./dist/public/js/",
+    "images": "copyfiles -f ./src/public/images/* ./dist/public/images/",
+    "svg": "copyfiles -f ./src/public/images/*.svg ./dist/public/images/",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js",
+    "makepot": "wp i18n make-pot . languages/nortic-plugin.pot --exclude=node_modules,vendor,src/*.js,src/**/*.js,dist,build"
+  },
+  "keywords": [],
+  "author": "Leonardo Fabian",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^14.4.0",
+    "@wordpress/scripts": "^26.0.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@glidejs/glide": "^3.6.0",
+    "@mui/material": "^5.8.6",
+    "aos": "^2.3.4",
+    "copyfiles": "^2.4.1",
+    "embla-carousel-react": "^8.2.1",
+    "flowbite": "^1.6.5",
+    "openai": "^3.2.1",
+    "swiper": "^11.1.12"
+  },
+  "type": "module"
+}

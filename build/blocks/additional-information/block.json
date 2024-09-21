@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/additional-information",
+  "title": "Additional Information",
+  "category": "text",
+  "description": "Add an additional information textarea field for your post type.",
+  "keywords": [
+    "information"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "farewell": {
+      "type": "string",
+      "default": ""
+    },
+    "enable_aos_animation": {
+      "type": "boolean",
+      "default": false
+    },
+    "data_aos": {
+      "type": "string",
+      "default": "fade"
+    },
+    "data_aos_direction": {
+      "type": "string",
+      "default": "up"
+    },
+    "data_aos_easing": {
+      "type": "string",
+      "default": "ease"
+    },
+    "data_aos_duration": {
+      "type": "number",
+      "default": 3000
+    },
+    "data_aos_offset": {
+      "type": "number",
+      "default": 300
+    },
+    "data_aos_delay": {
+      "type": "number",
+      "default": 300
+    },
+    "data_aos_anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "data_aos_anchor_placement": {
+      "type": "string",
+      "default": "top-bottom"
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

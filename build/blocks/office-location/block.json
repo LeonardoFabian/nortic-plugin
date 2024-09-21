@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/office-location",
+  "title": "Office Location",
+  "category": "text",
+  "description": "Add a custom Office Location block",
+  "keywords": [
+    "office",
+    "office location",
+    "office building",
+    "place",
+    "location",
+    "map"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mapUrl": {
+      "type": "string"
+    },
+    "mapUrlTarget": {
+      "type": "string",
+      "default": "_blank"
+    },
+    "mapIframe": {
+      "type": "string",
+      "default": ""
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "location_manager": {
+      "type": "string"
+    },
+    "location_manager_phone": {
+      "type": "string"
+    },
+    "location_manager_email": {
+      "type": "string"
+    },
+    "readmoreLink": {
+      "type": "string",
+      "default": ""
+    },
+    "readmoreLinkTarget": {
+      "type": "string",
+      "default": "_blank"
+    }
+  },
+  "style": "file:./index.css"
+}

@@ -1,0 +1,31 @@
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/tick-item/main.css ***!
+  \***********************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-tick-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  /* margin-bottom: 14px; */
+}
+.wp-block-nortic-plugin-tick-item i {
+  font-size: 20px;
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-tick-item span {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+}
+.wp-block-nortic-plugin-tick-item span p {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-black);
+}
+.wp-block-nortic-plugin-tick-item span a {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-azure-blue);
+}
+
+
+/*# sourceMappingURL=index.css.map*/

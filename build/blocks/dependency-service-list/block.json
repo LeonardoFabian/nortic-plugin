@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/dependency-service-list",
+  "title": "Dependency Service List",
+  "category": "text",
+  "description": "Enumerate a list of Services by Dependency.",
+  "keywords": [
+    "service",
+    "list",
+    "dependency"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

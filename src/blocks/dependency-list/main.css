@@ -1,0 +1,66 @@
+.wp-block-nortic-plugin-dependency-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 54px !important;
+  martin-top: 54px !important;
+}
+.wp-block-nortic-plugin-dependency-list
+  .wp-block-nortic-plugin-dependency-list-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.wp-block-nortic-plugin-dependency-list
+  .wp-block-nortic-plugin-dependency-list-header
+  h5 {
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+.wp-block-nortic-plugin-dependency-list
+  .wp-block-nortic-plugin-dependency-list-header
+  span {
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-dependency-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.wp-block-nortic-plugin-dependency-list ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 16px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-nortic-plugin-dependency-list ul li:hover {
+  background-color: var(--wp--preset--color--nortic-light-blue);
+}
+
+.wp-block-nortic-plugin-dependency-list ul li span {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--wp--preset--color--nortic-black);
+  font-weight: 400;
+}
+
+.wp-block-nortic-plugin-dependency-list ul li span a {
+  color: var(--wp--preset--color--nortic-black);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.wp-block-nortic-plugin-dependency-list ul li:hover span a {
+  color: var(--wp--preset--color--nortic-blue);
+}
+
+/* phone */
+.wp-block-nortic-plugin-dependency-list ul li span.dependency-phone {
+  max-width: 40%;
+  text-align: right;
+}

@@ -1,0 +1,25 @@
+.wp-block-nortic-plugin-tick-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  /* margin-bottom: 14px; */
+}
+.wp-block-nortic-plugin-tick-item i {
+  font-size: 20px;
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-tick-item span {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+}
+.wp-block-nortic-plugin-tick-item span p {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-black);
+}
+.wp-block-nortic-plugin-tick-item span a {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-azure-blue);
+}

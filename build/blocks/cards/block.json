@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/cards",
+  "title": "Cards",
+  "category": "text",
+  "description": "Add a card layout",
+  "keywords": [
+    "card",
+    "cards"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "card_layout": {
+      "type": "string",
+      "default": "card-deck"
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "is_bordered": {
+      "type": "boolean",
+      "default": true
+    },
+    "border_width": {
+      "type": "number",
+      "default": 1
+    },
+    "border_color": {
+      "type": "string",
+      "default": "#D3D3D3"
+    },
+    "border_top_size_variation": {
+      "type": "number",
+      "default": 2
+    },
+    "border_top_color_variation": {
+      "type": "string",
+      "default": "#003876"
+    },
+    "border_radius": {
+      "type": "number",
+      "default": 4
+    },
+    "padding": {
+      "type": "number",
+      "default": 16
+    },
+    "gap": {
+      "type": "number",
+      "default": 4
+    }
+  },
+  "style": "file:./index.css",
+  "providesContext": {
+    "nortic-plugin/cards-background-color": "background_color",
+    "nortic-plugin/cards-is-bordered": "is_bordered",
+    "nortic-plugin/cards-border-width": "border_width",
+    "nortic-plugin/cards-border-color": "border_color",
+    "nortic-plugin/cards-border-radius": "border_radius",
+    "nortic-plugin/cards-padding": "padding"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/grid-list",
+  "title": "Grid List",
+  "category": "text",
+  "description": "Add a custom Grid List group",
+  "keywords": [
+    "team",
+    "members",
+    "group",
+    "grid",
+    "list"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "imageShape": {
+      "type": "string",
+      "default": "circle"
+    }
+  },
+  "style": "file:./index.css",
+  "providesContext": {
+    "nortic-plugin/grid-list-image-shape": "imageShape"
+  },
+  "example": {
+    "attributes": {
+      "columns": 2
+    },
+    "innerBlocks": [
+      {
+        "name": "nortic-plugin/team-member",
+        "attributes": {
+          "name": "John Doe",
+          "title": "CEO",
+          "bio": "This is a short description of the team member",
+          "imgUrl": "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+        }
+      },
+      {
+        "name": "nortic-plugin/team-member",
+        "attributes": {
+          "name": "Janne Doe",
+          "title": "CEO",
+          "bio": "This is a short description of the team member",
+          "imgUrl": "https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+.wp-block-nortic-plugin-information {
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-information h5,
+.wp-block-nortic-plugin-information h5 {
+  margin-bottom: 1rem;
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+
+.wp-block-nortic-plugin-information p {
+  font-size: var(--wp--preset--font-size--paragraph);
+  line-height: 1.5rem;
+}

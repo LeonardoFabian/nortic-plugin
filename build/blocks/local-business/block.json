@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/local-business",
+  "title": "Local Business",
+  "category": "text",
+  "description": "Add local business address to your contact page.",
+  "keywords": [
+    "contact",
+    "local",
+    "address"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "company_name": {
+      "type": "string",
+      "default": ""
+    },
+    "street_address": {
+      "type": "string",
+      "default": ""
+    },
+    "postal_code": {
+      "type": "string",
+      "default": ""
+    },
+    "address_locality": {
+      "type": "string",
+      "default": ""
+    },
+    "telephone": {
+      "type": "string",
+      "default": ""
+    },
+    "fax_number": {
+      "type": "string",
+      "default": ""
+    },
+    "email": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "style": "file:./index.css"
+}

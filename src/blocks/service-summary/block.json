@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/service-summary",
+    "title": "Service Summary",
+    "category": "text",
+    "description": "Add a summary section for a service",
+    "keywords": ["servicio", "service", "summary", "detalles", "details"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "hours": {
+            "type": "string"
+        },
+        "cost": {
+            "type": "string"
+        },
+        "completion_time": {
+            "type": "string"
+        },
+        "online_service_url": {
+            "type": "string"
+        },
+        "icon_color": {
+            "type": "string",
+            "default": "#003876"
+        }
+    },
+    "style": "file:./index.css",
+    "usesContext": ["postId"]
+}

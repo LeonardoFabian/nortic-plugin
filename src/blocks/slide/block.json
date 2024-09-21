@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/slide",
+    "title": "Slide",
+    "category": "text",
+    "description": "Add an slide to slideshow block",
+    "keywords": ["slide"],
+    "version": "1",
+    "textdomain": "",
+    "editorScript": "file:./index.js",
+    "attributes": {
+    },
+    "style": "file:./index.css"
+}

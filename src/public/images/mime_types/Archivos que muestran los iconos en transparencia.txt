@@ -1,0 +1,8 @@
+DOCUMENTOS.PHP 
+iconos en footer
+C:\xampp\htdocs\PORTAL_MT\transparencia\modules\mod_zooitem\renderer\item
+
+
+TEASER.PHP
+iconos de extensiones de archivos post
+C:\xampp\htdocs\PORTAL_MT\transparencia\media\zoo\applications\product\templates\documentos\renderer\item

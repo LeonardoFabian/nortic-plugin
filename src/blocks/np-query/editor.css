@@ -1,0 +1,31 @@
+/* NP Query editor styles */
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"] {
+    display: inherit;
+}
+    
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"] .block-editor-block-list__layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"].cols-1 .block-editor-block-list__layout {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"].cols-2 .block-editor-block-list__layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"].cols-3 .block-editor-block-list__layout {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"].cols-4 .block-editor-block-list__layout {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.wp-block-nortic-plugin-np-query[data-type="nortic-plugin/np-query"].cols-5 .block-editor-block-list__layout {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}

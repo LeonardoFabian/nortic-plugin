@@ -1,0 +1,19 @@
+.wp-block-nortic-plugin-link-cloud .link-cloud {
+    max-width: 75px;
+}
+img.link-cloud-image {
+    width: 75px;
+    max-width: 75px !important;
+    max-height: 75px !important;
+    border: 2px solid var(--wp--preset--color--nortic-ultimate-gray);
+    transition-duration: 500ms;
+}
+img.link-cloud-image:hover {
+    transform: scale(1.1);
+    background-color: var(--wp--preset--color--nortic-baby-blue);
+    border-color: var(--wp--preset--color--nortic-azure-blue);
+}
+
+block-nortic-plugin-link-cloud h5 {
+    font-size: 10px;
+}

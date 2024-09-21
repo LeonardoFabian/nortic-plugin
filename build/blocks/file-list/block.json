@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/file-list",
+  "title": "File List",
+  "category": "text",
+  "description": "Add a list of files",
+  "keywords": [
+    "document",
+    "file",
+    "item",
+    "pdf",
+    "txt",
+    "doc",
+    "docx",
+    "xls",
+    "xlsx",
+    "ppt",
+    "pptx",
+    "ods",
+    "csv",
+    "image",
+    "audio",
+    "video"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": 10
+    },
+    "directories": {
+      "type": "array",
+      "default": []
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./frontend-file-list.js"
+}

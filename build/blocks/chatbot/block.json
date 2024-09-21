@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/chatbot",
+  "title": "ChatBot",
+  "category": "text",
+  "description": "Add a custom chatbot",
+  "keywords": [
+    "chat",
+    "chatbot",
+    "chatgpt"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css",
+  "script": "file:./frontend-chatbot.js"
+}

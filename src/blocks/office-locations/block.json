@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/office-locations",
+    "title": "Office Locations",
+    "category": "text",
+    "description": "Add a list of office locations",
+    "keywords": ["office", "office location", "office building", "place", "location", "map"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "count": {
+            "type": "number",
+            "default": 10
+        },
+        "areas": {
+            "type": "array",
+            "default": []
+        },
+        "categories": {
+            "type": "array",
+            "default": []
+        },
+        "shadow": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "style": "file:./index.css"
+}

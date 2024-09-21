@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/sheet",
+    "title": "Sheet",
+    "category": "text",
+    "description": "Add a custom sheet",
+    "keywords": ["sheet", "bottom sheet", "top sheet"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "color": {
+            "type": "string",
+            "default": "#003876"
+        },
+        "background_color": {
+            "type": "string",
+            "default": "#FFFFFF"
+        },
+        "anchor": {
+            "type": "string",
+            "default": "nortic-sheet"
+        },
+        "transition_direction": {
+            "type": "string",
+            "default": "bottom-sheet"
+        },
+        "display": {
+            "type": "string",
+            "default": "grid"
+        },
+        "columns": {
+            "type": "number",
+            "default": 4
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-sheet.js"
+}

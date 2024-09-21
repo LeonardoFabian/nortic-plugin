@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/breadcrumb",
+  "title": "Breadcrumb",
+  "category": "text",
+  "description": "Add a breadcrumb to your pages",
+  "keywords": [
+    "breadcrumb"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "showSectionName": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "style": "file:./index.css"
+}

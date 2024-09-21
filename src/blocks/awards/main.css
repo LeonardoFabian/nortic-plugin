@@ -1,0 +1,17 @@
+.wp-block-nortic-plugin-awards .stamp-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wp-block-nortic-plugin-awards .stamp-container .stamp-box {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+/* @media (max-width: 768px) {
+    .wp-block-nortic-plugin-awards {
+        display: none;
+    }
+} */

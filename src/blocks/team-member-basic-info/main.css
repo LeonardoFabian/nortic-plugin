@@ -1,0 +1,9 @@
+.wp-block-nortic-plugin-team-member-basic-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-team-member-basic-info h3, .wp-block-nortic-plugin-team-member-basic-info h3 {
+    margin-bottom: 1rem;
+    font-size: var(--wp--preset--font-size--large);
+}

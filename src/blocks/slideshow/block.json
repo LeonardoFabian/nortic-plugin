@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/slideshow",
+    "title": "Slideshow",
+    "category": "text",
+    "description": "Add a custom slideshow",
+    "keywords": ["slideshow"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "left"
+        },
+        "bgColor": {
+            "type": "string",
+            "default": "#ffffff"
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-slideshow.js"
+}

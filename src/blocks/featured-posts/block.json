@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/nortic-featured-posts",
+    "title": "Featured Posts",
+    "category": "widgets",
+    "description": "Add an heros section of featured posts",
+    "keywords": ["posts", "featured", "post", "noticias", "destacadas", "noticias destacadas"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "count": {
+            "type": "number",
+            "default": 5
+        },
+        "categories": {
+            "type": "array",
+            "default": []
+        },
+        "order": {
+            "type": "string",
+            "default": "desc"
+        },
+        "orderBy": {
+            "type": "string",
+            "default": "date"
+        }        
+    },
+    "style": "file:./index.css"
+}

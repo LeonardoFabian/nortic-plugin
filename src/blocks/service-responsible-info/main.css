@@ -1,0 +1,103 @@
+.wp-block-nortic-plugin-service-responsible-info {
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-service-responsible-info h5,
+.wp-block-nortic-plugin-service-responsible-info h5 {
+  margin-bottom: 1rem;
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+
+.wp-block-nortic-plugin-service-responsible-info h6 {
+  font-size: var(--wp--preset--font-size--h-6);
+  /* margin-bottom: 1rem; */
+}
+
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data {
+  background-color: var(--wp--preset--color--nortic-white);
+  /* border: 1px solid #bdbdbd; */
+  padding: 1rem 2rem;
+  /* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); */
+  box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-info-metadata {
+  color: var(--wp--preset--color--nortic-black);
+}
+
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info
+  .service-responsible-contact-info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info
+  .service-responsible-contact-info-item
+  > div:first-of-type {
+  /* background-color: var(--wp--preset--color--nortic-blue-hover);
+  width: 50px;
+  height: 40px; */
+}
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info
+  .service-responsible-contact-info-item
+  > div:first-of-type
+  i {
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info-actions
+  a {
+  background-color: var(--wp--preset--color--nortic-blue);
+  color: var(--wp--preset--color--nortic-white);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+.wp-block-nortic-plugin-service-responsible-info
+  .service-responsible-info-wrapper
+  .service-responsible-info-data
+  .service-responsible-contact-info-actions
+  a:hover {
+  background-color: var(--wp--preset--color--nortic-blue-hover);
+}

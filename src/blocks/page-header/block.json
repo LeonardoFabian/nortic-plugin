@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/page-header",
+    "title": "Page Header",
+    "category": "text",
+    "description": "Add a custom Page Header block",
+    "keywords": ["page header"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "content": {
+            "type": "string",
+            "default": ""
+        },
+        "showCategory": {
+            "type": "boolean",
+            "default": false
+        },
+        "color": {
+            "type": "string",
+            "default": "#003876"
+        }, 
+        "bgColor": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "style": "file:./index.css"
+}

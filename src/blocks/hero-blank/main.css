@@ -1,0 +1,22 @@
+.wp-block-nortic-plugin-hero-blank {
+    height: 400px;
+}
+.wp-block-nortic-plugin-hero-blank .hero-blank__bg-image {   
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+@media (max-width: 576px) {
+    .wp-block-nortic-plugin-hero-blank {
+        height: 20vh;
+    }
+    .wp-block-nortic-plugin-hero-blank .hero-blank__bg-image {
+        height: 20vh;
+        background-size: contain;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/system-list",
+    "title": "System List",
+    "category": "widgets",
+    "description": "A list of Systems.",
+    "keywords": ["system", "systems", "system list", "sistema", "sistemas"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {  
+        "postType": {
+            "type": "string",
+            "default": "system"
+        },
+        "heading": {
+            "type": "string",
+            "default": ""
+        },
+        "subHeading": {
+            "type": "string",
+            "default": ""
+        },
+        "renderType": {
+            "type": "string",
+            "default": "none"
+        },
+        "showHeader": {
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./system-list.js"
+}

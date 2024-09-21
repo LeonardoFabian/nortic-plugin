@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/contact-info",
+  "title": "Contact Information",
+  "category": "text",
+  "description": "Add contact information to your post type.",
+  "keywords": [
+    "contact",
+    "phone",
+    "email",
+    "address"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

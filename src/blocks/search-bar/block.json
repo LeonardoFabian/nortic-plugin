@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/search-bar",
+    "title": "Search Bar",
+    "category": "widgets",
+    "description": "Add a custom Search Bar",
+    "keywords": ["search bar", "search form"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "color": {
+            "type": "string",
+            "default": "#475569"
+        },
+        "bgColor": {
+            "type": "string",
+            "default": "#ffffff"
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-search-bar.js"
+}

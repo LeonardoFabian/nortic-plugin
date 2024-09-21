@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/nortic-latest-posts",
+  "title": "Latest Posts",
+  "category": "text",
+  "description": "Add a list of latest posts",
+  "keywords": [
+    "posts"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "columns": {
+      "type": "number",
+      "default": 4
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    },
+    "categories": {
+      "type": "array",
+      "default": []
+    },
+    "tags": {
+      "type": "array",
+      "default": []
+    },
+    "displayFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayViewMoreButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "useTemplateQuery": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css"
+}

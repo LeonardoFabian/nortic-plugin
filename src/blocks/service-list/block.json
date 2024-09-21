@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/service-list",
+    "title": "Service List",
+    "category": "widgets",
+    "description": "Add a list of Services",
+    "keywords": ["service", "service list", "list", "portfolio", "servicios", "listado de servicios"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "subHeading": {
+            "type": "string"
+        },
+        "use_default_title": {
+            "type": "boolean",
+            "default": true
+        },
+        "columns": {
+            "type": "number",
+            "default": 3
+        },
+        "filter_by_tags": {
+            "type": "boolean",
+            "default": false
+        },
+        "service_tags": {
+            "type": "array",
+            "default": []
+        },
+        "numberOfItems": {
+            "type": "number",
+            "default": 50
+        }
+    },
+    "supports": {
+        "multiple": false
+    },
+    "style": "file:./index.css",
+    "usesContext": ["postId"]
+}

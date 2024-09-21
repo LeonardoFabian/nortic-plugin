@@ -1,0 +1,2934 @@
+# Copyright (C) 2023 Leonardo Fabian
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nortic Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nortic-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Español de República Dominicana\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-05T23:11:39+00:00\n"
+"PO-Revision-Date: 2024-07-23 18:58+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: nortic-plugin\n"
+"Language: es_DO\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1"
+
+#: includes/post-types/achievement-post-type.php:53
+msgid "A custom post type for Achievements"
+msgstr "Encabezado de Página"
+
+#: includes/post-types/certificate-post-type.php:53
+msgid "A custom post type for Certificates"
+msgstr "Un tipo de publicación personalizada para Certificados"
+
+#: includes/post-types/content-post-type.php:48
+msgid "A custom post type for contents"
+msgstr "Un tipo de publicación personalizada para contenidos."
+
+#: includes/post-types/dependency-post-type.php:53
+msgid "A custom post type for dependencies"
+msgstr "Un tipo de publicación personalizada para dependencias."
+
+#: includes/post-types/document-post-type.php:48
+msgid "A custom post type for documents"
+msgstr ""
+"\n"
+"Un tipo de publicación personalizada para documentos."
+
+#: includes/post-types/event-post-type.php:53
+msgid "A custom post type for Events"
+msgstr "Un tipo de publicación personalizada para eventos"
+
+#: includes/post-types/faq-post-type.php:48
+msgid "A custom post type for FAQs"
+msgstr "Un tipo de publicación personalizada para preguntas frecuentes"
+
+#: includes/post-types/gallery-post-type.php:48
+msgid "A custom post type for galleries"
+msgstr "Un tipo de publicación personalizada para galerías."
+
+#: includes/post-types/newsletter-post-type.php:48
+msgid "A custom post type for newsletters"
+msgstr "Un tipo de publicación personalizada para boletines"
+
+#: includes/post-types/resolution-post-type.php:47
+msgid "A custom post type for Resolutions"
+msgstr "Un tipo de publicación personalizada para Resoluciones"
+
+#: includes/post-types/service-post-type.php:53
+msgid "A custom post type for services"
+msgstr "Un tipo de publicación personalizada para servicios."
+
+#: includes/post-types/team-post-type.php:47
+msgid "A custom post type for Team"
+msgstr "Un tipo de publicación personalizada para el equipo"
+
+#: includes/taxonomies/directory-taxonomy.php:34
+msgid "A URL for more information on a dirctory"
+msgstr "Una URL para obtener más información sobre un directorio"
+
+#: includes/admin/directory-fields.php:16
+#: includes/admin/directory-fields.php:71
+msgid ""
+"A URL that the user can click to see more information about this directory"
+msgstr ""
+"Una URL en la que el usuario puede hacer clic para ver más información sobre "
+"este directorio."
+
+#: includes/admin/save-options.php:16 includes/admin/save-options.php:197
+#: includes/admin/save-options.php:247
+msgid "Access Denied"
+msgstr ""
+"\n"
+"Acceso denegado"
+
+#: includes/blocks/service-summary.php:82
+msgid "Access Now!"
+msgstr "¡Accede ahora!"
+
+#: includes/post-types/dependency-post-type.php:207
+msgid "Achievements"
+msgstr "Logros"
+
+#: includes/post-types/achievement-post-type.php:16
+#: includes/post-types/certificate-post-type.php:16
+#: includes/post-types/content-post-type.php:12
+#: includes/post-types/dependency-post-type.php:17
+#: includes/post-types/document-post-type.php:12
+#: includes/post-types/event-post-type.php:16
+#: includes/post-types/faq-post-type.php:12
+#: includes/post-types/gallery-post-type.php:11
+#: includes/post-types/newsletter-post-type.php:11
+#: includes/post-types/resolution-post-type.php:11
+#: includes/post-types/service-post-type.php:17
+#: includes/post-types/team-post-type.php:11
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:17
+msgid "Add New Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:17
+msgid "Add New Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:13
+msgid "Add New Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:18
+msgid "Add New Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:13
+msgid "Add New Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:17
+msgid "Add New Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:13
+msgid "Add New FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:12
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:12
+msgid "Add New Newsletter"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:15
+msgctxt "Add New on Toolbar"
+msgid "Achievement"
+msgstr "Logro"
+
+#: includes/post-types/certificate-post-type.php:15
+msgctxt "Add New on Toolbar"
+msgid "Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:16
+msgctxt "Add New on Toolbar"
+msgid "Dependency"
+msgstr "Dependencia"
+
+#: includes/post-types/document-post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "Document"
+msgstr "Documento"
+
+#: includes/post-types/event-post-type.php:15
+msgctxt "Add New on Toolbar"
+msgid "Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:10
+msgctxt "Add new on toolbar"
+msgid "Gallery"
+msgstr "Galería"
+
+#: includes/post-types/newsletter-post-type.php:10
+msgctxt "Add new on toolbar"
+msgid "Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:10
+msgctxt "Add New on Toolbar"
+msgid "Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:16
+msgctxt "Add New on Toolbar"
+msgid "Service"
+msgstr "Servicio"
+
+#: includes/post-types/team-post-type.php:10
+msgctxt "Add New on Toolbar"
+msgid "Team"
+msgstr ""
+"\n"
+"Equipo"
+
+#: includes/post-types/resolution-post-type.php:12
+msgid "Add New Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:18
+msgid "Add New Service"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:12
+msgid "Add New Team"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:255
+msgid "Additional Information"
+msgstr "Información Adicional"
+
+#: includes/post-types/achievement-post-type.php:14
+msgctxt "Admin Menu text"
+msgid "Achievements"
+msgstr "Logros"
+
+#: includes/post-types/certificate-post-type.php:14
+msgctxt "Admin Menu text"
+msgid "Certificates"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:10
+msgctxt "Admin Menu text"
+msgid "Contents"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:15
+msgctxt "Admin Menu text"
+msgid "Dependencies"
+msgstr "Dependencias"
+
+#: includes/post-types/document-post-type.php:10
+msgctxt "Admin Menu text"
+msgid "Documents"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:14
+msgctxt "Admin Menu text"
+msgid "Events"
+msgstr "Eventos"
+
+#: includes/post-types/faq-post-type.php:10
+msgctxt "Admin Menu text"
+msgid "FAQs"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:9
+msgctxt "Admin menu text"
+msgid "Galleries"
+msgstr "Galerías"
+
+#: includes/post-types/newsletter-post-type.php:9
+msgctxt "Admin menu text"
+msgid "Newsletters"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:9
+msgctxt "Admin Menu text"
+msgid "Resolutions"
+msgstr "Resoluciones"
+
+#: includes/post-types/service-post-type.php:15
+msgctxt "Admin Menu text"
+msgid "Services"
+msgstr "Servicios"
+
+#: includes/post-types/team-post-type.php:9
+msgctxt "Admin Menu text"
+msgid "Team"
+msgstr "Equipo"
+
+#: includes/post-types/achievement-post-type.php:21
+msgid "All Achievements"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:21
+msgid "All Certificates"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:17
+msgid "All Contents"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:22
+msgid "All Dependencies"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:17
+msgid "All Documents"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:21
+msgid "All Events"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:17
+msgid "All FAQs"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:16
+msgid "All Galleries"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:16
+msgid "All Newsletters"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:16
+msgid "All Resolutions"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:22
+msgid "All Services"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:16
+msgid "All Team"
+msgstr ""
+
+#: includes/admin/settings-api.php:594
+#: includes/admin/submenus/chatbot-options-page-old.php:82
+msgid ""
+"An alternative to sampling with temperature, called nucleus sampling, where "
+"the model considers the results of the tokens with top_p probability mass. "
+"So 0.1 means only the tokens comprising the top 10% probability mass are "
+"considered."
+msgstr ""
+
+#: includes/taxonomies/area-taxonomy.php:36
+msgid "Area classification"
+msgstr ""
+
+#: includes/image-sizes.php:26
+msgid "Avatar"
+msgstr ""
+
+#: includes/image-sizes.php:22
+msgid "Background"
+msgstr ""
+
+#: includes/image-sizes.php:17
+msgid "Banner Hero"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:63
+msgid "Begin date"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:231
+msgid "Benefits"
+msgstr ""
+
+#: src/blocks/chatbot/block.json
+msgctxt "block description"
+msgid "Add a custom chatbot"
+msgstr "Agregar un chatbot personalizado"
+
+#: src/blocks/file-manager/block.json
+msgctxt "block description"
+msgid "Add a custom File block"
+msgstr "Agregar un bloque de archivo personalizado"
+
+#: src/blocks/grid-list/block.json
+msgctxt "block description"
+msgid "Add a custom Grid List group"
+msgstr "Agregar un grupo de lista de cuadrícula personalizado"
+
+#: src/blocks/hero-blank/block.json
+msgctxt "block description"
+msgid "Add a custom Hero Blank Template block"
+msgstr "Agregar un bloque de plantilla en blanco de héroe personalizado"
+
+#: src/blocks/hero/block.json
+msgctxt "block description"
+msgid "Add a custom Hero Section block"
+msgstr "Agregar un bloque de sección de Hero personalizado"
+
+#: src/blocks/image-gallery/block.json
+msgctxt "block description"
+msgid "Add a custom image gallery"
+msgstr "Agregar una galería de imágenes personalizada"
+
+#: src/blocks/link/block.json
+msgctxt "block description"
+msgid "Add a custom link block"
+msgstr "Agregar un bloque de enlaces personalizado"
+
+#: src/blocks/target-audience/block.json
+msgctxt "block description"
+msgid "Add a custom meta field to define the target audience."
+msgstr "Agregue un metacampo personalizado para definir el público objetivo."
+
+#: src/blocks/office-location/block.json
+msgctxt "block description"
+msgid "Add a custom Office Location block"
+msgstr "Agregar un bloque de ubicación de oficina personalizado"
+
+#: src/blocks/page-header/block.json
+msgctxt "block description"
+msgid "Add a custom Page Header block"
+msgstr "Agregar un bloque de encabezado de página personalizado"
+
+#: src/blocks/rating/block.json
+msgctxt "block description"
+msgid "Add a custom rating block"
+msgstr "Agregar un bloque de calificación personalizado"
+
+#: src/blocks/search-bar/block.json
+msgctxt "block description"
+msgid "Add a custom Search Bar"
+msgstr "Agregar una barra de búsqueda personalizada"
+
+#: src/blocks/slideshow/block.json
+msgctxt "block description"
+msgid "Add a custom slideshow"
+msgstr "Agregar una presentación de diapositivas personalizada"
+
+#: src/blocks/team-member/block.json
+msgctxt "block description"
+msgid "Add a custom Team Member block"
+msgstr ""
+"\n"
+"Agregar un bloque de miembro del equipo personalizado"
+
+#: src/blocks/title/block.json
+msgctxt "block description"
+msgid "Add a custom title"
+msgstr "Agregar un título personalizado"
+
+#: src/blocks/description/block.json
+msgctxt "block description"
+msgid "Add a description textarea field for your post type."
+msgstr ""
+"\n"
+"Agregue un campo de área de texto de descripción para su tipo de publicación."
+
+#: src/blocks/faqs/block.json
+msgctxt "block description"
+msgid "Add a list of FAQs"
+msgstr "Agregar una lista de preguntas frecuentes"
+
+#: src/blocks/file-list/block.json
+msgctxt "block description"
+msgid "Add a list of files"
+msgstr "Agregar una lista de archivos"
+
+#: src/blocks/gallery-archive/block.json
+msgctxt "block description"
+msgid "Add a list of gallery post type."
+msgstr "Agregue una lista de tipos de publicaciones de la galería."
+
+#: src/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Add a list of latest posts"
+msgstr "Agregar una lista de las últimas publicaciones"
+
+#: src/blocks/office-locations/block.json
+msgctxt "block description"
+msgid "Add a list of office locations"
+msgstr ""
+
+#: src/blocks/featured-services/block.json
+msgctxt "block description"
+msgid "Add a list of top rated services"
+msgstr ""
+
+#: src/blocks/service-summary/block.json
+msgctxt "block description"
+msgid "Add a summary section for a service"
+msgstr ""
+
+#: src/blocks/information/block.json
+msgctxt "block description"
+msgid "Add an information textarea field for your post type."
+msgstr ""
+
+#: src/blocks/np-query/block.json
+msgctxt "block description"
+msgid ""
+"An advanced block that allows displaying Nortic Plugin post types based on "
+"different query parameters and visual configurations."
+msgstr ""
+
+#: src/blocks/dependency-service-list/block.json
+msgctxt "block description"
+msgid "Enumerate a list of Services by Dependency."
+msgstr ""
+
+#: src/blocks/follow-buttons/block.json
+msgctxt "block description"
+msgid ""
+"Increase your number of followers by adding the main social networks on your "
+"website"
+msgstr ""
+
+#: src/blocks/link/block.json
+msgctxt "block keyword"
+msgid "anchor"
+msgstr ""
+
+#: src/blocks/gallery-archive/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr ""
+
+#: src/blocks/target-audience/block.json
+msgctxt "block keyword"
+msgid "audience"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "audio"
+msgstr ""
+
+#: src/blocks/hero-blank/block.json
+msgctxt "block keyword"
+msgid "blank"
+msgstr ""
+
+#: src/blocks/carousel/block.json
+msgctxt "block keyword"
+msgid "carousel"
+msgstr ""
+
+#: src/blocks/chatbot/block.json
+msgctxt "block keyword"
+msgid "chat"
+msgstr ""
+
+#: src/blocks/chatbot/block.json
+msgctxt "block keyword"
+msgid "chatbot"
+msgstr ""
+
+#: src/blocks/chatbot/block.json
+msgctxt "block keyword"
+msgid "chatgpt"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "csv"
+msgstr ""
+
+#: src/blocks/dependency-service-list/block.json
+msgctxt "block keyword"
+msgid "dependency"
+msgstr "dependencia"
+
+#: src/blocks/description/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "descripción"
+
+#: src/blocks/service-summary/block.json
+msgctxt "block keyword"
+msgid "details"
+msgstr ""
+
+#: src/blocks/service-summary/block.json
+msgctxt "block keyword"
+msgid "detalles"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "doc"
+msgstr ""
+
+#: src/blocks/file-list/block.json src/blocks/file-manager/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "documento"
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "docx"
+msgstr ""
+
+#: src/blocks/faqs/block.json
+msgctxt "block keyword"
+msgid "faqs"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "file"
+msgstr "archivo"
+
+#: src/blocks/follow-buttons/block.json
+msgctxt "block keyword"
+msgid "follow"
+msgstr ""
+
+#: src/blocks/gallery-archive/block.json src/blocks/image-gallery/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr ""
+
+#: src/blocks/grid-list/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr ""
+
+#: src/blocks/grid-list/block.json
+msgctxt "block keyword"
+msgid "group"
+msgstr ""
+
+#: src/blocks/title/block.json
+msgctxt "block keyword"
+msgid "header"
+msgstr ""
+
+#: src/blocks/hero-blank/block.json src/blocks/hero/block.json
+msgctxt "block keyword"
+msgid "hero"
+msgstr ""
+
+#: src/blocks/file-list/block.json src/blocks/image-gallery/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: src/blocks/information/block.json
+msgctxt "block keyword"
+msgid "information"
+msgstr "información"
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "item"
+msgstr ""
+
+#: src/blocks/link/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "enlace"
+
+#: src/blocks/dependency-service-list/block.json
+#: src/blocks/grid-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "location"
+msgstr "ubicación"
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "map"
+msgstr "mapa"
+
+#: src/blocks/team-member/block.json
+msgctxt "block keyword"
+msgid "member"
+msgstr ""
+
+#: src/blocks/grid-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "ods"
+msgstr ""
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "office"
+msgstr ""
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "office building"
+msgstr ""
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "office location"
+msgstr ""
+
+#: src/blocks/page-header/block.json
+msgctxt "block keyword"
+msgid "page header"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr ""
+
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
+msgctxt "block keyword"
+msgid "place"
+msgstr ""
+
+#: src/blocks/latest-posts/block.json src/blocks/np-query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "ppt"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "pptx"
+msgstr ""
+
+#: src/blocks/np-query/block.json
+msgctxt "block keyword"
+msgid "query"
+msgstr ""
+
+#: src/blocks/rating/block.json
+msgctxt "block keyword"
+msgid "rating"
+msgstr ""
+
+#: src/blocks/search-bar/block.json
+msgctxt "block keyword"
+msgid "search bar"
+msgstr ""
+
+#: src/blocks/search-bar/block.json
+msgctxt "block keyword"
+msgid "search form"
+msgstr ""
+
+#: src/blocks/dependency-service-list/block.json
+#: src/blocks/service-summary/block.json
+msgctxt "block keyword"
+msgid "service"
+msgstr "servicio"
+
+#: src/blocks/featured-services/block.json
+msgctxt "block keyword"
+msgid "services"
+msgstr "servicios"
+
+#: src/blocks/service-summary/block.json
+msgctxt "block keyword"
+msgid "servicio"
+msgstr ""
+
+#: src/blocks/slideshow/block.json
+msgctxt "block keyword"
+msgid "slideshow"
+msgstr ""
+
+#: src/blocks/follow-buttons/block.json
+msgctxt "block keyword"
+msgid "social"
+msgstr ""
+
+#: src/blocks/service-summary/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr ""
+"\n"
+"resumen"
+
+#: src/blocks/target-audience/block.json
+msgctxt "block keyword"
+msgid "target"
+msgstr ""
+
+#: src/blocks/grid-list/block.json src/blocks/team-member/block.json
+msgctxt "block keyword"
+msgid "team"
+msgstr "equipo"
+
+#: src/blocks/title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "txt"
+msgstr ""
+
+#: src/blocks/title/block.json
+msgctxt "block keyword"
+msgid "underline"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "xls"
+msgstr ""
+
+#: src/blocks/file-list/block.json
+msgctxt "block keyword"
+msgid "xlsx"
+msgstr ""
+
+#: src/blocks/carousel/block.json
+msgctxt "block title"
+msgid "Carousel"
+msgstr ""
+
+#: src/blocks/chatbot/block.json
+msgctxt "block title"
+msgid "ChatBot"
+msgstr ""
+
+#: src/blocks/dependency-service-list/block.json
+msgctxt "block title"
+msgid "Dependency Service List"
+msgstr ""
+
+#: src/blocks/description/block.json
+msgctxt "block title"
+msgid "Description"
+msgstr "Descripción"
+
+#: src/blocks/faqs/block.json
+msgctxt "block title"
+msgid "FAQs"
+msgstr ""
+
+#: src/blocks/featured-services/block.json
+msgctxt "block title"
+msgid "Featured Services"
+msgstr "Servicios Destacados"
+
+#: src/blocks/file-list/block.json
+msgctxt "block title"
+msgid "File List"
+msgstr ""
+
+#: src/blocks/file-manager/block.json
+msgctxt "block title"
+msgid "File Manager"
+msgstr ""
+
+#: src/blocks/follow-buttons/block.json
+msgctxt "block title"
+msgid "Follow Buttons"
+msgstr ""
+
+#: src/blocks/gallery-archive/block.json
+msgctxt "block title"
+msgid "Gallery Archive"
+msgstr ""
+
+#: src/blocks/grid-list/block.json
+msgctxt "block title"
+msgid "Grid List"
+msgstr ""
+
+#: src/blocks/hero-blank/block.json
+msgctxt "block title"
+msgid "Hero Blank Template"
+msgstr ""
+
+#: src/blocks/hero/block.json
+msgctxt "block title"
+msgid "Hero Section"
+msgstr ""
+
+#: src/blocks/image-gallery/block.json
+msgctxt "block title"
+msgid "Image Gallery"
+msgstr ""
+
+#: src/blocks/information/block.json
+msgctxt "block title"
+msgid "Information"
+msgstr "Información"
+
+#: src/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr ""
+
+#: src/blocks/link/block.json
+msgctxt "block title"
+msgid "Link"
+msgstr "Enlace"
+
+#: src/blocks/np-query/block.json
+msgctxt "block title"
+msgid "NP Query Loop"
+msgstr ""
+
+#: src/blocks/office-location/block.json
+msgctxt "block title"
+msgid "Office Location"
+msgstr ""
+
+#: src/blocks/office-locations/block.json
+msgctxt "block title"
+msgid "Office Locations"
+msgstr ""
+
+#: src/blocks/page-header/block.json
+msgctxt "block title"
+msgid "Page Header"
+msgstr "Encabezado de Página"
+
+#: src/blocks/rating/block.json
+msgctxt "block title"
+msgid "Rating"
+msgstr "Calificación"
+
+#: src/blocks/search-bar/block.json
+msgctxt "block title"
+msgid "Search Bar"
+msgstr ""
+
+#: src/blocks/service-summary/block.json
+msgctxt "block title"
+msgid "Service Summary"
+msgstr "Resumen del servicio"
+
+#: src/blocks/slideshow/block.json
+msgctxt "block title"
+msgid "Slideshow"
+msgstr ""
+
+#: src/blocks/target-audience/block.json
+msgctxt "block title"
+msgid "Target Audience"
+msgstr "Público objetivo"
+
+#: src/blocks/team-member/block.json
+msgctxt "block title"
+msgid "Team Member"
+msgstr "Miembro del equipo"
+
+#: src/blocks/title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Título"
+
+#: includes/admin/menus.php:35 includes/admin/menus.php:36
+#: includes/admin/submenus/chatbot-options-page-old.php:14
+#: includes/admin/submenus/chatbot-options-page-settings-api.php:13
+msgid "Chatbot Settings"
+msgstr ""
+
+#: includes/admin/settings-api.php:692
+#: includes/admin/submenus/chatbot-options-page-old.php:15
+msgid ""
+"Chatbot uses ChatGPT, the AI (Artificial Intelligence) chatbot prototype "
+"developed by OpenAI to generate dialogues with users. You need to provide an "
+"OpenAI API KEY to enable chat."
+msgstr ""
+
+#: includes/image-sizes.php:15
+msgid "Cinema"
+msgstr ""
+
+#: includes/admin/area-fields.php:43 includes/admin/area-fields.php:99
+msgid "Classification"
+msgstr ""
+
+#: includes/blocks/file-list.php:164
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/blocks/service-summary.php:48
+#: includes/post-types/service-post-type.php:291
+msgid "Completion time"
+msgstr "Tiempo de realización"
+
+#: includes/blocks/service-summary.php:59
+#: includes/post-types/service-post-type.php:279
+msgid "Cost"
+msgstr "Costo"
+
+#: includes/admin/settings-api.php:693
+#: includes/admin/submenus/chatbot-options-page-old.php:16
+msgid "Create your OpenAI account in"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:243
+msgid "Criteria"
+msgstr ""
+
+#: includes/admin/options-page.php:33
+msgid "Customize template"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:75
+msgid "Date"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:153
+msgid "Default Icon"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:16
+msgid "Dependency"
+msgstr ""
+
+#: includes/blocks/description.php:17
+#: includes/post-types/service-post-type.php:117
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/blocks/file-list.php:132
+msgid "Details"
+msgstr "Detalles"
+
+#: includes/admin/directory-fields.php:20
+#: includes/admin/directory-fields.php:77
+msgid "Directory Order"
+msgstr ""
+
+#: includes/taxonomies/directory-taxonomy.php:42
+msgid "Directory order number"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:36
+#: includes/admin/submenus/social-networks-options-page-old.php:82
+#: includes/admin/submenus/social-networks-options-page-old.php:128
+#: includes/admin/submenus/social-networks-options-page-old.php:174
+#: includes/admin/submenus/social-networks-options-page-old.php:220
+#: includes/admin/submenus/social-networks-options-page-old.php:266
+#: includes/admin/submenus/social-networks-options-page-old.php:312
+msgid "Do not you have an account yet? Go to"
+msgstr "¿Aún no tienes una cuenta? Ir a"
+
+#: includes/blocks/file-list.php:99 includes/blocks/file-list.php:158
+msgid "Download"
+msgstr "Descargar"
+
+#: includes/post-types/achievement-post-type.php:19
+msgid "Edit Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:19
+msgid "Edit Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:15
+msgid "Edit Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:20
+msgid "Edit Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:15
+msgid "Edit Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:19
+msgid "Edit Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:15
+msgid "Edit FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:14
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:14
+msgid "Edit Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:14
+msgid "Edit Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:20
+msgid "Edit Service"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:14
+msgid "Edit Team"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:378
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/post-types/service-post-type.php:366
+msgid "Email service available?"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:191
+msgid "Embed map"
+msgstr ""
+
+#: includes/admin/settings-api.php:133 includes/admin/settings-api.php:575
+#: includes/admin/settings-api.php:629
+#: includes/admin/submenus/chatbot-options-page-old.php:103
+#: includes/admin/submenus/chatbot-options-page-old.php:108
+#: includes/admin/submenus/opengraph-options-page-old.php:81
+#: includes/admin/submenus/opengraph-options-page-old.php:86
+#: includes/admin/submenus/social-networks-options-page-old.php:69
+#: includes/admin/submenus/social-networks-options-page-old.php:115
+#: includes/admin/submenus/social-networks-options-page-old.php:161
+#: includes/admin/submenus/social-networks-options-page-old.php:207
+#: includes/admin/submenus/social-networks-options-page-old.php:253
+#: includes/admin/submenus/social-networks-options-page-old.php:299
+#: includes/admin/submenus/social-networks-options-page-old.php:345
+#: includes/admin/submenus/social-networks-options-page-old.php:390
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/settings-api.php:285
+msgid "Enable Flickr"
+msgstr ""
+
+#: includes/admin/settings-api.php:253 includes/admin/settings-api.php:261
+msgid "Enable LinkedIn"
+msgstr ""
+
+#: includes/admin/settings-api.php:85
+msgid "Enable Open Graph"
+msgstr ""
+
+#: includes/admin/settings-api.php:333
+msgid "Enable WhatsApp"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:79
+msgid "End date"
+msgstr ""
+
+#: includes/admin/settings-api.php:353 includes/admin/settings-api.php:382
+#: includes/admin/settings-api.php:411 includes/admin/settings-api.php:440
+#: includes/admin/settings-api.php:469 includes/admin/settings-api.php:498
+#: includes/admin/settings-api.php:527 includes/admin/settings-api.php:556
+#: includes/admin/submenus/social-networks-options-page-old.php:62
+#: includes/admin/submenus/social-networks-options-page-old.php:108
+#: includes/admin/submenus/social-networks-options-page-old.php:154
+#: includes/admin/submenus/social-networks-options-page-old.php:200
+#: includes/admin/submenus/social-networks-options-page-old.php:246
+#: includes/admin/submenus/social-networks-options-page-old.php:292
+#: includes/admin/submenus/social-networks-options-page-old.php:338
+#: includes/admin/submenus/social-networks-options-page-old.php:383
+msgid ""
+"Enter a social network HEX color or your custom HEX value with a # prefix."
+msgstr ""
+
+#: includes/admin/settings-api.php:362 includes/admin/settings-api.php:391
+#: includes/admin/settings-api.php:420 includes/admin/settings-api.php:449
+#: includes/admin/settings-api.php:478 includes/admin/settings-api.php:507
+#: includes/admin/settings-api.php:536 includes/admin/settings-api.php:565
+#: includes/admin/submenus/social-networks-options-page-old.php:49
+#: includes/admin/submenus/social-networks-options-page-old.php:95
+#: includes/admin/submenus/social-networks-options-page-old.php:141
+#: includes/admin/submenus/social-networks-options-page-old.php:187
+#: includes/admin/submenus/social-networks-options-page-old.php:233
+#: includes/admin/submenus/social-networks-options-page-old.php:279
+#: includes/admin/submenus/social-networks-options-page-old.php:325
+#: includes/admin/submenus/social-networks-options-page-old.php:370
+msgid "Enter your profile URL"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:63
+msgid "Expiry date"
+msgstr "Fecha de caducidad"
+
+#. Description of the plugin
+msgid "Extiende la funcionalidad de la plantilla Nortic."
+msgstr ""
+
+#: includes/admin/settings-api.php:141
+#: includes/admin/submenus/social-networks-options-page-old.php:35
+#: includes/post-types/team-post-type.php:99
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/settings-api.php:149
+msgid "Facebook HEX Color"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:90
+msgid "File alt attribute"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:74
+msgid "File Name"
+msgstr "Nombre del Archivo"
+
+#: includes/blocks/file-list.php:139
+msgid "File name"
+msgstr "Nombre del archivo"
+
+#: includes/post-types/document-post-type.php:122
+msgid "File related Post ID"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:154
+msgid "File Size in Bytes"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:58
+msgid "File Title"
+msgstr "Título del Archivo"
+
+#: includes/post-types/document-post-type.php:106
+msgid "File URL"
+msgstr "URL del Archivo"
+
+#: includes/admin/settings-api.php:269
+#: includes/admin/submenus/social-networks-options-page-old.php:265
+msgid "Flickr"
+msgstr ""
+
+#: includes/admin/settings-api.php:277
+msgid "Flickr HEX color"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:170
+msgid "Format"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:57
+msgid "Full name"
+msgstr ""
+
+#: includes/image-sizes.php:16
+msgid "Full Screen Hero"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:63
+msgid "General objective"
+msgstr "Objetivo general"
+
+#: includes/admin/options-page.php:40
+msgid "Google Analytics UA Code"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:56
+#: includes/admin/submenus/social-networks-options-page-old.php:102
+#: includes/admin/submenus/social-networks-options-page-old.php:148
+#: includes/admin/submenus/social-networks-options-page-old.php:194
+#: includes/admin/submenus/social-networks-options-page-old.php:240
+#: includes/admin/submenus/social-networks-options-page-old.php:286
+#: includes/admin/submenus/social-networks-options-page-old.php:332
+#: includes/admin/submenus/social-networks-options-page-old.php:377
+msgid "HEX Color"
+msgstr ""
+
+#: includes/blocks/chatbot.php:18
+msgid "Hi, I'm your Job Assistant, how can I help you?"
+msgstr "Hola, soy tu asistente de trabajo, ¿cómo puedo ayudarte?"
+
+#: includes/post-types/achievement-post-type.php:62
+msgid "Highlight achievement"
+msgstr "Destacar logro"
+
+#: includes/image-sizes.php:23
+msgid "Horizontal Map Location"
+msgstr ""
+
+#: includes/blocks/rating.php:88
+msgid "How would you rate this"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://leonardofabian.com"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://mt.gob.do"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:141
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/settings-api.php:612
+#: includes/admin/submenus/chatbot-options-page-old.php:56
+msgid ""
+"ID of the model to use. You can use the text-davinci-003 model with this "
+"endpoint."
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:59
+msgid "Identification Number"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:58
+msgid "Iframe"
+msgstr ""
+
+#: includes/admin/options-page.php:84 includes/admin/options-page.php:104
+#: includes/admin/settings-api.php:657
+#: includes/admin/submenus/opengraph-options-page-old.php:61
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/post-types/service-post-type.php:391
+msgid "In-person service available?"
+msgstr ""
+
+#: includes/admin/settings-api.php:705
+#: includes/admin/submenus/social-networks-options-page-old.php:15
+msgid ""
+"Increase your number of followers by adding the main social networks on your "
+"website."
+msgstr ""
+
+#: includes/blocks/information.php:17
+#: includes/post-types/service-post-type.php:129
+msgid "Information"
+msgstr "Información"
+
+#: includes/admin/submenus/social-networks-options-page-old.php:81
+#: includes/post-types/team-post-type.php:111
+msgid "Instagram"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:159
+msgid "Interests"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:78
+msgid "Is expired?"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:73
+msgid "Job title"
+msgstr ""
+
+#: includes/image-sizes.php:20
+msgid "Landscape"
+msgstr ""
+
+#: includes/image-sizes.php:28
+msgid "Large Leaderboard"
+msgstr ""
+
+#: includes/image-sizes.php:33
+msgid "Large Rectangle"
+msgstr ""
+
+#: includes/image-sizes.php:27
+msgid "Leaderboard Banner"
+msgstr ""
+
+#. Author of the plugin
+msgid "Leonardo Fabian"
+msgstr ""
+
+#: includes/blocks/service-summary.php:70
+#: includes/post-types/service-post-type.php:316
+msgid "Link"
+msgstr "Enlace"
+
+#: includes/admin/settings-api.php:237
+#: includes/admin/submenus/social-networks-options-page-old.php:219
+#: includes/post-types/team-post-type.php:135
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/admin/settings-api.php:245
+msgid "LinkedIn HEX color"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:403
+msgid "Location"
+msgstr "Ubicación"
+
+#: includes/image-sizes.php:12
+msgid "Logo"
+msgstr ""
+
+#: includes/image-sizes.php:13
+msgid "Logo Footer"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:143
+msgid "Main functions"
+msgstr ""
+
+#: includes/admin/settings-api.php:36
+msgid "Manage Open Graph Settings"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:175
+msgid "Map link"
+msgstr ""
+
+#: includes/image-sizes.php:32
+msgid "Medium Rectangle"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:95
+msgid "Mission"
+msgstr "Misión"
+
+#: includes/post-types/team-post-type.php:87
+msgid "Mobile"
+msgstr ""
+
+#: includes/image-sizes.php:19
+msgid "Mobile Hero"
+msgstr ""
+
+#: includes/image-sizes.php:29
+msgid "Mobile Leaderboard"
+msgstr ""
+
+#: includes/admin/settings-api.php:680
+#: includes/admin/submenus/opengraph-options-page-old.php:18
+msgid "More details in"
+msgstr "Más detalles en"
+
+#: includes/admin/directory-fields.php:14
+#: includes/admin/directory-fields.php:67
+msgid "More Info URL"
+msgstr "Más información URL"
+
+#: includes/post-types/achievement-post-type.php:18
+msgid "New Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:18
+msgid "New Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:14
+msgid "New Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:19
+msgid "New Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:14
+msgid "New Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:18
+msgid "New Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:14
+msgid "New FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:13
+msgid "New Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:13
+msgid "New Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:13
+msgid "New Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:19
+msgid "New Service"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:13
+msgid "New Team"
+msgstr ""
+
+#: includes/blocks/carousel.php:81 includes/blocks/slideshow.php:37
+msgid "Next"
+msgstr ""
+
+#: includes/admin/directory-fields.php:31
+#: includes/admin/directory-fields.php:94
+msgid "No"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:25
+msgid "No Achievements found in Trash."
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:24
+msgid "No Achievements found."
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:25
+msgid "No Certificates found in Trash."
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:24
+msgid "No Certificates found."
+msgstr ""
+
+#: includes/post-types/content-post-type.php:21
+msgid "No Contents found in Trash."
+msgstr ""
+
+#: includes/post-types/content-post-type.php:20
+msgid "No Contents found."
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:26
+msgid "No Dependencies found in Trash."
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:25
+msgid "No Dependencies found."
+msgstr ""
+
+#: includes/post-types/document-post-type.php:21
+msgid "No Documents found in Trash."
+msgstr ""
+
+#: includes/post-types/document-post-type.php:20
+msgid "No Documents found."
+msgstr ""
+
+#: includes/post-types/event-post-type.php:25
+msgid "No Events found in Trash."
+msgstr ""
+
+#: includes/post-types/event-post-type.php:24
+msgid "No Events found."
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:21
+msgid "No FAQs found in Trash."
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:20
+msgid "No FAQs found."
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:19
+msgid "No Galleries found"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:20
+msgid "No Galleries found in trash"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:19
+msgid "No Newsletters found"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:20
+msgid "No Newsletters found in trash"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:20
+msgid "No Resolutions found in Trash."
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:19
+msgid "No Resolutions found."
+msgstr ""
+
+#: includes/post-types/service-post-type.php:26
+msgid "No Services found in Trash."
+msgstr ""
+
+#: includes/post-types/service-post-type.php:25
+msgid "No Services found."
+msgstr ""
+
+#: includes/post-types/team-post-type.php:20
+msgid "No Team found in Trash."
+msgstr ""
+
+#: includes/post-types/team-post-type.php:19
+msgid "No Team found."
+msgstr ""
+
+#: includes/admin/area-fields.php:45 includes/admin/area-fields.php:103
+msgid "None"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: includes/admin/menus.php:13 includes/admin/menus.php:14
+msgid "Nortic Plugin"
+msgstr ""
+
+#: includes/admin/settings-api.php:29
+msgid "Nortic Plugin Settings"
+msgstr ""
+
+#: includes/admin/options-page.php:64
+msgid "NORTIC Seal (Mobile)"
+msgstr ""
+
+#: includes/admin/options-page.php:52
+msgid "NORTIC Seal (Web)"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:304
+msgid "Online service available?"
+msgstr ""
+
+#: includes/image-sizes.php:14
+msgid "Open Graph"
+msgstr ""
+
+#: includes/admin/settings-api.php:679
+#: includes/admin/submenus/opengraph-options-page-old.php:17
+msgid ""
+"Open Graph control how your website is being displayed on Facebook. Now, "
+"other social media sites such as Twitter, LinkedIn are recognizing Open "
+"Graph meta tags."
+msgstr ""
+
+#: includes/admin/settings-api.php:77
+#: includes/admin/submenus/opengraph-options-page-old.php:71
+#: includes/post-types/service-post-type.php:427
+msgid "Open Graph Description"
+msgstr ""
+
+#: includes/admin/settings-api.php:69
+#: includes/admin/submenus/opengraph-options-page-old.php:53
+#: includes/post-types/service-post-type.php:439
+msgid "Open Graph Image"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:452
+msgid "Open Graph override Image"
+msgstr ""
+
+#: includes/admin/submenus/opengraph-options-page-old.php:16
+#: includes/admin/submenus/opengraph-options-page-settings-api.php:15
+msgid "Open Graph Settings"
+msgstr ""
+
+#: includes/admin/settings-api.php:61
+#: includes/admin/submenus/opengraph-options-page-old.php:42
+#: includes/post-types/service-post-type.php:415
+msgid "Open Graph Title"
+msgstr ""
+
+#: includes/admin/submenus/chatbot-options-page-old.php:40
+msgid "OPENAI AI API KEY"
+msgstr ""
+
+#: includes/admin/settings-api.php:93
+msgid "OPENAI API KEY"
+msgstr ""
+
+#: includes/admin/settings-api.php:125
+#: includes/admin/submenus/chatbot-options-page-old.php:90
+msgid "OPENAI MAX TOKENS"
+msgstr ""
+
+#: includes/admin/settings-api.php:101
+#: includes/admin/submenus/chatbot-options-page-old.php:51
+msgid "OPENAI MODEL"
+msgstr ""
+
+#: includes/admin/settings-api.php:43
+msgid "OpenAI Settings"
+msgstr ""
+
+#: includes/admin/settings-api.php:109
+#: includes/admin/submenus/chatbot-options-page-old.php:64
+msgid "OPENAI TEMPERATURE"
+msgstr ""
+
+#: includes/admin/settings-api.php:117
+#: includes/admin/submenus/chatbot-options-page-old.php:77
+msgid "OPENAI TOP P"
+msgstr ""
+
+#: includes/admin/menus.php:24 includes/admin/menus.php:25
+msgid "Opengraph Settings"
+msgstr ""
+
+#: includes/admin/options-page.php:20
+#: includes/admin/submenus/chatbot-options-page-old.php:22
+#: includes/admin/submenus/opengraph-options-page-old.php:24
+#: includes/admin/submenus/social-networks-options-page-old.php:21
+msgid "Options updated successfully!"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:183
+msgid "Override icon?"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:21
+msgctxt ""
+"Overrides the \"Featured Image\" phrase for this post type. Added in 4.3"
+msgid "Gallery Cover Image"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:21
+msgctxt ""
+"Overrides the \"Featured Image\" phrase for this post type. Added in 4.3"
+msgid "Newsletter Cover Image"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:26
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Achievement Cover Image"
+msgstr "Imagen de portada de logros"
+
+#: includes/post-types/certificate-post-type.php:26
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Certificate Cover Image"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Content Cover Image"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:27
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Dependency Cover Image"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Document Cover Image"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:26
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Event Cover Image"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "FAQ Cover Image"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:21
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Resolution Cover Image"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:27
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Service Cover Image"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:21
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Team Cover Image"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:31
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:31
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:32
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:31
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:26
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:32
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Service"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:26
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Team"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:28
+#: includes/post-types/certificate-post-type.php:28
+#: includes/post-types/content-post-type.php:24
+#: includes/post-types/dependency-post-type.php:29
+#: includes/post-types/document-post-type.php:24
+#: includes/post-types/event-post-type.php:28
+#: includes/post-types/faq-post-type.php:24
+#: includes/post-types/gallery-post-type.php:24
+#: includes/post-types/newsletter-post-type.php:24
+#: includes/post-types/resolution-post-type.php:23
+#: includes/post-types/service-post-type.php:29
+#: includes/post-types/team-post-type.php:23
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:27
+#: includes/post-types/certificate-post-type.php:27
+#: includes/post-types/content-post-type.php:23
+#: includes/post-types/dependency-post-type.php:28
+#: includes/post-types/document-post-type.php:23
+#: includes/post-types/event-post-type.php:27
+#: includes/post-types/faq-post-type.php:23
+#: includes/post-types/gallery-post-type.php:23
+#: includes/post-types/newsletter-post-type.php:23
+#: includes/post-types/resolution-post-type.php:22
+#: includes/post-types/service-post-type.php:28
+#: includes/post-types/team-post-type.php:22
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:32
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:32
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:33
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:32
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:27
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:33
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Service"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:27
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Team"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:29
+#: includes/post-types/certificate-post-type.php:29
+#: includes/post-types/content-post-type.php:25
+#: includes/post-types/dependency-post-type.php:30
+#: includes/post-types/document-post-type.php:25
+#: includes/post-types/event-post-type.php:29
+#: includes/post-types/faq-post-type.php:25
+#: includes/post-types/gallery-post-type.php:25
+#: includes/post-types/newsletter-post-type.php:25
+#: includes/post-types/resolution-post-type.php:24
+#: includes/post-types/service-post-type.php:30
+#: includes/post-types/team-post-type.php:24
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:23
+msgid "Parent Achievements:"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:23
+msgid "Parent Certificates:"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:19
+msgid "Parent Contents:"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:24
+msgid "Parent Dependencies:"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:19
+msgid "Parent Documents:"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:23
+msgid "Parent Events:"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:19
+msgid "Parent FAQs:"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:18
+msgid "Parent Gallery:"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:18
+msgid "Parent Newsletter:"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:18
+msgid "Parent Resolutions:"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:24
+msgid "Parent Services:"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:18
+msgid "Parent Team:"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:353
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/post-types/service-post-type.php:341
+msgid "Phone service available?"
+msgstr "¿Servicio telefónico disponible?"
+
+#: includes/admin/settings-api.php:293
+#: includes/admin/submenus/social-networks-options-page-old.php:311
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/settings-api.php:301
+msgid "Pinterest HEX color"
+msgstr ""
+
+#: includes/image-sizes.php:21
+msgid "Portrait"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:108
+msgid "Post five star ratings"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:100
+msgid "Post four star ratings"
+msgstr ""
+
+#: includes/image-sizes.php:18
+msgid "Post Header"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:76
+msgid "Post one star ratings"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:68
+msgid "Post ratings count"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:92
+msgid "Post three star ratings"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:84
+msgid "Post two star ratings"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:12
+msgctxt "Post type general name"
+msgid "Achievements"
+msgstr "Logros"
+
+#: includes/post-types/certificate-post-type.php:12
+msgctxt "Post type general name"
+msgid "Certificates"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:8
+msgctxt "Post type general name"
+msgid "Contents"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:13
+msgctxt "Post type general name"
+msgid "Dependencies"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:8
+msgctxt "Post type general name"
+msgid "Documents"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:12
+msgctxt "Post type general name"
+msgid "Events"
+msgstr "Eventos"
+
+#: includes/post-types/faq-post-type.php:8
+msgctxt "Post type general name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:7
+msgctxt "Post type general name"
+msgid "Galleries"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:7
+msgctxt "Post type general name"
+msgid "Newsletters"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:7
+msgctxt "Post type general name"
+msgid "Resolutions"
+msgstr "Resoluciones"
+
+#: includes/post-types/service-post-type.php:13
+msgctxt "Post type general name"
+msgid "Services"
+msgstr "Servicios"
+
+#: includes/post-types/team-post-type.php:7
+msgctxt "Post type general name"
+msgid "Team"
+msgstr "Equipo"
+
+#: includes/post-types/achievement-post-type.php:13
+msgctxt "Post type singular name"
+msgid "Achievement"
+msgstr "Logro"
+
+#: includes/post-types/certificate-post-type.php:13
+msgctxt "Post type singular name"
+msgid "Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:9
+msgctxt "Post type singular name"
+msgid "Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:14
+msgctxt "Post type singular name"
+msgid "Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:9
+msgctxt "Post type singular name"
+msgid "Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:13
+msgctxt "Post type singular name"
+msgid "Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:9
+msgctxt "Post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:8
+msgctxt "Post type singular name"
+msgid "Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:8
+msgctxt "Post type singular name"
+msgid "Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:8
+msgctxt "Post type singular name"
+msgid "Resolution"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:14
+msgctxt "Post type singular name"
+msgid "Service"
+msgstr "Servicio"
+
+#: includes/post-types/team-post-type.php:8
+msgctxt "Post type singular name"
+msgid "Team"
+msgstr "Equipo"
+
+#: includes/blocks/carousel.php:75 includes/blocks/slideshow.php:31
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/blocks/file-list.php:161
+msgid "Print"
+msgstr "Imprimir"
+
+#: includes/post-types/service-post-type.php:219
+msgid "Procedure"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:44
+#: includes/admin/submenus/social-networks-options-page-old.php:90
+#: includes/admin/submenus/social-networks-options-page-old.php:136
+#: includes/admin/submenus/social-networks-options-page-old.php:182
+#: includes/admin/submenus/social-networks-options-page-old.php:228
+#: includes/admin/submenus/social-networks-options-page-old.php:274
+#: includes/admin/submenus/social-networks-options-page-old.php:320
+#: includes/admin/submenus/social-networks-options-page-old.php:365
+msgid "Profile URL"
+msgstr ""
+
+#: includes/blocks/file-list.php:90 includes/blocks/file-list.php:146
+msgid "Publication date"
+msgstr "Fecha de publicación"
+
+#: includes/admin/directory-fields.php:33
+#: includes/admin/directory-fields.php:96
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/directory-fields.php:26
+#: includes/admin/directory-fields.php:87
+msgid "Published"
+msgstr ""
+
+#: includes/blocks/rating.php:87
+msgid "Rate this"
+msgstr ""
+
+#: includes/blocks/carousel.php:54
+msgid "Read more"
+msgstr "Leer más"
+
+#: includes/post-types/service-post-type.php:207
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: includes/blocks/page-header.php:13
+msgid "Results for"
+msgstr "Resultados para"
+
+#: includes/post-types/service-post-type.php:267
+msgid "Schedule"
+msgstr ""
+
+#: includes/blocks/service-summary.php:37
+msgid "Schedule and place of provision"
+msgstr "Horario de prestación"
+
+#: includes/post-types/achievement-post-type.php:33
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Achievements list"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:33
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Certificates list"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Contents list"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:34
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Dependencies list"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Documents list"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:33
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Events list"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter FAQs list"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Galleries list"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Newsletters list"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:28
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Resolutions list"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:34
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Services list"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:28
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Team list"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:35
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Achievements list"
+msgstr "Lista de logros"
+
+#: includes/post-types/certificate-post-type.php:35
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Certificates list"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Contents list"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:36
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Dependencies list"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Documents list"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:35
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Events list"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "FAQs list"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Galleries list"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Newsletters list"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:30
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Resolutions list"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:36
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Services list"
+msgstr "Listado de Servicios"
+
+#: includes/post-types/team-post-type.php:30
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Team list"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:34
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Achievements list navigation"
+msgstr "Navegación por la lista de logros"
+
+#: includes/post-types/certificate-post-type.php:34
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Certificates list navigation"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Contents list navigation"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:35
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Dependencies list navigation"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Documents list navigation"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:34
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Events list navigation"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "FAQs list navigation"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Galleries list navigation"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Newsletters list navigation"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:29
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Resolutions list navigation"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:35
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Services list navigation"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:29
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Team list navigation"
+msgstr ""
+
+#: includes/blocks/search-bar.php:13
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/post-types/achievement-post-type.php:22
+msgid "Search Achievements"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:22
+msgid "Search Certificates"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:18
+msgid "Search Contents"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:23
+msgid "Search Dependencies"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:18
+msgid "Search Documents"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:22
+msgid "Search Events"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:18
+msgid "Search FAQs"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:17
+msgid "Search Galleries"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:17
+msgid "Search Newsletters"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:17
+msgid "Search Resolutions"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:23
+msgid "Search Services"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:17
+msgid "Search Team"
+msgstr ""
+
+#: includes/blocks/featured-services.php:138
+msgid "See more"
+msgstr "Ver más"
+
+#: includes/blocks/service-summary.php:88
+msgid "See more in"
+msgstr "Ver más en"
+
+#: includes/admin/options-page.php:86 includes/admin/options-page.php:106
+#: includes/admin/settings-api.php:659
+#: includes/admin/submenus/opengraph-options-page-old.php:63
+msgid "Select Image"
+msgstr "Seleccionar Imagen"
+
+#: includes/admin/service-sidebar.php:7
+msgid "Service Page Sidebar"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:328
+msgid "Service Responsible"
+msgstr "Responsable de Servicio"
+
+#: includes/admin/directory-fields.php:22
+#: includes/admin/directory-fields.php:81
+msgid "Set the order number to be assigned to the directory"
+msgstr ""
+
+#: includes/admin/directory-fields.php:28
+#: includes/admin/directory-fields.php:91
+msgid "Show directory to the public"
+msgstr "Mostrar directorio al público"
+
+#: includes/taxonomies/directory-taxonomy.php:50
+msgid "Show or hide directory"
+msgstr ""
+
+#: includes/blocks/file-list.php:142
+#: includes/post-types/document-post-type.php:138
+msgid "Size"
+msgstr "Tamaño"
+
+#: includes/image-sizes.php:31
+msgid "Small Square"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:14
+#: includes/admin/submenus/social-networks-options-page-settings-api.php:13
+msgid "Social Network Settings"
+msgstr ""
+
+#: includes/admin/settings-api.php:50
+msgid "Social network settings"
+msgstr ""
+
+#: includes/admin/menus.php:46 includes/admin/menus.php:47
+msgid "Social Networks"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:79
+msgid "Specific objective"
+msgstr ""
+
+#: includes/image-sizes.php:30
+msgid "Square"
+msgstr ""
+
+#: includes/blocks/target-audience.php:19
+#: includes/post-types/service-post-type.php:195
+msgid "Target audience"
+msgstr "Público objetivo"
+
+#: includes/taxonomies/area-taxonomy.php:7
+msgctxt "taxonomy general name"
+msgid "Area"
+msgstr ""
+
+#: includes/taxonomies/dependency-taxonomy.php:7
+msgctxt "taxonomy general name"
+msgid "Dependency Category"
+msgstr ""
+
+#: includes/taxonomies/directory-taxonomy.php:7
+msgctxt "taxonomy general name"
+msgid "Directory"
+msgstr ""
+
+#: includes/taxonomies/group-taxonomy.php:12
+msgctxt "taxonomy general name"
+msgid "Groups"
+msgstr ""
+
+#: includes/taxonomies/newsletter-category-taxonomy.php:13
+msgctxt "taxonomy general name"
+msgid "Newsletter Categories"
+msgstr ""
+
+#: includes/taxonomies/resolution-category-taxonomy.php:12
+msgctxt "taxonomy general name"
+msgid "Resolution Categories"
+msgstr ""
+
+#: includes/taxonomies/service-classification-taxonomy.php:12
+msgctxt "taxonomy general name"
+msgid "Services"
+msgstr "Servicios"
+
+#: includes/taxonomies/area-taxonomy.php:8
+msgctxt "taxonomy singular name"
+msgid "Area"
+msgstr ""
+
+#: includes/taxonomies/dependency-taxonomy.php:8
+msgctxt "taxonomy singular name"
+msgid "Dependency Category"
+msgstr ""
+
+#: includes/taxonomies/directory-taxonomy.php:8
+msgctxt "taxonomy singular name"
+msgid "Directory"
+msgstr "Directorio"
+
+#: includes/taxonomies/group-taxonomy.php:13
+msgctxt "taxonomy singular name"
+msgid "Group"
+msgstr ""
+
+#: includes/taxonomies/newsletter-category-taxonomy.php:14
+msgctxt "taxonomy singular name"
+msgid "Newsletter Category"
+msgstr ""
+
+#: includes/taxonomies/resolution-category-taxonomy.php:13
+msgctxt "taxonomy singular name"
+msgid "Resolution Category"
+msgstr ""
+
+#: includes/taxonomies/service-classification-taxonomy.php:13
+msgctxt "taxonomy singular name"
+msgid "Services"
+msgstr ""
+
+#: includes/image-sizes.php:25
+msgid "Team Member"
+msgstr "Miembro del equipo"
+
+#: includes/admin/settings-api.php:585
+#: includes/admin/submenus/chatbot-options-page-old.php:95
+msgid ""
+"The maximum number of tokens to generate in the completion. The token count "
+"of your prompt plus max_tokens cannot exceed the model's context length. "
+"Most models have a context length of 2048 tokens (except for the newest "
+"models, which support 4096)."
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:30
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Achievement archives"
+msgstr "Archivos de logros"
+
+#: includes/post-types/certificate-post-type.php:30
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Certificate archives"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Content archives"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:31
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Dependency archives"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Document archives"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:30
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Event archives"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "FAQ archives"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Gallery archives"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Newsletter archives"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:25
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Resolution archives"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:31
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Service archives"
+msgstr ""
+
+#: includes/post-types/team-post-type.php:25
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Team archives"
+msgstr ""
+
+#: includes/admin/options-page.php:96
+msgid "Theme Footer Logo"
+msgstr ""
+
+#: includes/admin/options-page.php:76
+msgid "Theme Main Logo"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:127
+#: includes/post-types/team-post-type.php:123
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/directory-fields.php:29
+#: includes/admin/directory-fields.php:92
+msgid "Unpublish"
+msgstr ""
+
+#: includes/post-types/service-post-type.php:169
+msgid "Use default icon"
+msgstr "Usar icono predeterminado"
+
+#: includes/post-types/dependency-post-type.php:127
+msgid "Values"
+msgstr "Valores"
+
+#: includes/image-sizes.php:24
+msgid "Vertical Map Location"
+msgstr ""
+
+#: includes/post-types/achievement-post-type.php:20
+msgid "View Achievement"
+msgstr ""
+
+#: includes/post-types/certificate-post-type.php:20
+msgid "View Certificate"
+msgstr ""
+
+#: includes/post-types/content-post-type.php:16
+msgid "View Content"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:21
+msgid "View Dependency"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:16
+msgid "View Document"
+msgstr ""
+
+#: includes/post-types/event-post-type.php:20
+msgid "View Event"
+msgstr ""
+
+#: includes/post-types/faq-post-type.php:16
+msgid "View FAQ"
+msgstr ""
+
+#: includes/post-types/gallery-post-type.php:15
+msgid "View Gallery"
+msgstr ""
+
+#: includes/post-types/newsletter-post-type.php:15
+msgid "View Newsletter"
+msgstr ""
+
+#: includes/post-types/resolution-post-type.php:15
+msgid "View Resolution"
+msgstr ""
+"\n"
+"Ver resolución"
+
+#: includes/post-types/service-post-type.php:21
+msgid "View Service"
+msgstr "Ver Servicio"
+
+#: includes/post-types/team-post-type.php:15
+msgid "View Team"
+msgstr ""
+
+#: includes/post-types/dependency-post-type.php:111
+msgid "Vision"
+msgstr "Visión"
+
+#: includes/admin/settings-api.php:603
+#: includes/admin/submenus/chatbot-options-page-old.php:69
+msgid ""
+"What sampling temperature to use, between 0 and 2. Higher values like 0.8 "
+"will make the output more random, while lower values like 0.2 will make it "
+"more focused and deterministic."
+msgstr ""
+
+#: includes/admin/settings-api.php:317
+#: includes/admin/submenus/social-networks-options-page-old.php:357
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/admin/settings-api.php:325
+msgid "WhatsApp HEX color"
+msgstr ""
+
+#: includes/admin/directory-fields.php:35
+#: includes/admin/directory-fields.php:98
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/admin/save-options.php:15 includes/admin/save-options.php:196
+#: includes/admin/save-options.php:246
+msgid "You are not allowed to be in this page."
+msgstr "No tienes permitido estar en esta página."
+
+#: includes/activation.php:13
+msgid "You must updated WordPress to use this plugin"
+msgstr ""
+
+#: includes/admin/submenus/social-networks-options-page-old.php:173
+msgid "YouTube"
+msgstr ""

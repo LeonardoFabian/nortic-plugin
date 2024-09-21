@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/attached-resource",
+  "title": "Resource",
+  "category": "widgets",
+  "description": "Attach a resource to your post",
+  "keywords": [
+    "resource",
+    "document",
+    "file"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "fileID": {
+      "type": "number",
+      "default": 0
+    },
+    "fileUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "fileSize": {
+      "type": "string",
+      "default": ""
+    },
+    "fileName": {
+      "type": "string",
+      "default": ""
+    },
+    "fileMime": {
+      "type": "string",
+      "default": ""
+    },
+    "fileSubtype": {
+      "type": "string",
+      "default": ""
+    },
+    "fileDate": {
+      "type": "string",
+      "default": ""
+    },
+    "downloadBtnBgColor": {
+      "type": "string",
+      "default": "#ee2a24"
+    },
+    "downloadBtnBorderColor": {
+      "type": "string",
+      "default": "#ee2a24"
+    },
+    "downloadBtnTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "downloadBtnText": {
+      "type": "string",
+      "default": "Descargar"
+    },
+    "renderOption": {
+      "type": "string",
+      "default": "file"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

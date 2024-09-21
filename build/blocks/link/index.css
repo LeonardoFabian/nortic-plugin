@@ -1,0 +1,31 @@
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/link/main.css ***!
+  \******************************************************************************************************************************************************************************/
+/* Link */
+.wp-block-nortic-plugin-link {
+    margin-bottom: 0px;
+}
+.wp-block-nortic-plugin-link a:hover {
+    opacity: .8;
+    color: var(--wp--preset--color--nortic-azure-blue);
+    text-decoration: underline;
+    text-decoration-color: var(--wp--preset--color--nortic-azure-blue);
+    text-decoration-thickness: 2px;
+}
+.wp-block-nortic-plugin-link a:visited{
+    color: var(--wp--preset--color--nortic-azure-blue);
+}
+.wp-block-nortic-plugin-link p.ortic-plugin-link-title {
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px
+}
+.wp-block-nortic-plugin-link p.ortic-plugin-link-label {
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px
+}
+
+/*# sourceMappingURL=index.css.map*/

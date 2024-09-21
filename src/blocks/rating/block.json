@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/rating",
+    "title": "Rating",
+    "category": "text",
+    "description": "Add a custom rating block",
+    "keywords": ["rating"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "rating_mode": {
+            "type": "string",
+            "default": "cookie"
+        },
+        "cookie_time": {
+            "type": "string",
+            "default": "86400"
+        },
+        "default_rating": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "style": "file:./index.css",
+    "usesContext": ["postId"],
+    "script": "file:./frontend-rating.js"
+}

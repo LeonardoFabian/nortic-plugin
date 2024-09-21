@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/resources-section",
+    "title": "Resources Section",
+    "category": "text",
+    "description": "A list of resources",
+    "keywords": ["resources", "resources section", "recursos"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {   
+        "heading": {
+            "type": "string",
+            "default": ""
+        },
+        "subheading": {
+            "type": "string",
+            "default": ""
+        },
+        "columns": {
+            "type": "number",
+            "default": 3
+        },
+        "taxonomy": {
+            "type": "string",
+            "default": ""
+        },  
+        "terms": {
+            "type": "array",
+            "default": []
+        },
+        "count": {
+            "type": "number",
+            "default": 10
+        },
+        "order": {
+            "type": "string",
+            "default": "desc"
+        },
+        "orderBy": {
+            "type": "string",
+            "default": "date"
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./resources-section.js"
+}

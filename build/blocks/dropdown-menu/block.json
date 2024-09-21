@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/dropdown-menu",
+  "title": "Dropdown Menu",
+  "category": "text",
+  "description": "Add a custom dropdown menu",
+  "keywords": [
+    "dropdown",
+    "menu"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "color": {
+      "type": "string",
+      "default": "#003876"
+    },
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "show_on_desktop": {
+      "type": "boolean",
+      "default": true
+    },
+    "desktop_menu_icon": {
+      "type": "string",
+      "default": "menu-grid-r"
+    },
+    "desktop_menu_icon_url": {
+      "type": "string",
+      "default": "https://mt.gob.do/images/svg/icons/menu-grid-r.svg"
+    },
+    "show_on_mobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "mobile_menu_icon": {
+      "type": "string",
+      "default": "menu-outline"
+    },
+    "mobile_menu_icon_url": {
+      "type": "string",
+      "default": "https://mt.gob.do/images/svg/icons/menu-outline.svg"
+    },
+    "close_menu_icon": {
+      "type": "string",
+      "default": "x-circle"
+    },
+    "menu_position": {
+      "type": "string",
+      "default": "absolute"
+    },
+    "desktop_columns": {
+      "type": "number",
+      "default": 3
+    },
+    "mobile_columns": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./frontend-dropdown-menu.js"
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/list",
+    "title": "List",
+    "category": "text",
+    "description": "Create a custom list",
+    "keywords": ["list"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "direction": {
+            "type": "string",
+            "default": "row"
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-list.js"
+}

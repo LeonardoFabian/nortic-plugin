@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/banner",
+    "title": "Banner",
+    "category": "text",
+    "description": "Add a custom Banner block",
+    "keywords": ["banner"],
+    "version": "1",
+    "textdomain": "",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h4"
+        },
+        "imageID": {
+            "type": "number",
+            "default": 0
+        },
+        "imageAlt": {
+            "type": "string",
+            "default": ""
+        },
+        "imageUrl": {
+            "type": "string",
+            "default": "",
+            "source": "attribute",
+            "selector": "img",
+            "attribute": "src"
+        },
+        "objectFit": {
+            "type": "string",
+            "default": "contain"
+        },
+        "link": {
+            "type": "string",
+            "default": ""
+        },
+        "linkTarget": {
+            "type": "string",
+            "default": "_self"
+        }
+    },
+    "style": "file:./index.css"
+}

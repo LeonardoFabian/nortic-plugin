@@ -1,0 +1,26 @@
+.nortic-image-preview-container {
+    background-color: rgba(0,0,0,.1) !important;
+    padding: .5rem;
+}
+
+/* Options Page */
+
+#np-theme-logo-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+#np-theme-footer-logo-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+/* Open Graph options page */
+
+#np-og-img-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}

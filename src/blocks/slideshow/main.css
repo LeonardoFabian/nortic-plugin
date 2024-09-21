@@ -1,0 +1,12 @@
+/* .wp-block-nortic-plugin-slideshow {
+    background-color: #003876;
+} */
+.wp-block-nortic-plugin-slideshow button span.slide-control {
+    background-color: rgba(255,255,255,.5);
+}
+.wp-block-nortic-plugin-slideshow button span.slide-control:hover {
+    background-color: rgba(255,255,255,.8);
+}
+.wp-block-nortic-plugin-slideshow .slide-indicators button {
+    background-color: rgba(255,255,255,.5);
+}

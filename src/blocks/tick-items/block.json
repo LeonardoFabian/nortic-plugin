@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/tick-items",
+    "title": "Tick Items",
+    "category": "text",
+    "description": "List of items",
+    "keywords": ["tick", "item", "list", "enumeration", "tick item", "check"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "style": "file:./index.css"
+}

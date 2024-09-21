@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/follow-buttons",
+  "title": "Follow Buttons",
+  "category": "text",
+  "description": "Increase your number of followers by adding the main social networks on your website",
+  "keywords": [
+    "social",
+    "follow"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css"
+}

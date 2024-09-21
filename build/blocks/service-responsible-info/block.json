@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/service-responsible-info",
+  "title": "Service responsible unit",
+  "category": "text",
+  "description": "Add information related to the unit responsible for offering the service.",
+  "keywords": [
+    "unit",
+    "dependency",
+    "service",
+    "area",
+    "responsible"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

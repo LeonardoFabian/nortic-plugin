@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/card",
+  "title": "Card",
+  "category": "text",
+  "description": "Add a single card",
+  "keywords": [
+    "card",
+    "cards"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "is_bordered": {
+      "type": "boolean",
+      "default": true
+    },
+    "border_width": {
+      "type": "number",
+      "default": 1
+    },
+    "border_color": {
+      "type": "string",
+      "default": "#D3D3D3"
+    },
+    "border_top_size_variation": {
+      "type": "number",
+      "default": 2
+    },
+    "border_top_color_variation": {
+      "type": "string",
+      "default": "#003876"
+    },
+    "border_radius": {
+      "type": "number",
+      "default": 4
+    },
+    "padding": {
+      "type": "number",
+      "default": 16
+    }
+  },
+  "style": "file:./index.css"
+}

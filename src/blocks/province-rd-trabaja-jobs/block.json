@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/province-rd-trabaja-jobs",
+    "title": "Province RD-Trabaja Jobs",
+    "category": "widgets",
+    "description": "Add a list of jobs published by RD-Trabaja in a given province",
+    "keywords": ["province", "jobs", "vacant", "vacancies", "rd-trabaja", "api"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {  
+        "landing_page_heading": {
+            "type": "string",   
+            "default": "¡Tu próxima oportunidad laboral puede estar aquí!"
+        },             
+        "landing_page_subheading": {
+            "type": "string",   
+            "default": "Explora las vacantes que tenemos para ti en nuestro sistema de intermediación laboral del programa RD-Trabaja y encuentra el empleo que mejor se adapte a ti. ¡No pierdas más tiempo, comienza ahora!"
+        },
+        "heading": {
+            "type": "string",   
+            "default": "¡Tu próximo empleo puede estar en esta provincia! "
+        },
+        "subheading": {
+            "type": "string",   
+            "default": "Descubre las vacantes publicadas en nuestro sistema de intermediación laboral y aprovecha las oportunidades que tenemos en tu provincia. ¡Consulta el listado ahora!"
+        },
+        "title": {
+            "type": "string",
+            "default": "Vacantes publicadas recientemente"
+        },
+        "view_more_link": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "multiple": false
+    },
+    "style": "file:./index.css",
+    "usesContext": ["taxonomyId"]
+}

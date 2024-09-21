@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/file-manager",
+    "title": "File Manager",
+    "category": "text",
+    "description": "Add a custom File block",
+    "keywords": ["document"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h5"
+        },
+        "description": {
+            "type": "string",
+            "default": ""
+        },
+        "fileID": {
+            "type": "number",
+            "default": 0
+        },
+        "fileUrl": {
+            "type": "string"
+        },
+        "fileSize": {
+            "type": "number",
+            "default": 0
+        },
+        "fileImageUrl": {
+            "type": "string"
+        },
+        "downloadBtnColor": {
+            "type": "string",
+            "default": "#ee2a24"
+        },
+        "downloadBtnBorderColor": {
+            "type": "string",
+            "default": "#ee2a24"
+        },
+        "downloadBtnTextColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "viewBtnColor": {
+            "type": "string",
+            "default": "#ffffff;"
+        },
+        "viewBtnBorderColor": {
+            "type": "string",
+            "default": "#003876"
+        },
+        "viewBtnTextColor": {
+            "type": "string",
+            "default": "#003876"
+        }
+    },
+    "style": "file:./index.css"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/gallery-archive",
+  "title": "Gallery Archive",
+  "category": "text",
+  "description": "Add a list of gallery post type.",
+  "keywords": [
+    "gallery",
+    "archive"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": 9
+    }
+  },
+  "style": "file:./index.css"
+}

@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/documents-directory",
+    "title": "Documents directory",
+    "category": "widgets",
+    "description": "Display a directory taxonomy list of documents",
+    "keywords": ["documents directory", "directorio de documentos", "directory", "directorio", "documents", "documentos"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {                  
+        "order": {
+            "type": "string",
+            "default": "asc"
+        },
+        "orderBy": {
+            "type": "string",
+            "default": "title"
+        }      
+    },
+    "supports": {
+        "multiple": false
+    },
+    "style": "file:./index.css"
+}

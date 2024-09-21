@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/services-section",
+  "title": "Services Section",
+  "category": "text",
+  "description": "A list of services grouped by classification",
+  "keywords": [
+    "servicios",
+    "services",
+    "services section"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "subheading": {
+      "type": "string",
+      "default": ""
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "taxonomy": {
+      "type": "string",
+      "default": "service_classification"
+    },
+    "terms": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./services-section.js"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/faqs-list",
+  "title": "FAQs list",
+  "category": "text",
+  "description": "Structuring your FAQs using a simple list",
+  "keywords": [
+    "faq",
+    "list"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "categories": {
+      "type": "array",
+      "default": []
+    },
+    "count": {
+      "type": "number",
+      "default": 10
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "title"
+    },
+    "order": {
+      "type": "string",
+      "default": "asc"
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./frontend-faqs-list.js",
+  "usesContext": [
+    "postId"
+  ]
+}

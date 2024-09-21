@@ -1,0 +1,20 @@
+{
+    "name": "user/nortic-plugin",
+    "description": "OpenAI PHP is a supercharged PHP API client that allows you to interact with the Open AI API",
+    "keywords": ["php", "openai", "sdk", "codex", "GPT-3", "DALL-E", "api", "client", "natural", "language", "processing"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\NorticPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Fabian",
+            "email": "ramonlfabian@gmail.com"
+        }
+    ],
+    "require": {
+        "openai/api": "^1.0"
+    }
+}

@@ -1,0 +1,28 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/np-query/main.css ***!
+  \**********************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-np-query {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+
+
+/*# sourceMappingURL=index.css.map*/

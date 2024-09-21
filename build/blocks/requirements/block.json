@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/requirements",
+  "title": "Requirements",
+  "category": "text",
+  "description": "Add a requirements textarea field for your post type.",
+  "keywords": [
+    "requirements"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "enable_aos_animation": {
+      "type": "boolean",
+      "default": false
+    },
+    "data_aos": {
+      "type": "string",
+      "default": "fade"
+    },
+    "data_aos_direction": {
+      "type": "string",
+      "default": "up"
+    },
+    "data_aos_easing": {
+      "type": "string",
+      "default": "ease"
+    },
+    "data_aos_duration": {
+      "type": "number",
+      "default": 3000
+    },
+    "data_aos_offset": {
+      "type": "number",
+      "default": 300
+    },
+    "data_aos_delay": {
+      "type": "number",
+      "default": 300
+    },
+    "data_aos_anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "data_aos_anchor_placement": {
+      "type": "string",
+      "default": "top-bottom"
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

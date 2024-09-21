@@ -1,0 +1,19 @@
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/breadcrumb/main.css ***!
+  \************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-breadcrumb span {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  /* color: #f00; */
+  filter: invert(100%);
+}
+
+a.current-breadcrumb-item,
+a.current-breadcrumb-item:visited,
+a.current-breadcrumb-item:where(:not(.wp-element-button)):visited {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  /* color: #f00; */
+  filter: invert(100%);
+}
+
+
+/*# sourceMappingURL=index.css.map*/

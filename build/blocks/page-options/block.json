@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/page-options",
+  "title": "Page Options",
+  "category": "text",
+  "description": "Add actions on each of the pages",
+  "keywords": [
+    "print",
+    "export",
+    "send",
+    "email",
+    "pdf"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "justify_content": {
+      "type": "string",
+      "default": "flex-end"
+    },
+    "show_export_option": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_print_option": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_send_option": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

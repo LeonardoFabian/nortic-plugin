@@ -1,0 +1,140 @@
+<?php
+
+if (!function_exists('nortic_plugin_contact_form_render_cb')) {
+    function nortic_plugin_contact_form_render_cb()
+    {
+        ob_start();
+?>
+
+        <section class="wp-block-nortic-plugin-contact-form bg-white dark:bg-gray-900">
+
+
+            <?php
+            global $contact_form_errors;
+
+            // display errors
+            if (is_wp_error($contact_form_errors)) {
+                if (count($contact_form_errors->get_error_messages()) > 0) {
+
+            ?>
+                    <div class="flex p-4 mb-4 text-sm alert-danger rounded-lg" role="alert">
+                        <svg aria-hidden="true" class="flex-shrink-0 inline w-8 h-8 mr-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="sr-only">Danger</span>
+                        <div>
+                            <span class="font-medium">Ensure that these requirements are met:</span>
+                            <ul class="mt-1.5 ml-4 list-disc list-inside">
+                                <?php foreach ($contact_form_errors->get_error_messages() as $error) { ?>
+                                    <li><?php echo $error; ?></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                <?php
+                }
+            }
+
+            // display success alert
+            if (count($contact_form_errors->get_error_messages()) == 0 && $_SERVER['REQUEST_METHOD'] == 'POST') {
+                ?>
+                <div id="alert-additional-content-3" class="p-4 mb-4 alert-success border rounded-lg" role="alert">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 inline w-8 h-8 mr-4" fill="currentColor" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z" />
+                        </svg>
+                        <div>
+                            <span class="sr-only"><?php echo __('Success', 'nortic-plugin') ?></span>
+                            <h3 class="text-lg font-medium"><?php echo __('Your message has been sent', 'nortic-plugin'); ?></h3>
+                            <div class="mt-2 mb-4 text-sm">
+                                <?php echo __('Your email has been sent correctly. We will be responding to the email provided, no later than 15 calendar days.', 'nortic-plugin'); ?>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <?php
+            }
+
+            ?>
+            <div class="pb-8 px-4 mx-auto max-w-screen-md">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center color-black"><?php esc_html_e('Contact Us', 'nortic-plugin'); ?></h2>
+                <p class="mb-8 lg:mb-16 font-light text-center color-dark-gray sm:text-xl"><?php esc_html_e('Do you need assistance? Do you want to send a comment about our services? Do you need any specific information? Let us know.', 'nortic-plugin'); ?></p>
+                <form action="<?php get_permalink(); ?>" id="np-contact-form" class="space-y-8" method="POST">
+                    <?php wp_nonce_field('contact_form', 'wp_nonce_contact_form'); ?>
+                    <div>
+                        <label for="sender_name" class="block mb-2 text-sm font-semibold color-dark-gray"><?php esc_html_e('Your name', 'nortic-plugin'); ?> (<span class="color-dark-gray font-normal"><?php esc_html_e('Required', 'nortic-plugin'); ?></span>)</label>
+                        <input type="name" id="sender_name" name="sender_name" class="shadow-sm bg-white border border-ultimate-gray color-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 <?php if (!empty($contact_form_errors->get_error_message("empty_name")) || !empty($contact_form_errors->get_error_message("name_length")) || !empty($contact_form_errors->get_error_message("invalid_name"))) echo "invalid"; ?>" placeholder="<?php esc_html_e('Let us know your name', 'nortic-plugin'); ?>" required value="<?php echo isset($_POST['sender_name']) ? $_POST['sender_name'] : null; ?>" />
+                        <?php if (!empty($contact_form_errors->get_error_message("empty_name"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("empty_name"); ?>
+                            </span>
+                        <?php endif; ?>
+                        <?php if (!empty($contact_form_errors->get_error_message("name_length"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("name_length"); ?>
+                            </span>
+                        <?php endif; ?>
+                        <?php if (!empty($contact_form_errors->get_error_message("invalid_name"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("invalid_name"); ?>
+                            </span>
+                        <?php endif; ?>
+                    </div>
+                    <div>
+                        <label for="sender_email" class="block mb-2 text-sm font-semibold color-dark-gray"><?php esc_html_e('Your email', 'nortic-plugin'); ?> (<span class="color-dark-gray font-normal"><?php esc_html_e('Required', 'nortic-plugin'); ?></span>)</label>
+                        <input type="email" id="sender_email" name="sender_email" class="shadow-sm bg-white border border-ultimate-gray color-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 <?php if (!empty($contact_form_errors->get_error_message("empty_email")) || !empty($contact_form_errors->get_error_message("email_length"))) echo "invalid"; ?>" placeholder="youremail@email.com" required value="<?php echo isset($_POST['sender_email']) ? $_POST['sender_email'] : null; ?>" />
+                        <?php if (!empty($contact_form_errors->get_error_message("empty_email"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("empty_email"); ?>
+                            </span>
+                        <?php endif; ?>
+                        <?php if (!empty($contact_form_errors->get_error_message("email_length"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("email_length"); ?>
+                            </span>
+                        <?php endif; ?>
+                    </div>
+                    <div>
+                        <label for="email_subject" class="block mb-2 text-sm font-semibold color-dark-gray"><?php esc_html_e('Subject', 'nortic-plugin'); ?> (<span class="color-ultimate-gray font-normal"><?php esc_html_e('Optional', 'nortic-plugin'); ?></span>)</label>
+                        <input type="text" id="email_subject" name="email_subject" class="block p-3 w-full text-sm color-black bg-white rounded-lg border border-ultimate-gray shadow-sm focus:ring-primary-500 focus:border-primary-500 <?php if (!empty($contact_form_errors->get_error_message("subject_length"))) echo "invalid"; ?>" placeholder="<?php esc_html_e('Let us know how we can help you', 'nortic-plugin'); ?>" value="<?php echo isset($_POST['email_subject']) ? $_POST['email_subject'] : null; ?>" />
+                        <?php if (!empty($contact_form_errors->get_error_message("subject_length"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("subject_length"); ?>
+                            </span>
+                        <?php endif; ?>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="email_message" class="block mb-2 text-sm font-semibold color-dark-gray"><?php esc_html_e('Your message', 'nortic-plugin'); ?> (<span class="color-ultimate-gray font-normal"><?php esc_html_e('Required', 'nortic-plugin'); ?></span>)</label>
+                        <textarea id="email_message" name="email_message" rows="7" class="block p-2.5 w-full text-sm color-black bg-white rounded-lg shadow-sm border border-ultimate-gray focus:ring-primary-500 focus:border-primary-500 <?php if (!empty($contact_form_errors->get_error_message("empty_message")) || !empty($contact_form_errors->get_error_message("message_length"))) echo "invalid"; ?>" placeholder="<?php esc_html_e('Leave a comment...', 'nortic-plugin'); ?>" required><?php echo isset($_POST['email_message']) ? $_POST['email_message'] : null; ?></textarea>
+                        <?php if (!empty($contact_form_errors->get_error_message("empty_message"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("empty_message"); ?>
+                            </span>
+                        <?php endif; ?>
+                        <?php if (!empty($contact_form_errors->get_error_message("message_length"))) : ?>
+                            <span class="mt-2 text-sm color-red peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
+                                <?php echo $contact_form_errors->get_error_message("message_length"); ?>
+                            </span>
+                        <?php endif; ?>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <button id="reset-form-button" type="button" class="button button-secondary">
+                            <?php esc_html_e('Clear', 'nortic-plugin'); ?>
+                        </button>
+                        <button type="submit" class="button button-primary">
+                            <?php esc_html_e('Submit', 'nortic-plugin'); ?>
+                        </button>
+                    </div>
+                    <input type="hidden" name="contact-form-submitted" id="contact-form-submitted" value="true" />
+                </form>
+            </div>
+        </section>
+
+<?php
+        $output = ob_get_contents();
+        ob_end_clean();
+
+        return $output;
+    }
+}

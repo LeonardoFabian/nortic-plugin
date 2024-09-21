@@ -1,0 +1,100 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/np-query",
+    "title": "NP Query Loop",
+    "category": "widgets",
+    "description": "An advanced block that allows displaying Nortic Plugin post types based on different query parameters and visual configurations.",
+    "keywords": ["query", "posts"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "queryId": {
+            "type": "number"
+        },
+        "query": {
+            "type": "object",
+            "default": {
+                "perPage": null,
+                "pages": 0,
+                "offset": 0,
+                "postType": "post",
+                "order": "desc",
+                "orderBy": "date",
+                "author": "",
+                "search": "",
+                "exclude": [],
+                "sticky": "",
+                "inherit": true,
+                "taxQuery": null,
+                "parents": []
+            }            
+        },
+        "tagName": {
+            "type": "string",
+            "default": "div"
+        },
+        "displayLayout": {
+            "type": "object",
+            "default": {
+                "type": "list"
+            }
+        },
+        "namespace": {
+            "type": "string"
+        },
+        "columns": {
+            "type": "number",
+            "default": 3
+        },
+        "numberOfPosts": {
+            "type": "number",
+            "default": 3
+        },
+        "categories": {
+            "type": "array",
+            "default": []
+        },
+        "taxonomies": {
+            "type": "array",
+            "default": []
+        },
+        "order": {
+            "type": "string",
+            "default": "desc"
+        },
+        "orderBy": {
+            "type": "string",
+            "default": "date"
+        },
+        "displayFeaturedImage": {
+            "type": "boolean",
+            "default": true
+        },
+        "displayDate": {
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "providesContext": {
+        "nortic-plugin/np-query-id": "queryId",
+        "nortic-plugin/np-query": "query",
+        "nortic-plugin/display-layout": "displayLayout"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "html": false,
+        "color": {
+            "gradients": true,
+            "link": true,
+            "__experimentalDefaultControls": {
+                "background": true,
+                "text": true
+            }
+        },
+        "__experimentalLayout": true
+    },
+    "editorStyle": "file:./editor.css",
+    "style": "file:./index.css"
+}

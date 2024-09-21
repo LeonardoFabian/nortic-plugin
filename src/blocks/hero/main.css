@@ -1,0 +1,22 @@
+/* Spinner  */
+.wp-block-nortic-plugin-hero-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.wp-block-nortic-plugin-hero-section img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.wp-block-nortic-plugin-hero-section .components-spinner {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+.wp-block-nortic-plugin-hero-section a:hover {
+    opacity: .8;
+}
+.wp-block-nortic-plugin-hero-section a:visited {
+    color: inherit;
+}

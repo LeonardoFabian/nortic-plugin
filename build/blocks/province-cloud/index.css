@@ -1,0 +1,74 @@
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/province-cloud/main.css ***!
+  \****************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-province-cloud {
+  margin-bottom: 54px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* header */
+.wp-block-nortic-plugin-province-cloud
+  .wp-block-nortic-plugin-province-cloud-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+.wp-block-nortic-plugin-province-cloud
+  .wp-block-nortic-plugin-province-cloud-header
+  h2 {
+  color: var(--wp--preset--color--nortic-blue);
+}
+
+.wp-block-nortic-plugin-province-cloud-list {
+  display: flex;
+  flex-wrap: wrap; /* Para que los elementos ocupen varias líneas si es necesario */
+  justify-content: center; /* Centra los ítems horizontalmente */
+  gap: 16px; /* Espacio entre los elementos */
+  padding: 0;
+  list-style: none; /* Elimina los estilos de lista por defecto */
+  margin: 0;
+}
+
+.wp-block-nortic-plugin-province-cloud-item {
+  background-color: var(
+    --wp--preset--color--nortic-light-blue
+  ); /* Color de fondo */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  border-radius: 24px; /* Bordes redondeados */
+  /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  */
+  font-size: 13px; /* Tamaño del texto */
+  transition: background-color 0.3s ease; /* Transición para efectos de hover */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.wp-block-nortic-plugin-province-cloud-item span,
+.wp-block-nortic-plugin-province-cloud-item a {
+  color: var(--wp--preset--color--nortic-black); /* Color del texto */
+  font-weight: 600; /* Negrita */
+}
+
+.wp-block-nortic-plugin-province-cloud-item:hover {
+  background-color: var(
+    --wp--preset--color--nortic-blue
+  ); /* Cambio de color al hacer hover */
+}
+
+.wp-block-nortic-plugin-province-cloud-item:hover a {
+  color: var(
+    --wp--preset--color--nortic-white
+  ); /* Cambio de color al hacer hover */
+}
+
+@media (max-width: 768px) {
+  .wp-block-nortic-plugin-province-cloud-item {
+    padding: 8px 16px; /* Ajuste de padding para pantallas más pequeñas */
+    font-size: 0.9rem; /* Reducir el tamaño del texto en pantallas pequeñas */
+  }
+}
+
+
+/*# sourceMappingURL=index.css.map*/

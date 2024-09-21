@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/carousel",
+  "title": "Carousel",
+  "category": "text",
+  "description": "",
+  "keywords": [
+    "carousel"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "textColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "btnColor": {
+      "type": "string",
+      "default": "#003876"
+    },
+    "count": {
+      "type": "number",
+      "default": 5
+    },
+    "categories": {
+      "type": "array",
+      "default": []
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "show_the_excerpt": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./frontend-carousel.js"
+}

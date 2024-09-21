@@ -1,0 +1,27 @@
+.wp-block-nortic-plugin-additional-information {
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .wp-block-nortic-plugin-additional-information {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wp-block-nortic-plugin-additional-information i {
+    margin-bottom: 1rem;
+  }
+}
+
+.wp-block-nortic-plugin-additional-information
+  .additional-information-content-container
+  h5 {
+  margin-bottom: 1rem !important;
+  font-size: var(--wp--preset--font-size--h-5);
+  line-height: var(--wp--custom--line-height--heading);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}

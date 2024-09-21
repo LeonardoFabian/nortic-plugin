@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/image-gallery",
+    "title": "Image Gallery",
+    "category": "text",
+    "description": "Add a custom image gallery",
+    "keywords": ["image", "gallery"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "imageUrl01": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": "img"
+        },
+        "imageAlt01": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        },
+        "imageUrl02": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": "img"
+        },
+        "imageAlt02": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        },
+        "imageUrl03": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": "img"
+        },
+        "imageAlt03": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        },
+        "imageUrl04": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": "img"
+        },
+        "imageAlt04": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        },
+        "imageUrl05": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": "img"
+        },
+        "imageAlt05": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        }
+    },
+    "style": "file:./index.css"
+}

@@ -1,0 +1,109 @@
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/team-member/main.css ***!
+  \*************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-team-member {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.wp-block-nortic-plugin-team-member:hover {
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Spinner  */
+.wp-block-nortic-plugin-team-member .components-spinner {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+
+.wp-block-nortic-plugin-team-member .team-member-meta h4, .wp-block-nortic-plugin-team-member .team-member-meta h4 a {
+    font-size: 1rem;
+}
+
+.wp-block-nortic-plugin-team-member .team-member-meta img {
+    height: 9rem;
+    width: 9rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* https://bennettfeely.com/clippy/ */
+
+/* circle */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-circle {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+}
+/* square */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-square {
+    -webkit-clip-path: inset(0% 0% 0% 0% round 10%);
+            clip-path: inset(0% 0% 0% 0% round 10%);
+}
+/* rectangle */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-rectangle {    
+    -webkit-clip-path: inset(0% 0% 0% 0%);
+    clip-path: inset(0% 0% 0% 0%);
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 115px;
+}
+/* triangle */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-triangle {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+/* rhombus */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-rhombus {
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+/* pentagon */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-pentagon {
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+/* hexagon */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-hexagon {
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+/* octagon */
+.wp-block-nortic-plugin-team-member .team-member-meta img.img-octagon {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+/* Social Media Links */
+.wp-block-nortic-plugin-team-member .social-media-links a {
+    color: #003876;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.wp-block-nortic-plugin-team-member .social-media-links a:visited {
+    color: #003876;
+}
+
+.wp-block-nortic-plugin-team-member .social-media-links a:hover {
+    color: #3858e9;
+}
+
+.social-media-links > a.is-active {
+    color: #3858e9;
+}
+.wp-block-nortic-plugin-team-member .team-member-social-edit-ctr {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #efefef;
+    border: 1px solid #3858e9;
+}
+
+/*# sourceMappingURL=index.css.map*/

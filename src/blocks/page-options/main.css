@@ -1,0 +1,19 @@
+.wp-block-nortic-plugin-page-options .page-options-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.wp-block-nortic-plugin-page-options button,
+.wp-block-nortic-plugin-page-options a {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  border-color: var(--wp--preset--color--nortic-blue) !important;
+}
+.wp-block-nortic-plugin-page-options button:hover,
+.wp-block-nortic-plugin-page-options a:hover {
+  color: var(--wp--preset--color--nortic-white) !important;
+  background-color: var(--wp--preset--color--nortic-blue) !important;
+  border-color: var(--wp--preset--color--nortic-blue) !important;
+}

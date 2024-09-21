@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/dependency-interactive-map",
+    "title": "Dependency Map",
+    "category": "widgets",
+    "description": "Map of Dependencies by province",
+    "keywords": ["dependency", "dependency map", "map", "place", "location", "province", "dependencies"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "provinces": {
+            "type": "array",
+            "default": []
+        },
+        "numberOfItems": {
+            "type": "number",
+            "default": -1
+          }
+    },
+    "supports": {
+        "multiple": false
+    },
+    "style": "file:./index.css",
+    "script": "file:./dependency-interactive-map-frontend.js"
+}

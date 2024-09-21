@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/link",
+  "title": "Link",
+  "category": "text",
+  "description": "Add a custom link block",
+  "keywords": [
+    "link",
+    "anchor"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": ""
+    },
+    "link_target": {
+      "type": "string",
+      "default": "_self"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "style": "file:./index.css"
+}

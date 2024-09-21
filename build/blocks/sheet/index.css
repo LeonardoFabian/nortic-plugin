@@ -1,0 +1,27 @@
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/sheet/main.css ***!
+  \*******************************************************************************************************************************************************************************/
+/* .sheet-content-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.sheet-content {
+    width: 100%;
+    height: 56%;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in;
+}
+
+.sheet-content.active {
+    transform: translateY(0);
+} */
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,117 @@
+/* Featured Services */
+.wp-block-nortic-plugin-featured-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+  background-color: #ffffff;
+  border: 1px solid rgb(238, 238, 238);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.wp-block-nortic-plugin-featured-services .featured-services-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+}
+
+.wp-block-nortic-plugin-featured-services .featured-services-header h5 {
+  margin-top: 1rem !important;
+  font-size: var(--wp--preset--font-size--h-5) !important;
+  color: var(--wp--preset--color--nortic-blue) !important;
+  font-weight: bold !important;
+}
+
+.wp-block-nortic-plugin-featured-services .featured-services-header p {
+  font-size: 14px !important;
+}
+.wp-block-nortic-plugin-featured-services .featured-services-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li.featured-services-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 0.5rem 0;
+}
+
+.wp-block-nortic-plugin-featured-services .featured-services-wrapper li div a {
+  font-size: 14px !important;
+  color: var(--wp--preset--color--nortic-blue) !important;
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  div
+  a:hover {
+  font-size: 14px !important;
+  color: var(--wp--preset--color--nortic-red) !important;
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap !important;
+  gap: 4px;
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  ul
+  li
+  i.bi-star-fill,
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  ul
+  li
+  i.bi-star {
+  color: rgba(0, 0, 0, 0.26);
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  ul
+  li
+  i.bi-star-fill,
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  ul
+  li
+  i.bi-star-half {
+  color: #faaf00;
+}
+.wp-block-nortic-plugin-featured-services
+  .featured-services-wrapper
+  li
+  .featured-service-rating
+  span {
+  white-space: nowrap;
+}

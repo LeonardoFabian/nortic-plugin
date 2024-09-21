@@ -1,0 +1,157 @@
+.wp-block-nortic-plugin-attached-resource.file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 2px solid #f5f5f5;
+  padding: 0.5rem 1rem;
+}
+
+.wp-block-nortic-plugin-attached-resource.file:hover {
+  border: 2px solid var(--wp--preset--color--nortic-blue);
+}
+
+.wp-block-nortic-plugin-attached-resource.file div i {
+  font-size: 50px;
+  color: var(--wp--preset--color--nortic-blue) !important;
+}
+
+.wp-block-nortic-plugin-attached-resource.file div img {
+  /* height: 50px; */
+  width: 3.5rem;
+  filter: drop-shadow(0px 0px 4px rgba(6, 22, 58, 0.2));
+
+  /* color: var(--wp--preset--color--nortic-blue) !important; */
+}
+
+.wp-block-nortic-plugin-attached-resource.file:hover > i {
+  color: var(--wp--preset--color--nortic-red) !important;
+}
+
+.wp-block-nortic-plugin-attached-resource.file div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 16px;
+}
+
+.wp-block-nortic-plugin-attached-resource.file div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 4px;
+}
+
+.wp-block-nortic-plugin-attached-resource.file div div span {
+  font-weight: bold;
+}
+
+.wp-block-nortic-plugin-attached-resource.file div div .file-meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.wp-block-nortic-plugin-attached-resource.file a {
+  background-color: var(--wp--preset--color--nortic-red);
+  color: var(--wp--preset--color--nortic-white);
+  white-space: nowrap;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+  font-size: 14px;
+  padding: 8px 12px;
+  text-transform: capitalize !important;
+  border-radius: 50px;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+/* .wp-block-nortic-plugin-attached-resource.file a:hover {
+  background-color: var(--wp--preset--color--nortic-red);
+  color: var(--wp--preset--color--nortic-white);
+} */
+
+.wp-block-nortic-plugin-attached-resource.file div div .file-meta span {
+  color: var(--wp--preset--color--nortic-dark-gray);
+  font-weight: 400;
+}
+
+.bi-filetype-pdf {
+  color: #bb1730;
+}
+.bi-filetype-docx,
+.bi-filetype-doc {
+  color: #0166b6;
+}
+.bi-filetype-xlsx,
+.bi-filetype-xls {
+  color: #3d9400;
+}
+.bi-filetype-pptx,
+.bi-filetype-ppt {
+  color: #dc6b29;
+}
+.bi-filetype-csv {
+  color: #57b6e8;
+}
+.bi-filetype-odt {
+  color: #0b93dd;
+}
+.bi-filetype-ods {
+  color: #6aba37;
+}
+.bi-filetype-txt {
+  color: #998c79;
+}
+.bi-filetype-file {
+  color: #998c79;
+}
+
+.bi-filetype-mp3 {
+  color: #c4d672;
+}
+.bi-filetype-mp4 {
+  color: #fec35a;
+}
+.bi-filetype-mpeg {
+  color: #56b6e7;
+}
+
+.bi-filetype-jpg {
+  color: #36a070;
+}
+.bi-filetype-png {
+  color: #25b0f3;
+}
+.bi-filetype-gif {
+  color: #ec5858;
+}
+.bi-filetype-svg {
+  color: #3ebfba;
+}
+.bi-filetype-webp {
+  color: #e55052;
+}
+
+.wp-block-nortic-plugin-attached-resource.button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+}
+
+.wp-block-nortic-plugin-attached-resource.button a {
+  text-decoration: none;
+}
+
+.wp-block-nortic-plugin-attached-resource.link a {
+  text-decoration: none;
+}
+
+.wp-block-nortic-plugin-attached-resource.link a:hover {
+  text-decoration: underline;
+  color: var(--wp--preset--color--nortic-blue);
+}

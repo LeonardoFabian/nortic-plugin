@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/team-member-basic-info",
+  "title": "Team member basic information",
+  "category": "text",
+  "description": "Add basic information about a team member.",
+  "keywords": [
+    "name",
+    "job",
+    "title",
+    "caption"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_featured_image": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "postId"
+  ]
+}

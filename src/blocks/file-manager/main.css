@@ -1,0 +1,15 @@
+.wp-block-nortic-plugin-file-manager .file-meta h5.file-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.file-view-btn:hover, .file-download-btn:hover {
+    opacity: .8;
+}
+
+/* Spinner  */
+.wp-block-nortic-plugin-file-manager .components-spinner {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+

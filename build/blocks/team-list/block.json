@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/team-list",
+  "title": "Team List",
+  "category": "widgets",
+  "description": "Add a list of Team Members",
+  "keywords": [
+    "team",
+    "team list",
+    "list",
+    "member",
+    "members",
+    "group",
+    "team member",
+    "team members"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "group_terms": {
+      "type": "array",
+      "default": []
+    },
+    "numberOfItems": {
+      "type": "number",
+      "default": 100
+    },
+    "order": {
+      "type": "string",
+      "default": "asc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "title"
+    },
+    "show_navigation_thumbs": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "multiple": false
+  },
+  "style": "file:./index.css",
+  "script": "file:./team-list-frontend.js"
+}

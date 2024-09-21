@@ -1,0 +1,59 @@
+.wp-block-nortic-plugin-banner {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wp-block-nortic-plugin-banner a img:hover {    
+  opacity: .5;
+}
+/* Spinner  */
+.wp-block-nortic-plugin-banner .components-spinner {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+.object-cover {
+    object-fit: cover;
+}
+.object-fill {
+    object-fit: fill;
+}
+.object-none {
+    object-fit: none;
+}
+.object-scale-down {
+    object-fit: scale-down;
+}
+/* .wp-block-nortic-plugin-banner img {
+    object-fit: contain;
+} */
+.wp-block-nortic-plugin-banner.object-contain img {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+.wp-block-nortic-plugin-banner.object-cover img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.wp-block-nortic-plugin-banner.object-fill img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.wp-block-nortic-plugin-banner.object-none img {
+    object-fit: none;
+}
+.wp-block-nortic-plugin-banner.object-scale-down img {
+    object-fit: scale-down;
+    height: 8rem; /* 192px */
+    width: auto; /* 384px */
+    margin: 0 auto;
+}

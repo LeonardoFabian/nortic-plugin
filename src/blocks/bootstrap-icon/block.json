@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/icon",
+    "title": "Icon",
+    "category": "text",
+    "description": "Add a custom icon",
+    "keywords": ["icon"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "icon_class": {
+            "type": "string",
+            "default": "bi-card-image"
+        },
+        "icon_category": {
+            "type": "string",
+            "default": "shape"
+        },
+        "icon_size": {
+            "type": "number",
+            "default": 16
+        }
+    },
+    "style": "file:./index.css"
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/tick-item",
+    "title": "Tick Item",
+    "category": "text",
+    "description": "List item that allows you to link a page",
+    "keywords": ["tick", "item", "list", "enumeration", "tick item", "check"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "use_page_title": {
+            "type": "boolean",
+            "default": true
+        },
+        "pageId": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "style": "file:./index.css"
+}

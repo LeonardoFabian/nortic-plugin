@@ -1,0 +1,25 @@
+div.wp-block-nortic-plugin-title h2.nortic-title {
+    display: inline-block;
+    font-size: var(--wp--preset--font-size--h-2);
+    font-family: var(--wp--preset--font-family--nortic-poppins);
+    line-height: 32px;
+    font-weight: 750;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 639) {
+    div.wp-block-nortic-plugin-title > h2.nortic-title {
+        font-size: 1.62rem !important;
+    }
+}
+
+div.wp-block-nortic-plugin-title .nortic-title::after {
+    content: "";
+    display: block;
+    width: 73px;
+    padding-top: 8px;
+    border-bottom: 4px solid var(--wp--preset--color--nortic-red);
+}
+
+

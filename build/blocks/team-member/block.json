@@ -1,0 +1,99 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/team-member",
+  "title": "Team Member",
+  "category": "text",
+  "description": "Add a custom Team Member block",
+  "keywords": [
+    "team",
+    "member"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    },
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "span"
+    },
+    "bio": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": "",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "alt"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": "",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "files_title": {
+      "type": "string"
+    },
+    "files": {
+      "type": "array",
+      "default": [],
+      "source": "query"
+    },
+    "socialHandles": {
+      "type": "array",
+      "default": [
+        {
+          "url": "https://facebook.com",
+          "icon": "facebook"
+        },
+        {
+          "url": "https://instagram.com",
+          "icon": "instagram"
+        },
+        {
+          "url": "https://twitter.com",
+          "icon": "twitter"
+        },
+        {
+          "url": "https://linkedin.com",
+          "icon": "linkedin"
+        }
+      ],
+      "source": "query",
+      "selector": ".social-media-links a",
+      "query": {
+        "url": {
+          "source": "attribute",
+          "attribute": "href"
+        },
+        "icon": {
+          "source": "attribute",
+          "attribute": "data-icon"
+        }
+      }
+    },
+    "imageShape": {
+      "type": "string",
+      "default": "circle"
+    }
+  },
+  "style": "file:./index.css",
+  "usesContext": [
+    "nortic-plugin/grid-list-image-shape"
+  ]
+}
