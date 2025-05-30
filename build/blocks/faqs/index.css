@@ -1,14 +1,1 @@
-/*!******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/faqs/main.css ***!
-  \******************************************************************************************************************************************************************************/
-.wp-block-nortic-plugin-faqs .faq-container button {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-}
-
-.wp-block-nortic-plugin-faqs .faq-container a h3.faq-question {
-    font-weight: 600 !important;
-}
-
-/*# sourceMappingURL=index.css.map*/
+.wp-block-nortic-plugin-faqs .faq-container button{align-items:center!important;display:flex!important;justify-content:space-between!important}.wp-block-nortic-plugin-faqs .faq-container a h3.faq-question{font-weight:600!important}

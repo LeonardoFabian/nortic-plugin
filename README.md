@@ -118,11 +118,17 @@ npm run build
 
 ## -Creating a translation template with the WP CLI
 
+* Cut and paste in another directory the PLUGIN_NAME.pot file if exists
 * Open Local by Flywheel
 * Click on open the shell
 * go to Wordpress root directory
-* Move to plugin directory cd /wp-content/plugins/PLUGIN_NAME
+* Move to plugin directory cd wp-content/plugins/PLUGIN_NAME
 * Run the command wp i18n make-pot . languages/plugin-name.pot
+* Start the site in Local by Flywheel
+* Using Loco Translate to Sync the changes
+* Translate the file
+* Copy the .PO and .MO files to production
+* NOTE: Translate in development and send the changes to production
 
 ```sh {"id":"01J3HB6QTRMMAASYC4FWZXGP27"}
 

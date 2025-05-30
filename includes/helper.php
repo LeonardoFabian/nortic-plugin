@@ -1,5 +1,41 @@
 <?php
 
+function nortic_plugin_fetch_departamentos() {
+    // Verificar si las constantes están definidas antes de usarlas
+    if (!defined('MT_CMS_API_URL') || !defined('MT_CMS_ENDPOINT_DEPARTAMENTOS') || !defined('MT_CMS_TOKEN')) {
+        return new WP_Error('missing_constants', 'Una o más constantes necesarias no están definidas en wp-config.php.', ['status' => 500]);
+    }
+
+    // Construir la URL completa
+    $url = MT_CMS_API_URL . MT_CMS_ENDPOINT_DEPARTAMENTOS;
+
+    // Configurar los headers de la solicitud
+    $headers = [
+        'Authorization' => 'Bearer ' . MT_CMS_TOKEN,
+    ];
+
+    // Realizar la solicitud
+    $response = wp_remote_get($url, [
+        'headers' => $headers,
+        'timeout' => 15, // Establecer un tiempo de espera
+    ]);
+
+    // Verificar si la solicitud fue exitosa
+    if (is_wp_error($response)) {
+        return new WP_Error('request_failed', 'Error fetching data: ' . $response->get_error_message(), ['status' => 500]);
+    }
+
+    // Decodificar y verificar el cuerpo de la respuesta
+    $body = wp_remote_retrieve_body($response);
+    $data = json_decode($body, true);
+
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return new WP_Error('json_decode_error', 'Error decodificando la respuesta JSON.', ['status' => 500]);
+    }
+
+    return $data;
+}
+
 function nortic_truncate_string($string, $max_length) {
     if(strlen($string) <= $max_length) {
         return $string;
@@ -16,6 +52,7 @@ function nortic_plugin_get_document_type_by_file_format($file_format)
         case "vnd.ms-excel":
         case "csv":
         case "vnd.oasis.opendocument.spreadsheet":
+        case "vnd.ms-excel.sheet.macroenabled.12":            
             $document_type = 'XLS';
             break;
         case "msword":
@@ -264,16 +301,16 @@ function the_breadcrumb()
     $ancestor = get_post_ancestors($post->ID);
 
 
-    echo "<span class='text-sm mr-2'>" . __('Is here', 'nortic-plugin') . ":</span>";
+    echo "<span class='text-sm'>" . __('Is here', 'nortic-plugin') . ":</span>";
 
     if (!is_front_page()) {
-        echo "<a class='color-ultimate-gray text-sm' href=" . home_url('/') . ">" . __('Home', 'nortic-plugin') . "</a><span class='color-ultimate-gray mx-2'>/</span>";
+        echo "<a class='breadcrumb-item text-sm' href=" . home_url('/') . ">" . __('Home', 'nortic-plugin') . "</a><span class='color-ultimate-gray mx-2'>/</span>";
     }
 
     if (!is_front_page() && !is_post_type_archive()) {
         for ($i = count($ancestor) - 1; $i >= 0; $i--) {
             if ($i == count($ancestor) - 1) {
-                echo "<a class='color-ultimate-gray text-sm' href=" . get_permalink($ancestor[$i]) . ">" . get_the_title($ancestor[$i]) . "</a>";
+                echo "<a class='breadcrumb-item text-sm' href=" . get_permalink($ancestor[$i]) . ">" . get_the_title($ancestor[$i]) . "</a>";
             }
             if ($i != 1) {
                 echo "<span class='color-ultimate-gray mx-2 text-sm'>/</span>";
@@ -284,7 +321,7 @@ function the_breadcrumb()
     if (is_post_type_archive()) {
         for ($i = count($ancestor) - 1; $i >= 0; $i--) {
             if ($i == count($ancestor) - 1) {
-                echo "<a class='color-ultimate-gray text-sm' href=" . get_permalink($ancestor[$i]) . ">" . post_type_archive_title($ancestor[$i]) . "</a>";
+                echo "<a class='breadcrumb-item text-sm' href=" . get_permalink($ancestor[$i]) . ">" . post_type_archive_title($ancestor[$i]) . "</a>";
             }
             if ($i != 1) {
                 echo "<span class='color-ultimate-gray mx-2'>/</span>";
@@ -293,23 +330,23 @@ function the_breadcrumb()
     }
 
     if (!is_front_page() && !is_post_type_archive() && !is_tax() && !is_page() && !is_category()) {
-        echo "<a class='current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . get_the_title() . "</a>";
+        echo "<a class='breadcrumb-item current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . get_the_title() . "</a>";
     }
 
     if (is_post_type_archive()) {
-        echo "<a class='current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . post_type_archive_title() . "</a>";
+        echo "<a class='breadcrumb-item current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . post_type_archive_title() . "</a>";
     }
 
     if (is_tax()) {
         $term = get_queried_object();
-        echo "<a class='current-breadcrumb-item color-blue font-medium text-sm' href=" . get_term_link($term) . ">" . $term->name . "</a>";
+        echo "<a class='breadcrumb-item current-breadcrumb-item color-blue font-medium text-sm' href=" . get_term_link($term) . ">" . $term->name . "</a>";
     }
 
     if (is_page()) {
-        echo "<a class='current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . get_the_title() . "</a>";
+        echo "<a class='breadcrumb-item current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . get_the_title() . "</a>";
     }
 
     if (is_category()) {
-        echo "<a class='current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . single_cat_title() . "</a>";
+        echo "<a class='breadcrumb-item current-breadcrumb-item color-blue font-medium text-sm' href=" . get_permalink() . ">" . single_cat_title() . "</a>";
     }
 }

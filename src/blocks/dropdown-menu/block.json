@@ -28,11 +28,11 @@
         },
         "desktop_menu_icon": {
             "type": "string",
-            "default": "menu-grid-r"
+            "default": "dropdown-menu-grid"
         },
         "desktop_menu_icon_url": {
             "type": "string",
-            "default": "https://mt.gob.do/images/svg/icons/menu-grid-r.svg"
+            "default": "/wp-content/plugins/nortic-plugin/dist/public/images/icons/dropdown-menu-grid.svg"
         },
         "show_on_mobile": {
             "type": "boolean",
@@ -40,15 +40,19 @@
         },
         "mobile_menu_icon": {
             "type": "string",
-            "default": "menu-outline"
+            "default": "dropdown-menu-hamburger"
         },
         "mobile_menu_icon_url": {
             "type": "string",
-            "default": "https://mt.gob.do/images/svg/icons/menu-outline.svg"
+            "default": "/wp-content/plugins/nortic-plugin/dist/public/images/icons/dropdown-menu-hamburger.svg"
         },
         "close_menu_icon": {
             "type": "string",
-            "default": "x-circle"
+            "default": "dropdown-menu-close-circle"
+        }, 
+        "close_menu_icon_url": {
+            "type": "string",
+            "default": "/wp-content/plugins/nortic-plugin/dist/public/images/icons/dropdown-menu-close-circle.svg"
         }, 
         "menu_position": {
             "type": "string",

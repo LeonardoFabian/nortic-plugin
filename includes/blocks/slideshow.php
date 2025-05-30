@@ -5,7 +5,7 @@ if (!function_exists('nortic_plugin_slideshow_render_cb')) {
     {
         ob_start();
 ?>
-        <div <?php echo get_block_wrapper_attributes(); ?>>
+        <div class="wp-block-nortic-plugin-slideshow glide-slideshow relative container">
             <!-- Slideshow wrapper -->
             <div class="glide__track" data-glide-el="track">
 

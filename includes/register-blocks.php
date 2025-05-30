@@ -185,6 +185,18 @@ if (!function_exists('nortic_plugin_register_blocks')) {
             ["name" => "newsletter-list", "options" => [
                 "render_callback" => "nortic_plugin_newsletter_list_render_cb"
             ]],
+            ["name" => "mt-departamentos"],
+            ["name" => "document-manager", "options" => [
+                "render_callback" => "nortic_plugin_document_manager_render_cb"
+            ]],
+            ["name" => "directories-tab", "options" => [
+                "render_callback" => "nortic_plugin_directories_tab_render_cb"
+            ]],
+            ["name" => "gob-do"],
+            ["name" => "powerbi-embed"],
+            ["name" => "document-explorer", "options" => [
+                "render_callback" => "nortic_plugin_document_explorer_render_cb"
+            ]],
         ];
 
 

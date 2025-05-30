@@ -1,0 +1,16 @@
+.wp-block-nortic-plugin-directories-tab {
+  margin-bottom: 2rem;
+}
+
+/* .directories-tabs-content-list {
+  display: none;
+} */
+
+/* .directories-tabs-content-list.active {
+  display: block;
+} */
+
+.directories-tabs .directories-tab-button.active {
+  font-weight: bold;
+  border-bottom: 3px solid var(--wp--preset--color--nortic-blue); /* Azul oscuro */
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/powerbi-embed",
+  "title": "Power BI Embed",
+  "category": "widgets",
+  "description": "Allows you to easily embed interactive Power BI reports within a WordPress site",
+  "keywords": [
+    "power bi",
+    "embed",
+    "data",
+    "chart",
+    "report",
+    "visualization",
+    "interactive",
+    "dashboard",
+    "analytics"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "embedUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "style": "file:./index.css",
+  "script": "file:./frontend-powerbi-embed.js"
+}

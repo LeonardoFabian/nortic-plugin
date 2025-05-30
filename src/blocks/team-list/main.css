@@ -75,7 +75,7 @@
   bottom: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 4px;
   max-width: 50%;
   background-color: var(--wp--preset--color--nortic-blue);

@@ -5,12 +5,12 @@ msgstr ""
 "Project-Id-Version: Nortic Plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nortic-plugin\n"
 "Last-Translator: \n"
-"Language-Team: Español de República Dominicana\n"
+"Language-Team: Spanish (Dominican Republic)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-06-05T23:11:39+00:00\n"
-"PO-Revision-Date: 2024-09-21 17:30+0000\n"
+"PO-Revision-Date: 2025-05-29 18:01+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: nortic-plugin\n"
 "Language: es_DO\n"
@@ -21,58 +21,57 @@ msgstr ""
 msgid "(Select an option)"
 msgstr "(Seleccione una opción)"
 
-#: build/blocks/rating/index.js:12516 rating/index.js:12523
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:93
+msgid "-- Select document type --"
+msgstr "--Selecciona el tipo de documento--"
+
+#: build/blocks/rating/index.js:1 rating/index.js:12523
 #: src/blocks/rating/index.js:44
 msgid "1 day"
 msgstr ""
 
-#: build/blocks/rating/index.js:12519 rating/index.js:12526
+#: build/blocks/rating/index.js:1 rating/index.js:12526
 #: src/blocks/rating/index.js:45
 msgid "1 hour"
 msgstr ""
 
-#: build/blocks/rating/index.js:12525 rating/index.js:12532
+#: build/blocks/rating/index.js:1 rating/index.js:12532
 #: src/blocks/rating/index.js:47
 msgid "15 min"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:458
-#: src/blocks/bootstrap-icon/index.js:72
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:72
 msgid "16x16"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:467
-#: src/blocks/bootstrap-icon/index.js:75
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:75
 msgid "180x180"
 msgstr ""
 
-#: build/blocks/rating/index.js:12522 rating/index.js:12529
+#: build/blocks/rating/index.js:1 rating/index.js:12529
 #: src/blocks/rating/index.js:46
 msgid "30 min"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:470
-#: src/blocks/bootstrap-icon/index.js:76
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:76
 msgid "300x300"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:461
-#: src/blocks/bootstrap-icon/index.js:73
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:73
 msgid "32x32"
 msgstr ""
 
-#: build/blocks/rating/index.js:12528 rating/index.js:12535
+#: build/blocks/rating/index.js:1 rating/index.js:12535
 #: src/blocks/rating/index.js:48
 msgid "5 min"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:473
-#: src/blocks/bootstrap-icon/index.js:77
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:77
 msgid "512x512"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:464
-#: src/blocks/bootstrap-icon/index.js:74
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:74
 msgid "96x96"
 msgstr ""
 
@@ -159,17 +158,16 @@ msgstr ""
 msgid "Achievements"
 msgstr "Logros"
 
-#: build/blocks/link/index.js:450 src/blocks/link/index.js:74
+#: build/blocks/link/index.js:1 src/blocks/link/index.js:74
 msgid "Add a custom label for this link"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:547
-#: build/blocks/alias/index.js:448 build/blocks/contact-info/index.js:438
-#: build/blocks/dependency-list/index.js:446
-#: build/blocks/dependency-responsible-member/index.js:461
-#: build/blocks/description/index.js:448 build/blocks/information/index.js:448
-#: build/blocks/requirements/index.js:541
-#: build/blocks/service-responsible-info/index.js:448
+#: build/blocks/additional-information/index.js:1 build/blocks/alias/index.js:1
+#: build/blocks/contact-info/index.js:1 build/blocks/dependency-list/index.js:1
+#: build/blocks/dependency-responsible-member/index.js:1
+#: build/blocks/description/index.js:1 build/blocks/information/index.js:1
+#: build/blocks/requirements/index.js:1
+#: build/blocks/service-responsible-info/index.js:1
 #: src/blocks/additional-information/index.js:133 src/blocks/alias/index.js:66
 #: src/blocks/contact-info/index.js:46 src/blocks/dependency-list/index.js:77
 #: src/blocks/dependency-responsible-member/index.js:87
@@ -179,7 +177,7 @@ msgstr ""
 msgid "Add a custom title"
 msgstr ""
 
-#: build/blocks/banner/index.js:575 src/blocks/banner/index.js:196
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:196
 msgid "Add a link to the banner"
 msgstr ""
 
@@ -187,28 +185,28 @@ msgstr ""
 msgid "Add a svg path to show a map of the province"
 msgstr ""
 
-#: build/blocks/faqs/index.js:471 build/blocks/featured-services/index.js:700
-#: build/blocks/link/index.js:439 src/blocks/faqs/index.js:72
+#: build/blocks/faqs/index.js:1 build/blocks/featured-services/index.js:1
+#: build/blocks/link/index.js:1 src/blocks/faqs/index.js:72
 #: src/blocks/featured-services/index.js:224 src/blocks/link/index.js:64
 msgid "Add a title"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:679
+#: build/blocks/additional-information/index.js:1
 #: src/blocks/additional-information/index.js:330
 msgid "Add additional info for your post type."
 msgstr ""
 
-#: build/blocks/additional-information/index.js:676
+#: build/blocks/additional-information/index.js:1
 #: src/blocks/additional-information/index.js:327
 msgid "Add additional information"
 msgstr ""
 
-#: build/blocks/featured-services/index.js:710
+#: build/blocks/featured-services/index.js:1
 #: src/blocks/featured-services/index.js:233
 msgid "Add description"
 msgstr ""
 
-#: build/blocks/hero/index.js:681 src/blocks/hero/index.js:344
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:344
 msgid "Add link"
 msgstr ""
 
@@ -251,7 +249,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:13
 msgid "Add New Document"
-msgstr ""
+msgstr "Añadir Nuevo Documento"
 
 #: includes/post-types/event-post-type.php:17
 msgid "Add New Event"
@@ -369,15 +367,15 @@ msgstr ""
 msgid "Add or remove tags"
 msgstr ""
 
-#: build/blocks/requirements/index.js:665 src/blocks/requirements/index.js:314
+#: build/blocks/requirements/index.js:1 src/blocks/requirements/index.js:314
 msgid "Add requirements"
 msgstr ""
 
-#: build/blocks/team-member/index.js:663 src/blocks/team-member/index.js:228
+#: build/blocks/team-member/index.js:1 src/blocks/team-member/index.js:228
 msgid "Add Social Media Link"
 msgstr ""
 
-#: build/blocks/link/index.js:422 src/blocks/link/index.js:45
+#: build/blocks/link/index.js:1 src/blocks/link/index.js:45
 msgid "Add the link Url"
 msgstr ""
 
@@ -386,19 +384,18 @@ msgid "Additional Information"
 msgstr "Información Adicional"
 
 #: includes/blocks/additional-information.php:22
-#: build/blocks/additional-information/index.js:666
+#: build/blocks/additional-information/index.js:1
 #: src/blocks/additional-information/index.js:310
 msgid "Additional information"
 msgstr "Información Adicional"
 
-#: build/blocks/office-location/index.js:572
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:218
 msgid "Address"
 msgstr "Dirección"
 
-#: build/blocks/local-business/index.js:428
-#: build/blocks/local-business/index.js:471
-#: src/blocks/local-business/index.js:49 src/blocks/local-business/index.js:90
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:49
+#: src/blocks/local-business/index.js:90
 msgid "Address Locality"
 msgstr ""
 
@@ -473,12 +470,9 @@ msgid "Team"
 msgstr "Equipo"
 
 #: includes/post-types/service-post-type.php:119
-#: build/block-editor/service/index.js:11549
-#: build/block-editor/system/index.js:105
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
 #: src/block-editor/service/sidebar.js:212
 #: src/block-editor/system/sidebar.js:34
-#: build/block-editor/service/index.js:9653
-#: build/block-editor/system/index.js:40
 msgid "Alias"
 msgstr ""
 
@@ -504,7 +498,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:17
 msgid "All Documents"
-msgstr ""
+msgstr "Todos los Documentos"
 
 #: includes/post-types/event-post-type.php:21
 msgid "All Events"
@@ -546,7 +540,7 @@ msgstr ""
 msgid "All Team"
 msgstr ""
 
-#: build/blocks/banner/index.js:563 build/blocks/hero/index.js:570
+#: build/blocks/banner/index.js:1 build/blocks/hero/index.js:1
 #: src/blocks/banner/index.js:182 src/blocks/hero/index.js:205
 msgid "Alt text (alternative text)"
 msgstr ""
@@ -560,22 +554,22 @@ msgid ""
 "considered."
 msgstr ""
 
-#: build/blocks/additional-information/index.js:644
-#: build/blocks/requirements/index.js:634
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:270
 #: src/blocks/requirements/index.js:258
 msgid "Anchor placement"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:553
-#: build/blocks/requirements/index.js:543
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:144
 #: src/blocks/requirements/index.js:132
 msgid "Animation"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:562
-#: build/blocks/requirements/index.js:552
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:166
 #: src/blocks/requirements/index.js:154
 msgid "AOS animation"
@@ -585,9 +579,8 @@ msgstr ""
 msgid "App"
 msgstr ""
 
-#: build/block-editor/service/index.js:11517
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:159
-#: build/block-editor/service/index.js:9600
 msgid "App mobile service available"
 msgstr ""
 
@@ -599,13 +592,11 @@ msgstr ""
 msgid "Area classification"
 msgstr ""
 
-#: build/block-editor/faq/index.js:11493 src/block-editor/faq/sidebar.js:125
-#: build/block-editor/faq/index.js:9566
+#: build/block-editor/faq/index.js:1 src/block-editor/faq/sidebar.js:125
 msgid "Associate with a Dependency"
 msgstr ""
 
-#: build/block-editor/faq/index.js:11485 src/block-editor/faq/sidebar.js:113
-#: build/block-editor/faq/index.js:9554
+#: build/block-editor/faq/index.js:1 src/block-editor/faq/sidebar.js:113
 msgid "Associate with a Service"
 msgstr ""
 
@@ -617,9 +608,8 @@ msgstr ""
 msgid "Associated Service"
 msgstr ""
 
-#: build/block-editor/resource/index.js:9917
+#: build/block-editor/resource/index.js:1
 #: src/block-editor/resource/sidebar.js:76
-#: build/block-editor/resource/index.js:8322
 msgid "Attached File"
 msgstr ""
 
@@ -631,31 +621,32 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
-#: build/block-editor/award/index.js:9881 src/block-editor/award/sidebar.js:35
-#: build/block-editor/award/index.js:8280
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:35
 msgid "Award Metadata"
 msgstr ""
 
-#: build/block-editor/award/index.js:9904 src/block-editor/award/sidebar.js:66
-#: build/block-editor/award/index.js:8311
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:66
 msgid "Award URL"
+msgstr ""
+
+#: includes/blocks/document-explorer.php:44
+msgid "Back"
 msgstr ""
 
 #: includes/image-sizes.php:22
 msgid "Background"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:456 build/blocks/modal/index.js:455
-#: build/blocks/page-header/index.js:426 build/blocks/search-bar/index.js:398
-#: build/blocks/sheet/index.js:456 build/blocks/slideshow/index.js:4313
-#: build/blocks/toggle-menu/index.js:458 src/blocks/dropdown-menu/index.js:97
+#: build/blocks/modal/index.js:1 build/blocks/page-header/index.js:1
+#: build/blocks/search-bar/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/slideshow/index.js:1 build/blocks/toggle-menu/index.js:1
 #: src/blocks/modal/index.js:83 src/blocks/page-header/index.js:53
-#: src/blocks/search-bar/index.js:29 src/blocks/sheet/index.js:84
+#: src/blocks/search-bar/index.js:31 src/blocks/sheet/index.js:84
 #: src/blocks/slideshow/index.js:34 src/blocks/toggle-menu/index.js:87
 msgid "Background Color"
 msgstr ""
 
-#: build/blocks/card/index.js:460 src/blocks/card/index.js:74
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:74
 msgid "Background color"
 msgstr ""
 
@@ -663,8 +654,7 @@ msgstr ""
 msgid "Banner Hero"
 msgstr ""
 
-#: build/block-editor/event/index.js:11454 src/block-editor/event/sidebar.js:81
-#: build/block-editor/event/index.js:9522
+#: build/block-editor/event/index.js:1 src/block-editor/event/sidebar.js:81
 msgid "Begin Date"
 msgstr ""
 
@@ -676,10 +666,9 @@ msgstr ""
 msgid "Benefits"
 msgstr ""
 
-#: includes/post-types/team-post-type.php:89
-#: build/block-editor/team/index.js:128 build/blocks/team-member/index.js:642
-#: src/block-editor/team/sidebar.js:70 src/blocks/team-member/index.js:200
-#: build/block-editor/team/index.js:76
+#: includes/post-types/team-post-type.php:89 build/block-editor/team/index.js:1
+#: build/blocks/team-member/index.js:1 src/block-editor/team/sidebar.js:70
+#: src/blocks/team-member/index.js:200
 msgid "Biography"
 msgstr "Biografía"
 
@@ -726,6 +715,12 @@ msgctxt "block description"
 msgid "Add a custom contact form"
 msgstr ""
 
+#: build/blocks/document-explorer/block.json
+#: src/blocks/document-explorer/block.json
+msgctxt "block description"
+msgid "Add a custom document explorer"
+msgstr ""
+
 #: build/blocks/dropdown-menu/block.json src/blocks/dropdown-menu/block.json
 msgctxt "block description"
 msgid "Add a custom dropdown menu"
@@ -735,6 +730,12 @@ msgstr ""
 msgctxt "block description"
 msgid "Add a custom File block"
 msgstr "Agregar un bloque de archivo personalizado"
+
+#: build/blocks/document-manager/block.json
+#: src/blocks/document-manager/block.json
+msgctxt "block description"
+msgid "Add a custom file manager"
+msgstr ""
 
 #: build/blocks/grid-list/block.json src/blocks/grid-list/block.json
 msgctxt "block description"
@@ -996,6 +997,13 @@ msgctxt "block description"
 msgid "Add share buttons to posts and pages"
 msgstr ""
 
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block description"
+msgid ""
+"Allows you to easily embed interactive Power BI reports within a WordPress "
+"site"
+msgstr ""
+
 #: build/blocks/np-query/block.json src/blocks/np-query/block.json
 msgctxt "block description"
 msgid ""
@@ -1007,6 +1015,12 @@ msgstr ""
 #: src/blocks/attached-resource/block.json
 msgctxt "block description"
 msgid "Attach a resource to your post"
+msgstr ""
+
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block description"
+msgid "Añade un listado de despartamentos desde cms"
 msgstr ""
 
 #: build/blocks/np-dependency-template/block.json
@@ -1065,6 +1079,21 @@ msgctxt "block description"
 msgid "Map of Dependencies by province"
 msgstr ""
 
+#: build/blocks/directories-tab/block.json
+#: src/blocks/directories-tab/block.json
+msgctxt "block description"
+msgid ""
+"Muestra pestañas con términos de la taxonomía 'directory' y el último "
+"documento asociado."
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block description"
+msgid ""
+"Muestra un certificado de sitio web perteneciente a un organismo del Estado "
+"Dominicano."
+msgstr ""
+
 #: build/blocks/service-card/block.json src/blocks/service-card/block.json
 msgctxt "block description"
 msgid "Show details of a service on a card"
@@ -1095,6 +1124,11 @@ msgstr ""
 #: build/blocks/alias/block.json src/blocks/alias/block.json
 msgctxt "block keyword"
 msgid "alias"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "analytics"
 msgstr ""
 
 #: build/blocks/link/block.json src/blocks/link/block.json
@@ -1128,7 +1162,10 @@ msgctxt "block keyword"
 msgid "audience"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "audio"
 msgstr ""
@@ -1136,6 +1173,11 @@ msgstr ""
 #: build/blocks/awards/block.json src/blocks/awards/block.json
 msgctxt "block keyword"
 msgid "award"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "barra gubernamental"
 msgstr ""
 
 #: build/blocks/hero-blank/block.json src/blocks/hero-blank/block.json
@@ -1219,10 +1261,26 @@ msgctxt "block keyword"
 msgid "category"
 msgstr ""
 
+#: build/blocks/directories-tab/block.json
+#: src/blocks/directories-tab/block.json
+msgctxt "block keyword"
+msgid "categoría"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "certificado"
+msgstr ""
+
 #: build/blocks/service-delivery-channels/block.json
 #: src/blocks/service-delivery-channels/block.json
 msgctxt "block keyword"
 msgid "channels"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "chart"
 msgstr ""
 
 #: build/blocks/chatbot/block.json src/blocks/chatbot/block.json
@@ -1251,6 +1309,12 @@ msgctxt "block keyword"
 msgid "cloud"
 msgstr ""
 
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block keyword"
+msgid "cms"
+msgstr ""
+
 #: build/blocks/contact-form/block.json build/blocks/contact-info/block.json
 #: build/blocks/local-business/block.json src/blocks/contact-form/block.json
 #: src/blocks/contact-info/block.json src/blocks/local-business/block.json
@@ -1258,9 +1322,22 @@ msgctxt "block keyword"
 msgid "contact"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "csv"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "dashboard"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "data"
 msgstr ""
 
 #: build/blocks/service-delivery-channels/block.json
@@ -1269,11 +1346,18 @@ msgctxt "block keyword"
 msgid "delivery channels"
 msgstr ""
 
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block keyword"
+msgid "departamentos"
+msgstr ""
+
 #: build/blocks/dependency-interactive-map/block.json
 #: build/blocks/dependency-list/block.json
+#: build/blocks/mt-departamentos/block.json
 #: build/blocks/np-dependency-template/block.json
 #: src/blocks/dependency-interactive-map/block.json
-#: src/blocks/dependency-list/block.json
+#: src/blocks/dependency-list/block.json src/blocks/mt-departamentos/block.json
 #: src/blocks/np-dependency-template/block.json
 msgctxt "block keyword"
 msgid "dependencies"
@@ -1283,12 +1367,14 @@ msgstr "dependencias"
 #: build/blocks/dependency-list/block.json
 #: build/blocks/dependency-responsible-member/block.json
 #: build/blocks/dependency-service-list/block.json
+#: build/blocks/mt-departamentos/block.json
 #: build/blocks/np-dependency-template/block.json
 #: build/blocks/service-responsible-info/block.json
 #: src/blocks/dependency-interactive-map/block.json
 #: src/blocks/dependency-list/block.json
 #: src/blocks/dependency-responsible-member/block.json
 #: src/blocks/dependency-service-list/block.json
+#: src/blocks/mt-departamentos/block.json
 #: src/blocks/np-dependency-template/block.json
 #: src/blocks/service-responsible-info/block.json
 msgctxt "block keyword"
@@ -1296,7 +1382,8 @@ msgid "dependency"
 msgstr "dependencia"
 
 #: build/blocks/dependency-list/block.json
-#: src/blocks/dependency-list/block.json
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/dependency-list/block.json src/blocks/mt-departamentos/block.json
 msgctxt "block keyword"
 msgid "dependency list"
 msgstr ""
@@ -1345,22 +1432,52 @@ msgctxt "block keyword"
 msgid "directorio de documentos"
 msgstr ""
 
+#: build/blocks/directories-tab/block.json
 #: build/blocks/documents-directory/block.json
+#: src/blocks/directories-tab/block.json
 #: src/blocks/documents-directory/block.json
 msgctxt "block keyword"
 msgid "directory"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block keyword"
+msgid "directus"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "do"
+msgstr ""
+
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "doc"
 msgstr ""
 
-#: build/blocks/attached-resource/block.json build/blocks/file-list/block.json
+#: build/blocks/attached-resource/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
 #: build/blocks/file-manager/block.json src/blocks/attached-resource/block.json
-#: src/blocks/file-list/block.json src/blocks/file-manager/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
+#: src/blocks/file-manager/block.json
 msgctxt "block keyword"
 msgid "document"
+msgstr "documento"
+
+#: build/blocks/directories-tab/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json
+#: src/blocks/directories-tab/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json
+msgctxt "block keyword"
+msgid "documento"
 msgstr "documento"
 
 #: build/blocks/documents-directory/block.json
@@ -1373,7 +1490,7 @@ msgstr ""
 #: src/blocks/documents-directory/block.json
 msgctxt "block keyword"
 msgid "documents"
-msgstr ""
+msgstr "documentos"
 
 #: build/blocks/documents-directory/block.json
 #: src/blocks/documents-directory/block.json
@@ -1381,7 +1498,10 @@ msgctxt "block keyword"
 msgid "documents directory"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "docx"
 msgstr ""
@@ -1396,6 +1516,11 @@ msgstr ""
 msgctxt "block keyword"
 msgid "email"
 msgstr "correo electrónico"
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr ""
 
 #: build/blocks/tick-item/block.json build/blocks/tick-items/block.json
 #: src/blocks/tick-item/block.json src/blocks/tick-items/block.json
@@ -1429,8 +1554,12 @@ msgctxt "block keyword"
 msgid "featured"
 msgstr ""
 
-#: build/blocks/attached-resource/block.json build/blocks/file-list/block.json
-#: src/blocks/attached-resource/block.json src/blocks/file-list/block.json
+#: build/blocks/attached-resource/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/attached-resource/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "file"
 msgstr "archivo"
@@ -1450,6 +1579,26 @@ msgstr ""
 #: src/blocks/image-gallery/block.json
 msgctxt "block keyword"
 msgid "gallery"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "gob"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "gob.do"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "gov"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "gov.do"
 msgstr ""
 
 #: build/blocks/grid-list/block.json src/blocks/grid-list/block.json
@@ -1479,8 +1628,12 @@ msgctxt "block keyword"
 msgid "icon"
 msgstr ""
 
-#: build/blocks/file-list/block.json build/blocks/image-gallery/block.json
-#: src/blocks/file-list/block.json src/blocks/image-gallery/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: build/blocks/image-gallery/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
+#: src/blocks/image-gallery/block.json
 msgctxt "block keyword"
 msgid "image"
 msgstr ""
@@ -1493,12 +1646,20 @@ msgctxt "block keyword"
 msgid "information"
 msgstr "información"
 
-#: build/blocks/file-list/block.json build/blocks/tick-item/block.json
-#: build/blocks/tick-items/block.json src/blocks/file-list/block.json
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "interactive"
+msgstr ""
+
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: build/blocks/tick-item/block.json build/blocks/tick-items/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 #: src/blocks/tick-item/block.json src/blocks/tick-items/block.json
 msgctxt "block keyword"
 msgid "item"
-msgstr ""
+msgstr "elemento"
 
 #: build/blocks/team-member-basic-info/block.json
 #: src/blocks/team-member-basic-info/block.json
@@ -1529,15 +1690,16 @@ msgstr ""
 #: build/blocks/dependency-list/block.json
 #: build/blocks/dependency-service-list/block.json
 #: build/blocks/faqs-list/block.json build/blocks/grid-list/block.json
-#: build/blocks/list/block.json build/blocks/newsletter-list/block.json
-#: build/blocks/service-list/block.json build/blocks/team-list/block.json
-#: build/blocks/tick-item/block.json build/blocks/tick-items/block.json
-#: src/blocks/dependency-list/block.json
+#: build/blocks/list/block.json build/blocks/mt-departamentos/block.json
+#: build/blocks/newsletter-list/block.json build/blocks/service-list/block.json
+#: build/blocks/team-list/block.json build/blocks/tick-item/block.json
+#: build/blocks/tick-items/block.json src/blocks/dependency-list/block.json
 #: src/blocks/dependency-service-list/block.json
 #: src/blocks/faqs-list/block.json src/blocks/grid-list/block.json
-#: src/blocks/list/block.json src/blocks/newsletter-list/block.json
-#: src/blocks/service-list/block.json src/blocks/team-list/block.json
-#: src/blocks/tick-item/block.json src/blocks/tick-items/block.json
+#: src/blocks/list/block.json src/blocks/mt-departamentos/block.json
+#: src/blocks/newsletter-list/block.json src/blocks/service-list/block.json
+#: src/blocks/team-list/block.json src/blocks/tick-item/block.json
+#: src/blocks/tick-items/block.json
 msgctxt "block keyword"
 msgid "list"
 msgstr ""
@@ -1554,22 +1716,24 @@ msgstr ""
 
 #: build/blocks/dependency-interactive-map/block.json
 #: build/blocks/dependency-list/block.json
+#: build/blocks/mt-departamentos/block.json
 #: build/blocks/office-location/block.json
 #: build/blocks/office-locations/block.json
 #: src/blocks/dependency-interactive-map/block.json
-#: src/blocks/dependency-list/block.json src/blocks/office-location/block.json
-#: src/blocks/office-locations/block.json
+#: src/blocks/dependency-list/block.json src/blocks/mt-departamentos/block.json
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
 msgctxt "block keyword"
 msgid "location"
 msgstr "ubicación"
 
 #: build/blocks/dependency-interactive-map/block.json
 #: build/blocks/dependency-list/block.json
+#: build/blocks/mt-departamentos/block.json
 #: build/blocks/office-location/block.json
 #: build/blocks/office-locations/block.json
 #: src/blocks/dependency-interactive-map/block.json
-#: src/blocks/dependency-list/block.json src/blocks/office-location/block.json
-#: src/blocks/office-locations/block.json
+#: src/blocks/dependency-list/block.json src/blocks/mt-departamentos/block.json
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
 msgctxt "block keyword"
 msgid "map"
 msgstr "mapa"
@@ -1594,9 +1758,25 @@ msgctxt "block keyword"
 msgid "menu"
 msgstr ""
 
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "mil"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block keyword"
+msgid "mil.do"
+msgstr ""
+
 #: build/blocks/modal/block.json src/blocks/modal/block.json
 msgctxt "block keyword"
 msgid "modal"
+msgstr ""
+
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block keyword"
+msgid "mt"
 msgstr ""
 
 #: build/blocks/alias/block.json build/blocks/team-member-basic-info/block.json
@@ -1631,7 +1811,10 @@ msgctxt "block keyword"
 msgid "noticias destacadas"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "ods"
 msgstr ""
@@ -1662,8 +1845,11 @@ msgctxt "block keyword"
 msgid "page header"
 msgstr ""
 
-#: build/blocks/file-list/block.json build/blocks/page-options/block.json
-#: src/blocks/file-list/block.json src/blocks/page-options/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: build/blocks/page-options/block.json src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
+#: src/blocks/page-options/block.json
 msgctxt "block keyword"
 msgid "pdf"
 msgstr ""
@@ -1675,11 +1861,12 @@ msgstr "teléfono"
 
 #: build/blocks/dependency-interactive-map/block.json
 #: build/blocks/dependency-list/block.json
+#: build/blocks/mt-departamentos/block.json
 #: build/blocks/office-location/block.json
 #: build/blocks/office-locations/block.json
 #: src/blocks/dependency-interactive-map/block.json
-#: src/blocks/dependency-list/block.json src/blocks/office-location/block.json
-#: src/blocks/office-locations/block.json
+#: src/blocks/dependency-list/block.json src/blocks/mt-departamentos/block.json
+#: src/blocks/office-location/block.json src/blocks/office-locations/block.json
 msgctxt "block keyword"
 msgid "place"
 msgstr ""
@@ -1706,12 +1893,23 @@ msgctxt "block keyword"
 msgid "posts"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "power bi"
+msgstr ""
+
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "ppt"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "pptx"
 msgstr ""
@@ -1759,6 +1957,11 @@ msgstr ""
 #: src/blocks/resources-section/block.json
 msgctxt "block keyword"
 msgid "recursos"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "report"
 msgstr ""
 
 #: build/blocks/requirements/block.json src/blocks/requirements/block.json
@@ -1930,6 +2133,12 @@ msgctxt "block keyword"
 msgid "systems"
 msgstr ""
 
+#: build/blocks/directories-tab/block.json
+#: src/blocks/directories-tab/block.json
+msgctxt "block keyword"
+msgid "tabs"
+msgstr ""
+
 #: build/blocks/target-audience/block.json
 #: src/blocks/target-audience/block.json
 msgctxt "block keyword"
@@ -2004,7 +2213,10 @@ msgctxt "block keyword"
 msgid "twitter"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "txt"
 msgstr ""
@@ -2036,17 +2248,31 @@ msgctxt "block keyword"
 msgid "vacant"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "video"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block keyword"
+msgid "visualization"
+msgstr ""
+
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "xls"
 msgstr ""
 
-#: build/blocks/file-list/block.json src/blocks/file-list/block.json
+#: build/blocks/document-explorer/block.json
+#: build/blocks/document-manager/block.json build/blocks/file-list/block.json
+#: src/blocks/document-explorer/block.json
+#: src/blocks/document-manager/block.json src/blocks/file-list/block.json
 msgctxt "block keyword"
 msgid "xlsx"
 msgstr ""
@@ -2085,6 +2311,11 @@ msgstr ""
 #: build/blocks/carousel/block.json src/blocks/carousel/block.json
 msgctxt "block title"
 msgid "Carousel"
+msgstr ""
+
+#: build/blocks/gob-do/block.json src/blocks/gob-do/block.json
+msgctxt "block title"
+msgid "Certificado sitio web perteneciente al Estado Dominicano"
 msgstr ""
 
 #: build/blocks/chatbot/block.json src/blocks/chatbot/block.json
@@ -2130,6 +2361,24 @@ msgstr "Servicios de la Dependencia"
 msgctxt "block title"
 msgid "Description"
 msgstr "Descripción"
+
+#: build/blocks/directories-tab/block.json
+#: src/blocks/directories-tab/block.json
+msgctxt "block title"
+msgid "Directories Tab"
+msgstr ""
+
+#: build/blocks/document-explorer/block.json
+#: src/blocks/document-explorer/block.json
+msgctxt "block title"
+msgid "Document Explorer"
+msgstr ""
+
+#: build/blocks/document-manager/block.json
+#: src/blocks/document-manager/block.json
+msgctxt "block title"
+msgid "Document Manager"
+msgstr ""
 
 #: build/blocks/documents-directory/block.json
 #: src/blocks/documents-directory/block.json
@@ -2234,6 +2483,12 @@ msgctxt "block title"
 msgid "List"
 msgstr ""
 
+#: build/blocks/mt-departamentos/block.json
+#: src/blocks/mt-departamentos/block.json
+msgctxt "block title"
+msgid "Listado de Departamentos"
+msgstr ""
+
 #: build/blocks/local-business/block.json src/blocks/local-business/block.json
 msgctxt "block title"
 msgid "Local Business"
@@ -2299,6 +2554,11 @@ msgstr ""
 #: src/blocks/posts-by-category/block.json
 msgctxt "block title"
 msgid "Posts by Category"
+msgstr ""
+
+#: build/blocks/powerbi-embed/block.json src/blocks/powerbi-embed/block.json
+msgctxt "block title"
+msgid "Power BI Embed"
 msgstr ""
 
 #: build/blocks/province-cloud/block.json src/blocks/province-cloud/block.json
@@ -2443,17 +2703,14 @@ msgctxt "block title"
 msgid "Toggle Menu"
 msgstr ""
 
-#: build/blocks/featured-services/index.js:509
+#: build/blocks/featured-services/index.js:1
 #: src/blocks/featured-services/index.js:135
 msgid "Bootstrap Icon"
 msgstr ""
 
-#: build/block-editor/service/index.js:11527
-#: build/block-editor/system/index.js:151
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
 #: src/block-editor/service/sidebar.js:173
 #: src/block-editor/system/sidebar.js:85
-#: build/block-editor/service/index.js:9614
-#: build/block-editor/system/index.js:91
 msgid "Bootstrap icon"
 msgstr ""
 
@@ -2461,128 +2718,125 @@ msgstr ""
 msgid "Bootstrap icon font"
 msgstr ""
 
-#: build/blocks/card/index.js:469 src/blocks/card/index.js:89
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:89
 msgid "Border"
 msgstr ""
 
-#: build/blocks/card/index.js:464 src/blocks/card/index.js:80
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:80
 msgid "Border color"
 msgstr ""
 
-#: build/blocks/card/index.js:480 src/blocks/card/index.js:108
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:108
 msgid "Border radius"
 msgstr ""
 
-#: build/blocks/card/index.js:474 src/blocks/card/index.js:100
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:100
 msgid "Border size"
 msgstr ""
 
-#: build/blocks/card/index.js:472 src/blocks/card/index.js:95
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:95
 msgid "Borderless card"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:653
-#: build/blocks/requirements/index.js:643
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:282
 #: src/blocks/requirements/index.js:270
 msgid "Bottom - Bottom"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:410 src/blocks/breadcrumb/index.js:32
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:32
 msgctxt "Breadcrumb label"
 msgid "Section Name hidden"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:410 src/blocks/breadcrumb/index.js:27
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:27
 msgctxt "Breadcrumb label"
 msgid "Section Name shown"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:421 src/blocks/breadcrumb/index.js:54
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:54
 msgctxt "Breadcrumb preview label"
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
-#: build/blocks/breadcrumb/index.js:421 src/blocks/breadcrumb/index.js:51
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:51
 msgctxt "Breadcrumb preview label"
 msgid "Is here"
 msgstr "Estas aquí"
 
-#: build/blocks/breadcrumb/index.js:421 src/blocks/breadcrumb/index.js:56
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:56
 msgctxt "Breadcrumb preview label"
 msgid "Stage 1"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:421 src/blocks/breadcrumb/index.js:58
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:58
 msgctxt "Breadcrumb preview label"
 msgid "Stage 2"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:421 src/blocks/breadcrumb/index.js:61
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:61
 msgctxt "Breadcrumb preview label"
 msgid "Stage 3"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:423 src/blocks/breadcrumb/index.js:65
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:65
 msgctxt "Breadcrumb preview label"
 msgid "Stage 4"
 msgstr ""
 
-#: build/blocks/hero/index.js:591 src/blocks/hero/index.js:240
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:240
 msgid "Button Color"
 msgstr ""
 
-#: build/block-editor/resolution/index.js:11503
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:130
-#: build/block-editor/resolution/index.js:9572
 msgid ""
 "By default, the featured image will be used as the image. Check this option "
 "to use a different image."
 msgstr ""
 
-#: build/block-editor/system/index.js:133 src/block-editor/system/sidebar.js:62
-#: build/block-editor/system/index.js:68
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:62
 msgid "Candidates"
 msgstr ""
 
-#: build/blocks/cards/index.js:433 src/blocks/cards/index.js:51
+#: build/blocks/cards/index.js:1 src/blocks/cards/index.js:51
 msgid "Card columns"
 msgstr ""
 
-#: build/blocks/cards/index.js:430 src/blocks/cards/index.js:49
+#: build/blocks/cards/index.js:1 src/blocks/cards/index.js:49
 msgid "Card deck"
 msgstr ""
 
-#: build/blocks/cards/index.js:427 src/blocks/cards/index.js:46
+#: build/blocks/cards/index.js:1 src/blocks/cards/index.js:46
 msgid "Card group"
 msgstr ""
 
-#: build/blocks/cards/index.js:423 src/blocks/cards/index.js:41
+#: build/blocks/cards/index.js:1 src/blocks/cards/index.js:41
 msgid "Card layout"
 msgstr ""
 
-#: build/blocks/card/index.js:472 src/blocks/card/index.js:94
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:94
 msgid "Card with border"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:443
-#: src/blocks/bootstrap-icon/index.js:59
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:59
 msgid "Category"
 msgstr ""
 
-#: build/blocks/page-header/index.js:416 src/blocks/page-header/index.js:39
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:39
 msgid "Category shown"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:650
-#: build/blocks/requirements/index.js:640
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:278
 #: src/blocks/requirements/index.js:266
 msgid "Center - bottom"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:659
-#: build/blocks/requirements/index.js:649
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:290
 #: src/blocks/requirements/index.js:278
 msgid "Center - Center"
@@ -2596,9 +2850,8 @@ msgstr ""
 msgid "Certificate URL"
 msgstr ""
 
-#: build/block-editor/resolution/index.js:11520
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:151
-#: build/block-editor/resolution/index.js:9593
 msgid "Change image"
 msgstr ""
 
@@ -2624,7 +2877,7 @@ msgstr ""
 msgid "Cinema"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:417 src/blocks/grid-list/index.js:36
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:36
 msgid "Circle"
 msgstr ""
 
@@ -2637,43 +2890,39 @@ msgstr ""
 msgid "Clear"
 msgstr "Limpiar"
 
-#: build/blocks/services-section/index.js:419
-#: src/blocks/services-section/index.js:25
+#: build/blocks/services-section/index.js:1
+#: src/blocks/services-section/index.js:31
 msgid "Click add a heading"
 msgstr ""
 
-#: build/blocks/services-section/index.js:428
-#: src/blocks/services-section/index.js:37
+#: build/blocks/services-section/index.js:1
+#: src/blocks/services-section/index.js:39
 msgid "Click add a subheading"
 msgstr ""
 
-#: includes/helper.php:70
+#: includes/helper.php:107
 msgid "click here"
 msgstr "haga click aquí"
 
-#: build/blocks/additional-information/index.js:685
+#: build/blocks/additional-information/index.js:1
 #: src/blocks/additional-information/index.js:339
 msgid "Click to add a farewell"
 msgstr ""
 
-#: build/blocks/hero/index.js:636 src/blocks/hero/index.js:301
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:301
 msgid "Click to add a subtitle"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:669
-#: build/blocks/hero/index.js:624
+#: build/blocks/additional-information/index.js:1 build/blocks/hero/index.js:1
 #: src/blocks/additional-information/index.js:315 src/blocks/hero/index.js:290
 msgid "Click to add a title"
 msgstr ""
 
-#: build/blocks/requirements/index.js:668 src/blocks/requirements/index.js:317
+#: build/blocks/requirements/index.js:1 src/blocks/requirements/index.js:317
 msgid "Click to add requirements for your post type."
 msgstr ""
 
-#: build/blocks/service-summary/index.js:460
-#: build/blocks/service-summary/index.js:482
-#: build/blocks/service-summary/index.js:504
-#: build/blocks/service-summary/index.js:526 build/blocks/title/index.js:429
+#: build/blocks/service-summary/index.js:1 build/blocks/title/index.js:1
 #: src/blocks/service-summary/index.js:65
 #: src/blocks/service-summary/index.js:87
 #: src/blocks/service-summary/index.js:107
@@ -2681,7 +2930,7 @@ msgstr ""
 msgid "Click to edit"
 msgstr ""
 
-#: build/blocks/page-header/index.js:436 src/blocks/page-header/index.js:67
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:67
 msgid "Click to edit or activate the setting to show the category title"
 msgstr ""
 
@@ -2694,91 +2943,83 @@ msgstr "Clic para interactuar"
 msgid "Color"
 msgstr ""
 
-#: build/blocks/hero/index.js:577 src/blocks/hero/index.js:227
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:227
 msgid "Color settings"
 msgstr ""
 
-#: build/blocks/card/index.js:458 build/blocks/featured-services/index.js:669
-#: build/blocks/page-header/index.js:418 build/blocks/search-bar/index.js:390
-#: build/blocks/slideshow/index.js:4311 build/blocks/title/index.js:407
+#: build/blocks/card/index.js:1 build/blocks/featured-services/index.js:1
+#: build/blocks/page-header/index.js:1 build/blocks/search-bar/index.js:1
+#: build/blocks/slideshow/index.js:1 build/blocks/title/index.js:1
 #: src/blocks/card/index.js:71 src/blocks/featured-services/index.js:197
-#: src/blocks/page-header/index.js:45 src/blocks/search-bar/index.js:21
+#: src/blocks/page-header/index.js:45 src/blocks/search-bar/index.js:23
 #: src/blocks/slideshow/index.js:31 src/blocks/title/index.js:25
 msgid "Colors"
 msgstr ""
 
-#: build/blocks/list/index.js:412 src/blocks/list/index.js:41
+#: build/blocks/list/index.js:1 src/blocks/list/index.js:41
 msgid "Column"
 msgstr ""
 
-#: build/blocks/cards/index.js:417 build/blocks/grid-list/index.js:406
-#: build/blocks/latest-posts/index.js:517 build/blocks/modal/index.js:490
-#: build/blocks/sheet/index.js:491 build/blocks/toggle-menu/index.js:515
+#: build/blocks/cards/index.js:1 build/blocks/grid-list/index.js:1
+#: build/blocks/latest-posts/index.js:1 build/blocks/modal/index.js:1
+#: build/blocks/sheet/index.js:1 build/blocks/toggle-menu/index.js:1
 #: src/blocks/cards/index.js:34 src/blocks/grid-list/index.js:26
 #: src/blocks/modal/index.js:138 src/blocks/sheet/index.js:139
 #: src/blocks/toggle-menu/index.js:144
 msgid "Columns"
 msgstr ""
 
-#: includes/blocks/alias.php:12 build/blocks/alias/index.js:453
-#: build/blocks/alias/index.js:462 src/blocks/alias/index.js:81
-#: src/blocks/alias/index.js:97
+#: includes/blocks/alias.php:12 build/blocks/alias/index.js:1
+#: src/blocks/alias/index.js:81 src/blocks/alias/index.js:97
 msgid "Common name"
 msgstr "Nombre coloquial"
 
-#: build/block-editor/system/index.js:127 src/block-editor/system/sidebar.js:60
-#: build/block-editor/system/index.js:66
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:60
 msgid "Companies"
 msgstr ""
 
-#: build/block-editor/system/index.js:136 src/block-editor/system/sidebar.js:64
-#: build/block-editor/system/index.js:70
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:64
 msgid "Companies/Workers"
 msgstr ""
 
-#: build/block-editor/system/index.js:142 src/block-editor/system/sidebar.js:72
-#: build/block-editor/system/index.js:78
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:72
 msgid "Companies/Workers/Candidates"
 msgstr ""
 
-#: build/blocks/local-business/index.js:409
-#: build/blocks/local-business/index.js:452
-#: src/blocks/local-business/index.js:33 src/blocks/local-business/index.js:74
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:33
+#: src/blocks/local-business/index.js:74
 msgid "Company Name"
 msgstr ""
 
 #: includes/blocks/service-summary.php:48
 #: includes/post-types/service-post-type.php:305
-#: build/blocks/service-summary/index.js:476
+#: build/blocks/service-summary/index.js:1
 #: src/blocks/service-summary/index.js:79
 msgid "Completion time"
 msgstr "Tiempo de realización"
 
-#: build/block-editor/dependency/index.js:11546
-#: build/block-editor/team/index.js:136
+#: build/block-editor/dependency/index.js:1 build/block-editor/team/index.js:1
 #: src/block-editor/dependency/sidebar.js:212
 #: src/block-editor/team/sidebar.js:81
-#: build/block-editor/dependency/index.js:9653
-#: build/block-editor/team/index.js:87
 msgid "Contact"
 msgstr "Contacto"
 
-#: build/blocks/contact-form/index.js:422 src/blocks/contact-form/index.js:51
+#: build/blocks/contact-form/index.js:1 src/blocks/contact-form/index.js:51
 msgctxt "Contact form label"
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: build/blocks/contact-form/index.js:430 src/blocks/contact-form/index.js:64
+#: build/blocks/contact-form/index.js:1 src/blocks/contact-form/index.js:64
 msgctxt "Contact form label"
 msgid "Message"
 msgstr "Mensaje"
 
-#: build/blocks/contact-form/index.js:406 src/blocks/contact-form/index.js:28
+#: build/blocks/contact-form/index.js:1 src/blocks/contact-form/index.js:28
 msgctxt "Contact form label"
 msgid "Name"
 msgstr "Nombre"
 
-#: build/blocks/contact-form/index.js:414 src/blocks/contact-form/index.js:38
+#: build/blocks/contact-form/index.js:1 src/blocks/contact-form/index.js:38
 msgctxt "Contact form label"
 msgid "Subject"
 msgstr "Asunto"
@@ -2791,12 +3032,12 @@ msgstr "Información de contacto"
 msgid "Contact Us"
 msgstr "Contáctanos"
 
-#: build/blocks/banner/index.js:544 src/blocks/banner/index.js:169
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:169
 msgid "Contain"
 msgstr ""
 
-#: build/block-editor/event/index.js:11436 src/block-editor/event/sidebar.js:58
-#: build/block-editor/event/index.js:9499
+#: includes/blocks/document-manager.php:73 build/block-editor/event/index.js:1
+#: src/block-editor/event/sidebar.js:58
 msgid "Content"
 msgstr ""
 
@@ -2808,34 +3049,34 @@ msgstr ""
 msgid "Convert to PDF"
 msgstr ""
 
-#: build/blocks/rating/index.js:12503 rating/index.js:12510
+#: build/blocks/rating/index.js:1 rating/index.js:12510
 #: src/blocks/rating/index.js:35
 msgid "Cookie"
 msgstr ""
 
-#: build/blocks/rating/index.js:12513 rating/index.js:12520
+#: build/blocks/rating/index.js:1 rating/index.js:12520
 #: src/blocks/rating/index.js:41
 msgid "Cookie expires time"
 msgstr ""
 
-#: build/blocks/office-location/index.js:504
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:134
 msgid "Copy and paste the iframe src attribute"
 msgstr ""
 
-#: build/blocks/office-location/index.js:484
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:119
 msgid "Copy and paste the link to share"
 msgstr ""
 
 #: includes/blocks/service-summary.php:59
 #: includes/post-types/service-post-type.php:293
-#: build/blocks/service-summary/index.js:498
+#: build/blocks/service-summary/index.js:1
 #: src/blocks/service-summary/index.js:101
 msgid "Cost"
 msgstr "Costo"
 
-#: build/blocks/banner/index.js:547 src/blocks/banner/index.js:170
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:170
 msgid "Cover"
 msgstr ""
 
@@ -2848,7 +3089,7 @@ msgstr ""
 msgid "Criteria"
 msgstr ""
 
-#: build/blocks/page-header/index.js:416 src/blocks/page-header/index.js:40
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:40
 msgid "Custom page header shown"
 msgstr ""
 
@@ -2860,17 +3101,14 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: build/block-editor/award/index.js:9922
-#: build/block-editor/resolution/index.js:11462
+#: build/block-editor/award/index.js:1 build/block-editor/resolution/index.js:1
 #: src/block-editor/award/sidebar.js:90
 #: src/block-editor/certificate/sidebar.js:90
 #: src/block-editor/resolution/sidebar.js:77
-#: build/block-editor/award/index.js:8335
-#: build/block-editor/resolution/index.js:9519
 msgid "Date Settings"
 msgstr ""
 
-#: build/blocks/np-query/index.js:446 src/blocks/np-query/index.js:85
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:85
 msgid "Date viewable"
 msgstr ""
 
@@ -2878,22 +3116,22 @@ msgstr ""
 msgid "Dates"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:577
-#: build/blocks/requirements/index.js:567
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:174
 #: src/blocks/requirements/index.js:162
 msgid "Default animation for AOS animations is fade"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:585
-#: build/blocks/requirements/index.js:575
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:186
 #: src/blocks/requirements/index.js:174
 msgid "Default direction for AOS animations is up"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:608
-#: build/blocks/requirements/index.js:598
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:213
 #: src/blocks/requirements/index.js:201
 msgid "Default easing for AOS animations is ease"
@@ -2903,13 +3141,13 @@ msgstr ""
 msgid "Default Icon"
 msgstr ""
 
-#: build/blocks/target-audience/index.js:460
+#: build/blocks/target-audience/index.js:1
 #: src/blocks/target-audience/index.js:94
 msgid "Define the target audience"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:665
-#: build/blocks/requirements/index.js:655
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:297
 #: src/blocks/requirements/index.js:285
 msgid ""
@@ -2917,8 +3155,8 @@ msgid ""
 "animation. Default top-bottom"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:628
-#: build/blocks/requirements/index.js:618
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:245
 #: src/blocks/requirements/index.js:233
 msgid "Delay"
@@ -2936,15 +3174,11 @@ msgstr ""
 msgid "Dependency ID"
 msgstr ""
 
-#: build/block-editor/achievement/index.js:96
-#: build/block-editor/dependency/index.js:11472
-#: build/block-editor/event/index.js:11422
+#: build/block-editor/achievement/index.js:1
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
 #: src/block-editor/achievement/sidebar.js:26
 #: src/block-editor/dependency/sidebar.js:109
 #: src/block-editor/event/sidebar.js:44
-#: build/block-editor/achievement/index.js:32
-#: build/block-editor/dependency/index.js:9550
-#: build/block-editor/event/index.js:9485
 msgid "Dependency Metadata"
 msgstr ""
 
@@ -2952,7 +3186,7 @@ msgstr ""
 msgid "Dependency responsible member ID"
 msgstr "ID del responsable de la dependencia"
 
-#: build/blocks/banner/index.js:568 build/blocks/hero/index.js:575
+#: build/blocks/banner/index.js:1 build/blocks/hero/index.js:1
 #: src/blocks/banner/index.js:185 src/blocks/hero/index.js:208
 msgid ""
 "Describe the purpose of the image. Leave empty if the image is purely "
@@ -2963,37 +3197,20 @@ msgstr ""
 
 #: includes/blocks/description.php:17
 #: includes/post-types/service-post-type.php:131
-#: build/block-editor/award/index.js:9896
-#: build/block-editor/document/index.js:11482
-#: build/block-editor/event/index.js:11438
-#: build/block-editor/resolution/index.js:11454
-#: build/block-editor/service/index.js:11557
-#: src/block-editor/award/sidebar.js:55
+#: build/block-editor/award/index.js:1 build/block-editor/document/index.js:1
+#: build/block-editor/event/index.js:1 build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1 src/block-editor/award/sidebar.js:55
 #: src/block-editor/certificate/sidebar.js:55
-#: src/block-editor/document/sidebar.js:107
+#: src/block-editor/document/sidebar.js:138
+#: src/block-editor/document/sidebar.js:190
 #: src/block-editor/event/sidebar.js:60
 #: src/block-editor/resolution/sidebar.js:66
 #: src/block-editor/service/sidebar.js:223
-#: build/block-editor/award/index.js:8300
-#: build/block-editor/document/index.js:9549
-#: build/block-editor/event/index.js:9501
-#: build/block-editor/resolution/index.js:9508
-#: build/block-editor/service/index.js:9664
 msgid "Description"
 msgstr "Descripción"
 
-#: build/blocks/dropdown-menu/index.js:476
-#: src/blocks/dropdown-menu/index.js:126
-msgid "Desktop Columns"
-msgstr ""
-
-#: build/blocks/dropdown-menu/index.js:497
-#: src/blocks/dropdown-menu/index.js:151
-msgid "Desktop shown"
-msgstr ""
-
-#: build/blocks/additional-information/index.js:579
-#: build/blocks/requirements/index.js:569
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:180
 #: src/blocks/requirements/index.js:168
 msgid "Direction"
@@ -3008,8 +3225,8 @@ msgstr ""
 msgid "Directory order number"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:560
-#: build/blocks/requirements/index.js:550
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:157
 #: src/blocks/requirements/index.js:145
 msgid "Disable Animation On Scroll Library for this block."
@@ -3033,84 +3250,102 @@ msgstr ""
 "¿Necesitas ayuda? ¿Quieres enviar un comentario sobre nuestros servicios? "
 "¿Necesitas alguna información específica? Haznos saber."
 
-#: build/block-editor/document/index.js:11458
-#: src/block-editor/document/sidebar.js:80
-#: build/block-editor/document/index.js:9522
-msgid "Document Metadata"
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:88
+msgid "Document Options"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:454
-#: build/blocks/additional-information/index.js:481
-#: build/blocks/requirements/index.js:453
-#: build/blocks/requirements/index.js:480
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:86
+msgid "Document Settings"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:61
+msgid "Document Type"
+msgstr ""
+
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:90
+msgid "Document type"
+msgstr ""
+
+#: includes/blocks/document-manager.php:79
+msgid "Documents"
+msgstr "Documentos"
+
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:62
 #: src/blocks/additional-information/index.js:75
 #: src/blocks/requirements/index.js:61 src/blocks/requirements/index.js:74
 msgid "Down"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:472
-#: build/blocks/requirements/index.js:471
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:68
 #: src/blocks/requirements/index.js:67
 msgid "Down to left"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:469
-#: build/blocks/requirements/index.js:468
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:67
 #: src/blocks/requirements/index.js:66
 msgid "Down to right"
 msgstr ""
 
-#: includes/blocks/file-list.php:106 includes/blocks/file-list.php:186
-#: build/blocks/file-list/index.js:522 build/blocks/file-manager/index.js:616
-#: build/blocks/file-manager/index.js:699 src/blocks/file-list/index.js:135
+#: includes/blocks/directories-tab.php:105
+#: includes/blocks/document-explorer.php:325
+#: includes/blocks/document-manager.php:152 includes/blocks/file-list.php:106
+#: includes/blocks/file-list.php:186 build/blocks/document-manager/index.js:1
+#: build/blocks/file-list/index.js:1 build/blocks/file-manager/index.js:1
+#: src/blocks/document-manager/index.js:131 src/blocks/file-list/index.js:135
 #: src/blocks/file-manager/index.js:324 src/blocks/file-manager/index.js:433
 msgid "Download"
 msgstr "Descargar"
 
 #: includes/blocks/file-list.php:124
 msgid "Download File"
-msgstr ""
+msgstr "Descargar Archivo"
 
-#: build/blocks/additional-information/index.js:610
-#: build/blocks/requirements/index.js:600
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:219
 #: src/blocks/requirements/index.js:207
 msgid "Duration"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:590
-#: build/blocks/requirements/index.js:580
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:195
 #: src/blocks/requirements/index.js:183
 msgid "Ease"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:599
-#: build/blocks/requirements/index.js:589
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:202
 #: src/blocks/requirements/index.js:190
 msgid "Ease in back"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:596
-#: build/blocks/requirements/index.js:586
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:198
 #: src/blocks/requirements/index.js:186
 msgid "Ease in sine"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:602
-#: build/blocks/requirements/index.js:592
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:206
 #: src/blocks/requirements/index.js:194
 msgid "Ease out cubic"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:587
-#: build/blocks/requirements/index.js:577
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:192
 #: src/blocks/requirements/index.js:180
 msgid "Easing"
@@ -3138,7 +3373,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:15
 msgid "Edit Document"
-msgstr ""
+msgstr "Editar Documento"
 
 #: includes/post-types/event-post-type.php:19
 msgid "Edit Event"
@@ -3180,21 +3415,17 @@ msgstr ""
 msgid "Edit Team"
 msgstr ""
 
-#: build/blocks/hero/index.js:669 src/blocks/hero/index.js:335
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:335
 msgid "Edit Text"
 msgstr ""
 
 #: includes/blocks/service-delivery-channels.php:32
 #: includes/post-types/service-post-type.php:403
-#: build/block-editor/dependency/index.js:11590
-#: build/block-editor/team/index.js:196 build/blocks/contact-form/index.js:423
-#: build/blocks/local-business/index.js:446
-#: build/blocks/local-business/index.js:489
+#: build/block-editor/dependency/index.js:1 build/block-editor/team/index.js:1
+#: build/blocks/contact-form/index.js:1 build/blocks/local-business/index.js:1
 #: src/block-editor/dependency/sidebar.js:269
 #: src/block-editor/team/sidebar.js:163 src/blocks/contact-form/index.js:54
 #: src/blocks/local-business/index.js:66 src/blocks/local-business/index.js:105
-#: build/block-editor/dependency/index.js:9710
-#: build/block-editor/team/index.js:169
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -3202,9 +3433,8 @@ msgstr "Correo electrónico"
 msgid "Email failed"
 msgstr ""
 
-#: build/block-editor/service/index.js:11501
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:137
-#: build/block-editor/service/index.js:9578
 msgid "Email service available"
 msgstr ""
 
@@ -3220,18 +3450,14 @@ msgstr ""
 msgid "Email support not available"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11538
-#: build/block-editor/event/index.js:11450
-#: build/blocks/office-location/index.js:499
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/blocks/office-location/index.js:1
 #: src/block-editor/dependency/sidebar.js:201
 #: src/block-editor/event/sidebar.js:76 src/blocks/office-location/index.js:131
-#: build/block-editor/dependency/index.js:9642
-#: build/block-editor/event/index.js:9517
 msgid "Embed a map"
 msgstr ""
 
-#: build/block-editor/award/index.js:9914 src/block-editor/award/sidebar.js:79
-#: build/block-editor/award/index.js:8324
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:79
 msgid "Embed award"
 msgstr ""
 
@@ -3239,9 +3465,8 @@ msgstr ""
 msgid "Embed certificate"
 msgstr ""
 
-#: build/block-editor/award/index.js:9912 src/block-editor/award/sidebar.js:77
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:77
 #: src/block-editor/certificate/sidebar.js:77
-#: build/block-editor/award/index.js:8322
 msgid "Embed content"
 msgstr ""
 
@@ -3266,15 +3491,15 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:560
-#: build/blocks/requirements/index.js:550
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:153
 #: src/blocks/requirements/index.js:141
 msgid "Enable Animation On Scroll Library for this block."
 msgstr ""
 
-#: build/blocks/additional-information/index.js:555
-#: build/blocks/requirements/index.js:545
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:146
 #: src/blocks/requirements/index.js:134
 msgid "Enable AOS animation"
@@ -3296,8 +3521,7 @@ msgstr ""
 msgid "Enable WhatsApp"
 msgstr ""
 
-#: build/block-editor/event/index.js:11460 src/block-editor/event/sidebar.js:88
-#: build/block-editor/event/index.js:9529
+#: build/block-editor/event/index.js:1 src/block-editor/event/sidebar.js:88
 msgid "End Date"
 msgstr ""
 
@@ -3340,13 +3564,10 @@ msgstr ""
 msgid "Enter your profile URL"
 msgstr ""
 
-#: build/block-editor/award/index.js:9926
-#: build/block-editor/award/index.js:9927 src/block-editor/award/sidebar.js:92
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:92
 #: src/block-editor/award/sidebar.js:95
 #: src/block-editor/certificate/sidebar.js:92
 #: src/block-editor/certificate/sidebar.js:95
-#: build/block-editor/award/index.js:8337
-#: build/block-editor/award/index.js:8340
 msgid "Expiry Date"
 msgstr ""
 
@@ -3358,19 +3579,36 @@ msgstr "Fecha de caducidad"
 msgid "Export"
 msgstr ""
 
-#: build/blocks/page-options/index.js:458 src/blocks/page-options/index.js:102
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:102
 msgid "Export option shown"
 msgstr ""
 
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:99
+msgid "External Link"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:98
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:116
+msgid "External URL"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:114
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:127
+msgid "External URL Label"
+msgstr ""
+
 #. Description of the plugin
+#: index.php
 msgid "Extiende la funcionalidad de la plantilla Nortic."
 msgstr ""
 
 #: includes/admin/settings-api.php:141
 #: includes/admin/submenus/social-networks-options-page-old.php:35
 #: includes/post-types/team-post-type.php:127
-#: build/block-editor/team/index.js:246 src/block-editor/team/sidebar.js:233
-#: build/block-editor/team/index.js:239
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:233
 msgid "Facebook"
 msgstr ""
 
@@ -3378,83 +3616,73 @@ msgstr ""
 msgid "Facebook HEX Color"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:565
-#: build/blocks/requirements/index.js:555
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:169
 #: src/blocks/requirements/index.js:157
 msgid "Fade"
 msgstr ""
 
-#: build/block-editor/faq/index.js:11469 src/block-editor/faq/sidebar.js:95
-#: build/block-editor/faq/index.js:9536
+#: build/block-editor/faq/index.js:1 src/block-editor/faq/sidebar.js:95
 msgid "FAQs Metadata"
 msgstr ""
 
-#: build/blocks/local-business/index.js:440
-#: build/blocks/local-business/index.js:483
-#: src/blocks/local-business/index.js:61 src/blocks/local-business/index.js:100
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:61
+#: src/blocks/local-business/index.js:100
 msgid "Fax Number"
 msgstr ""
 
-#: build/blocks/np-query/index.js:439 src/blocks/np-query/index.js:75
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:75
 msgid "Featured Image viewable"
 msgstr ""
 
-#: build/block-editor/resource/index.js:9919
+#: build/block-editor/document/index.js:1
+#: build/block-editor/resource/index.js:1
+#: src/block-editor/document/sidebar.js:96
 #: src/block-editor/resource/sidebar.js:78
-#: build/block-editor/resource/index.js:8324
 msgid "File"
 msgstr ""
 
-#: includes/post-types/document-post-type.php:90
+#: includes/post-types/document-post-type.php:206
 msgid "File alt attribute"
 msgstr ""
 
-#: build/block-editor/document/index.js:11498
-#: src/block-editor/document/sidebar.js:126
-#: build/block-editor/document/index.js:9568
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:223
 msgid "File format"
 msgstr "Formato de archivo"
 
-#: includes/post-types/document-post-type.php:74
+#: includes/post-types/document-post-type.php:190
 msgid "File Name"
 msgstr "Nombre del Archivo"
 
-#: build/block-editor/document/index.js:11492
-#: src/block-editor/document/sidebar.js:119
-#: build/block-editor/document/index.js:9561
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:216
 msgid "File name"
 msgstr "Nombre del archivo"
 
-#: includes/post-types/document-post-type.php:122
+#: includes/post-types/document-post-type.php:224
 msgid "File related Post ID"
 msgstr ""
 
-#: build/block-editor/document/index.js:11495
-#: src/block-editor/document/sidebar.js:122
-#: build/block-editor/document/index.js:9564
+#: includes/blocks/document-explorer.php:321
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:219
 msgid "File size"
-msgstr ""
+msgstr "Tamaño de archivo"
 
-#: includes/post-types/document-post-type.php:154
+#: includes/post-types/document-post-type.php:158
 msgid "File Size in Bytes"
-msgstr ""
+msgstr "Tamaño de archivo en Bytes"
 
-#: includes/post-types/document-post-type.php:58
-#: build/blocks/file-manager/index.js:589 src/blocks/file-manager/index.js:294
+#: includes/post-types/document-post-type.php:174
+#: build/blocks/file-manager/index.js:1 src/blocks/file-manager/index.js:294
 msgid "File Title"
 msgstr "Título del Archivo"
 
-#: build/block-editor/document/index.js:11474
-#: src/block-editor/document/sidebar.js:96
-#: build/block-editor/document/index.js:9538
-msgid "File title"
-msgstr ""
-
-#: includes/post-types/document-post-type.php:106
-#: build/block-editor/document/index.js:11501
-#: src/block-editor/document/sidebar.js:129
-#: build/block-editor/document/index.js:9571
+#: includes/post-types/document-post-type.php:82
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:227
 msgid "File URL"
 msgstr "URL del Archivo"
 
@@ -3462,12 +3690,11 @@ msgstr "URL del Archivo"
 msgid "Files: "
 msgstr ""
 
-#: build/blocks/banner/index.js:550 src/blocks/banner/index.js:171
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:171
 msgid "Fill"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:431
-#: src/blocks/bootstrap-icon/index.js:48
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:48
 msgid "Flag"
 msgstr ""
 
@@ -3480,15 +3707,20 @@ msgstr ""
 msgid "Flickr HEX color"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:568
-#: build/blocks/requirements/index.js:558
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:170
 #: src/blocks/requirements/index.js:158
 msgid "Flip"
 msgstr ""
 
-#: includes/blocks/file-list.php:164
-#: includes/post-types/document-post-type.php:170
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:97
+msgid "Folder"
+msgstr ""
+
+#: includes/blocks/document-explorer.php:321 includes/blocks/file-list.php:164
+#: includes/post-types/document-post-type.php:242
 #: includes/post-types/resource.php:186
 msgid "Format"
 msgstr "Formato"
@@ -3497,8 +3729,7 @@ msgstr "Formato"
 msgid "Frequently asked questions"
 msgstr "Preguntas frecuentes"
 
-#: build/block-editor/team/index.js:112 src/block-editor/team/sidebar.js:48
-#: build/block-editor/team/index.js:54
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:48
 msgid "Full Name"
 msgstr ""
 
@@ -3510,25 +3741,22 @@ msgstr ""
 msgid "Full Screen Hero"
 msgstr ""
 
-#: build/block-editor/gallery/index.js:11406
-#: src/block-editor/gallery/sidebar.js:18
-#: build/block-editor/gallery/index.js:9459
+#: build/block-editor/gallery/index.js:1 src/block-editor/gallery/sidebar.js:18
 msgid "Gallery Metadata"
 msgstr ""
 
-#: build/blocks/gallery-archive/index.js:435
+#: build/blocks/gallery-archive/index.js:1
 #: src/blocks/gallery-archive/index.js:33
 msgid "Gallery settings"
 msgstr ""
 
-#: build/blocks/page-header/index.js:409 src/blocks/page-header/index.js:28
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:28
 msgid "General"
 msgstr ""
 
 #: includes/post-types/dependency-post-type.php:80
-#: build/block-editor/dependency/index.js:11514
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:167
-#: build/block-editor/dependency/index.js:9608
 msgid "General objective"
 msgstr "Objetivo general"
 
@@ -3548,9 +3776,13 @@ msgstr "Acceder al Servicio"
 msgid "Google Analytics UA Code"
 msgstr ""
 
-#: build/blocks/hero/index.js:579 src/blocks/hero/index.js:230
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:230
 msgid "Heading Color"
 msgstr ""
+
+#: includes/blocks/document-explorer.php:177
+msgid "here"
+msgstr "aquí"
 
 #: includes/image-sizes.php:34
 msgid "Hero"
@@ -3576,13 +3808,12 @@ msgstr ""
 msgid "HEX color code, for example: #FFFFFF"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:435 src/blocks/grid-list/index.js:42
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:42
 msgid "Hexagon"
 msgstr ""
 
-#: build/blocks/chatbot/frontend-chatbot.js:252
+#: build/blocks/chatbot/frontend-chatbot.js:1
 #: src/blocks/chatbot/frontend-chatbot.js:169
-#: build/blocks/chatbot/frontend-chatbot.js:205
 msgid "Hi, I'm Job, your job assistant, how can I help you?"
 msgstr ""
 
@@ -3590,44 +3821,37 @@ msgstr ""
 msgid "Hi, I'm your Job Assistant, how can I help you?"
 msgstr "Hola, soy tu asistente de trabajo, ¿cómo puedo ayudarte?"
 
-#: build/blocks/np-query/index.js:446 src/blocks/np-query/index.js:86
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:86
 msgid "Hidden Date"
 msgstr ""
 
-#: build/blocks/page-options/index.js:458 src/blocks/page-options/index.js:103
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:103
 msgid "Hidden export option"
 msgstr ""
 
-#: build/blocks/np-query/index.js:439 src/blocks/np-query/index.js:76
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:76
 msgid "Hidden Featured Image"
 msgstr ""
 
-#: build/blocks/page-options/index.js:451 src/blocks/page-options/index.js:87
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:87
 msgid "Hidden print option"
 msgstr ""
 
-#: build/blocks/page-options/index.js:465 src/blocks/page-options/index.js:119
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:119
 msgid "Hidden send option"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:497
-#: build/blocks/dropdown-menu/index.js:527
-#: src/blocks/dropdown-menu/index.js:152 src/blocks/dropdown-menu/index.js:202
-msgid "Hide menu"
-msgstr ""
-
-#: build/blocks/carousel/index.js:495 src/blocks/carousel/index.js:104
+#: build/blocks/carousel/index.js:1 src/blocks/carousel/index.js:104
 msgid "Hiding the excerpt"
 msgstr ""
 
 #: includes/post-types/achievement-post-type.php:62
-#: build/block-editor/achievement/index.js:100
+#: build/block-editor/achievement/index.js:1
 #: src/block-editor/achievement/sidebar.js:30
-#: build/block-editor/achievement/index.js:36
 msgid "Highlight achievement"
 msgstr "Destacar logro"
 
-#: includes/helper.php:270
+#: includes/helper.php:307
 msgid "Home"
 msgstr "Inicio"
 
@@ -3640,27 +3864,28 @@ msgid "How would you rate this service?"
 msgstr "¿Cómo calificarías este servicio?"
 
 #. Author URI of the plugin
+#: index.php
 msgid "https://leonardofabian.com"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: index.php
 msgid "https://mt.gob.do"
 msgstr ""
 
 #: includes/post-types/service-post-type.php:155
-#: build/blocks/bootstrap-icon/index.js:427
-#: build/blocks/team-member/index.js:695 src/blocks/bootstrap-icon/index.js:44
-#: src/blocks/team-member/index.js:267
+#: build/blocks/bootstrap-icon/index.js:1 build/blocks/team-member/index.js:1
+#: src/blocks/bootstrap-icon/index.js:44 src/blocks/team-member/index.js:267
 msgid "Icon"
 msgstr ""
 
-#: build/blocks/featured-services/index.js:677
+#: build/blocks/featured-services/index.js:1
 #: src/blocks/featured-services/index.js:205
 msgid "Icon color"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:642
-#: build/blocks/requirements/index.js:632
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:263
 #: src/blocks/requirements/index.js:251
 msgid "ID of the html element related to the animation (optional)"
@@ -3674,17 +3899,21 @@ msgid ""
 msgstr ""
 
 #: includes/post-types/resolution-post-type.php:59
-#: build/block-editor/award/index.js:9888 src/block-editor/award/sidebar.js:44
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:44
 #: src/block-editor/certificate/sidebar.js:44
-#: build/block-editor/award/index.js:8289
 msgid "Identification Number"
 msgstr ""
 
-#: build/block-editor/achievement/index.js:101
+#: build/block-editor/achievement/index.js:1
 #: src/block-editor/achievement/sidebar.js:31
-#: build/block-editor/achievement/index.js:37
 msgid "If the achievement will be highlighted"
 msgstr ""
+
+#: includes/blocks/document-explorer.php:107
+#: includes/blocks/document-manager.php:169
+msgid "If you can't view documents, you may need one of these viewers:"
+msgstr ""
+"Si no puede ver los documentos, es posible que necesite uno de estos visores:"
 
 #: includes/blocks/file-list.php:175
 msgid "If you can't view your documents, you may need one of these viewers"
@@ -3701,69 +3930,68 @@ msgstr ""
 msgid "Image"
 msgstr "Imagen"
 
-#: build/blocks/office-location/index.js:506
-#: build/blocks/team-member/index.js:584
+#: build/blocks/office-location/index.js:1 build/blocks/team-member/index.js:1
 #: src/blocks/office-location/index.js:141 src/blocks/team-member/index.js:130
 msgid "Image Alt Attribute"
 msgstr ""
 
-#: build/blocks/office-location/index.js:511
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:144
 msgid "Image desciption for screen readers"
 msgstr ""
 
-#: build/blocks/team-member/index.js:589 src/blocks/team-member/index.js:133
+#: build/blocks/team-member/index.js:1 src/blocks/team-member/index.js:133
 msgid "Image description for screen readers"
 msgstr ""
 
-#: build/blocks/banner/index.js:570 src/blocks/banner/index.js:193
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:193
 msgid "Image link"
 msgstr ""
 
-#: build/blocks/banner/index.js:534 build/blocks/hero/index.js:563
+#: build/blocks/banner/index.js:1 build/blocks/hero/index.js:1
 #: src/blocks/banner/index.js:156 src/blocks/hero/index.js:194
 msgid "Image settings"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:414 src/blocks/grid-list/index.js:33
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:33
 msgid "Image Shape"
 msgstr ""
 
-#: build/blocks/banner/index.js:536 build/blocks/hero/index.js:565
+#: build/blocks/banner/index.js:1 build/blocks/hero/index.js:1
 #: src/blocks/banner/index.js:159 src/blocks/hero/index.js:197
 msgid "Image size"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:493
-#: build/blocks/requirements/index.js:492
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:83
 #: src/blocks/requirements/index.js:82
 msgid "In"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:499
-#: build/blocks/requirements/index.js:498
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:85
 #: src/blocks/requirements/index.js:84
 msgid "In to down"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:502
-#: build/blocks/requirements/index.js:501
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:86
 #: src/blocks/requirements/index.js:85
 msgid "In to left"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:505
-#: build/blocks/requirements/index.js:504
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:87
 #: src/blocks/requirements/index.js:86
 msgid "In to right"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:496
-#: build/blocks/requirements/index.js:495
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:84
 #: src/blocks/requirements/index.js:83
 msgid "In to up"
@@ -3773,9 +4001,8 @@ msgstr ""
 msgid "In-Person"
 msgstr ""
 
-#: build/block-editor/service/index.js:11485
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:115
-#: build/block-editor/service/index.js:9556
 msgid "In-Person service available"
 msgstr ""
 
@@ -3800,38 +4027,27 @@ msgstr ""
 
 #: includes/blocks/information.php:17
 #: includes/post-types/service-post-type.php:143
-#: build/block-editor/award/index.js:9883
-#: build/block-editor/dependency/index.js:11500
-#: build/block-editor/document/index.js:11472
-#: build/block-editor/faq/index.js:11483
-#: build/block-editor/newsletter/index.js:11446
-#: build/block-editor/resolution/index.js:11444
-#: build/block-editor/service/index.js:11525
-#: build/block-editor/system/index.js:103 build/block-editor/team/index.js:110
-#: build/blocks/information/index.js:453 build/blocks/information/index.js:462
+#: build/block-editor/award/index.js:1 build/block-editor/dependency/index.js:1
+#: build/block-editor/document/index.js:1 build/block-editor/faq/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
+#: build/block-editor/team/index.js:1 build/blocks/information/index.js:1
 #: src/block-editor/award/sidebar.js:37
 #: src/block-editor/certificate/sidebar.js:37
 #: src/block-editor/dependency/sidebar.js:143
-#: src/block-editor/document/sidebar.js:94 src/block-editor/faq/sidebar.js:109
+#: src/block-editor/document/sidebar.js:177 src/block-editor/faq/sidebar.js:109
 #: src/block-editor/newsletter/sidebar.js:62
 #: src/block-editor/resolution/sidebar.js:53
 #: src/block-editor/service/sidebar.js:171
 #: src/block-editor/system/sidebar.js:32 src/block-editor/team/sidebar.js:46
 #: src/blocks/information/index.js:80 src/blocks/information/index.js:96
-#: build/block-editor/award/index.js:8282
-#: build/block-editor/dependency/index.js:9584
-#: build/block-editor/document/index.js:9536
-#: build/block-editor/faq/index.js:9550
-#: build/block-editor/newsletter/index.js:9503
-#: build/block-editor/resolution/index.js:9495
-#: build/block-editor/service/index.js:9612
-#: build/block-editor/system/index.js:38 build/block-editor/team/index.js:52
 msgid "Information"
 msgstr "Información"
 
 #: includes/admin/submenus/social-networks-options-page-old.php:81
 #: includes/post-types/team-post-type.php:139
-#: build/block-editor/team/index.js:262 src/block-editor/team/sidebar.js:256
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:256
 msgid "Instagram"
 msgstr ""
 
@@ -3847,12 +4063,15 @@ msgstr ""
 msgid "Is expired?"
 msgstr ""
 
-#: includes/helper.php:267
+#: includes/helper.php:304
 msgid "Is here"
 msgstr "Estas aquí"
 
-#: build/block-editor/team/index.js:120 src/block-editor/team/sidebar.js:59
-#: build/block-editor/team/index.js:65
+#: includes/blocks/document-explorer.php:256
+msgid "items"
+msgstr "elementos"
+
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:59
 msgid "Job Title"
 msgstr ""
 
@@ -3880,10 +4099,8 @@ msgstr ""
 msgid "Leave a comment..."
 msgstr "Deja un comentario..."
 
-#: build/blocks/additional-information/index.js:460
-#: build/blocks/additional-information/index.js:487
-#: build/blocks/requirements/index.js:459
-#: build/blocks/requirements/index.js:486
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:64
 #: src/blocks/additional-information/index.js:77
 #: src/blocks/requirements/index.js:63 src/blocks/requirements/index.js:76
@@ -3891,6 +4108,7 @@ msgid "Left"
 msgstr ""
 
 #. Author of the plugin
+#: index.php
 msgid "Leonardo Fabian"
 msgstr ""
 
@@ -3902,8 +4120,8 @@ msgstr "Permítenos saber en qué te podemos ayudar"
 msgid "Let us know your name"
 msgstr "Déjanos saber tu nombre"
 
-#: build/blocks/additional-information/index.js:593
-#: build/blocks/requirements/index.js:583
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:196
 #: src/blocks/requirements/index.js:184
 msgid "Linear"
@@ -3911,28 +4129,27 @@ msgstr ""
 
 #: includes/blocks/service-summary.php:70
 #: includes/post-types/service-post-type.php:330
-#: build/blocks/service-summary/index.js:520
+#: build/blocks/service-summary/index.js:1
 #: src/blocks/service-summary/index.js:118
 msgid "Link"
 msgstr "Enlace"
 
-#: build/blocks/hero/index.js:597 src/blocks/hero/index.js:245
+#: build/blocks/hero/index.js:1 src/blocks/hero/index.js:245
 msgid "Link Color"
 msgstr ""
 
-#: build/blocks/banner/index.js:577 src/blocks/banner/index.js:199
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:199
 msgid "Link target"
 msgstr ""
 
-#: build/blocks/link/index.js:417 src/blocks/link/index.js:42
+#: build/blocks/link/index.js:1 src/blocks/link/index.js:42
 msgid "Link URL"
 msgstr ""
 
 #: includes/admin/settings-api.php:237
 #: includes/admin/submenus/social-networks-options-page-old.php:219
 #: includes/post-types/team-post-type.php:163
-#: build/block-editor/team/index.js:214 src/block-editor/team/sidebar.js:187
-#: build/block-editor/team/index.js:193
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:187
 msgid "LinkedIn"
 msgstr ""
 
@@ -3941,21 +4158,18 @@ msgid "LinkedIn HEX color"
 msgstr ""
 
 #: includes/post-types/service-post-type.php:428
-#: build/block-editor/dependency/index.js:11556
-#: build/block-editor/team/index.js:146
+#: build/block-editor/dependency/index.js:1 build/block-editor/team/index.js:1
 #: src/block-editor/dependency/sidebar.js:224
 #: src/block-editor/team/sidebar.js:93
-#: build/block-editor/dependency/index.js:9665
-#: build/block-editor/team/index.js:99
 msgid "Location"
 msgstr "Ubicación"
 
-#: build/blocks/office-location/index.js:593
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:237
 msgid "Location Manager"
 msgstr ""
 
-#: build/blocks/office-location/index.js:560
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:208
 msgid "Location Name"
 msgstr ""
@@ -3969,9 +4183,8 @@ msgid "Logo Footer"
 msgstr ""
 
 #: includes/post-types/dependency-post-type.php:160
-#: build/block-editor/dependency/index.js:11530
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:189
-#: build/block-editor/dependency/index.js:9630
 msgid "Main functions"
 msgstr ""
 
@@ -3979,12 +4192,12 @@ msgstr ""
 msgid "Manage Open Graph Settings"
 msgstr ""
 
-#: build/blocks/office-location/index.js:619
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:262
 msgid "Manager Email"
 msgstr ""
 
-#: build/blocks/office-location/index.js:607
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:250
 msgid "Manager Phone"
 msgstr ""
@@ -4009,11 +4222,6 @@ msgstr "Misión"
 msgid "Mobile"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:484
-#: src/blocks/dropdown-menu/index.js:134
-msgid "Mobile Columns"
-msgstr ""
-
 #: includes/image-sizes.php:19
 msgid "Mobile Hero"
 msgstr ""
@@ -4022,14 +4230,8 @@ msgstr ""
 msgid "Mobile Leaderboard"
 msgstr ""
 
-#: build/block-editor/team/index.js:180 src/block-editor/team/sidebar.js:140
-#: build/block-editor/team/index.js:146
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:140
 msgid "Mobile Number"
-msgstr ""
-
-#: build/blocks/dropdown-menu/index.js:527
-#: src/blocks/dropdown-menu/index.js:201
-msgid "Mobile shown"
 msgstr ""
 
 #: includes/blocks/service-responsible-info.php:81
@@ -4041,12 +4243,16 @@ msgstr "Más detalles"
 msgid "More details in"
 msgstr "Más detalles en"
 
+#: includes/blocks/document-manager.php:66
+msgid "More info"
+msgstr ""
+
 #: includes/admin/directory-form-fields.php:14
 #: includes/admin/directory-form-fields.php:67
 msgid "More Info URL"
 msgstr "Más información URL"
 
-#: build/blocks/contact-form/index.js:407 build/blocks/team-member/index.js:628
+#: build/blocks/contact-form/index.js:1 build/blocks/team-member/index.js:1
 #: src/blocks/contact-form/index.js:30 src/blocks/team-member/index.js:187
 msgid "Name"
 msgstr ""
@@ -4073,7 +4279,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:14
 msgid "New Document"
-msgstr ""
+msgstr "Nuevo Documento"
 
 #: includes/post-types/event-post-type.php:18
 msgid "New Event"
@@ -4107,9 +4313,8 @@ msgstr "Nuevo servicio"
 msgid "New System"
 msgstr ""
 
-#: build/blocks/banner/index.js:583 build/blocks/link/index.js:430
-#: build/blocks/office-location/index.js:492
-#: build/blocks/office-location/index.js:526 src/blocks/banner/index.js:203
+#: build/blocks/banner/index.js:1 build/blocks/link/index.js:1
+#: build/blocks/office-location/index.js:1 src/blocks/banner/index.js:203
 #: src/blocks/link/index.js:53 src/blocks/office-location/index.js:126
 #: src/blocks/office-location/index.js:162
 msgid "New tab"
@@ -4127,15 +4332,12 @@ msgstr ""
 msgid "newsletter cover"
 msgstr "portada del boletín"
 
-#: build/block-editor/newsletter/index.js:11432
+#: build/block-editor/newsletter/index.js:1
 #: src/block-editor/newsletter/sidebar.js:48
-#: build/block-editor/newsletter/index.js:9489
 msgid "Newsletter Metadata"
 msgstr "Metadatos del boletín"
 
-#: includes/blocks/carousel.php:151 includes/blocks/slideshow.php:37
-#: build/blocks/carousel/index.js:555 build/blocks/slideshow/index.js:4443
-#: src/blocks/carousel/index.js:201 src/blocks/slideshow/index.js:175
+#: includes/blocks/slideshow.php:37
 msgid "Next"
 msgstr ""
 
@@ -4264,40 +4466,35 @@ msgstr ""
 msgid "No Team found."
 msgstr ""
 
-#: build/blocks/file-list/index.js:510 src/blocks/file-list/index.js:114
+#: includes/blocks/directories-tab.php:9
+msgid "No terms selected."
+msgstr ""
+
+#: build/blocks/document-manager/index.js:1 build/blocks/file-list/index.js:1
+#: src/blocks/document-manager/index.js:103 src/blocks/file-list/index.js:114
 msgid "No Title"
 msgstr ""
 
-#: build/block-editor/newsletter/index.js:11425
+#: build/block-editor/newsletter/index.js:1
 #: src/block-editor/newsletter/sidebar.js:39
-#: build/block-editor/newsletter/index.js:9480
 msgid "No title"
 msgstr ""
 
 #: includes/admin/area-fields.php:45 includes/admin/area-fields.php:103
-#: build/block-editor/dependency/index.js:11491
-#: build/block-editor/dependency/index.js:11505
-#: build/block-editor/faq/index.js:11488 build/block-editor/faq/index.js:11496
-#: build/block-editor/newsletter/index.js:11451
-#: build/block-editor/service/index.js:11540
-#: build/block-editor/system/index.js:124 build/blocks/banner/index.js:556
-#: src/block-editor/dependency/sidebar.js:130
+#: build/block-editor/dependency/index.js:1 build/block-editor/faq/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
+#: build/blocks/banner/index.js:1 src/block-editor/dependency/sidebar.js:130
 #: src/block-editor/dependency/sidebar.js:154
 #: src/block-editor/faq/sidebar.js:116 src/block-editor/faq/sidebar.js:128
 #: src/block-editor/newsletter/sidebar.js:73
 #: src/block-editor/service/sidebar.js:198
 #: src/block-editor/system/sidebar.js:59 src/blocks/banner/index.js:176
-#: build/block-editor/dependency/index.js:9571
-#: build/block-editor/dependency/index.js:9595
-#: build/block-editor/faq/index.js:9557 build/block-editor/faq/index.js:9569
-#: build/block-editor/newsletter/index.js:9514
-#: build/block-editor/service/index.js:9639
-#: build/block-editor/system/index.js:65
 msgid "None"
 msgstr ""
 
 #. Plugin Name of the plugin
-#: includes/admin/menus.php:13 includes/admin/menus.php:14
+#: index.php includes/admin/menus.php:13 includes/admin/menus.php:14
 msgid "Nortic Plugin"
 msgstr ""
 
@@ -4313,23 +4510,30 @@ msgstr ""
 msgid "NORTIC Seal (Web)"
 msgstr ""
 
-#: build/blocks/banner/index.js:541 src/blocks/banner/index.js:166
+#: includes/post-types/document-post-type.php:128
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:102
+#: src/block-editor/document/sidebar.js:152
+msgid "Note"
+msgstr ""
+
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:166
 msgid "Object fit"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:438 src/blocks/grid-list/index.js:43
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:43
 msgid "Octagon"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:619
-#: build/blocks/requirements/index.js:609
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:232
 #: src/blocks/requirements/index.js:220
 msgid "Offset"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:626
-#: build/blocks/requirements/index.js:616
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:239
 #: src/blocks/requirements/index.js:227
 msgid "Offset (in px) from the original trigger point"
@@ -4339,9 +4543,8 @@ msgstr ""
 msgid "Online"
 msgstr ""
 
-#: build/block-editor/service/index.js:11509
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:148
-#: build/block-editor/service/index.js:9589
 msgid "Online service available"
 msgstr ""
 
@@ -4372,9 +4575,8 @@ msgstr ""
 #: includes/admin/settings-api.php:77
 #: includes/admin/submenus/opengraph-options-page-old.php:71
 #: includes/post-types/service-post-type.php:452
-#: build/block-editor/resolution/index.js:11493
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:117
-#: build/block-editor/resolution/index.js:9559
 msgid "Open Graph Description"
 msgstr ""
 
@@ -4390,27 +4592,29 @@ msgstr ""
 
 #: includes/admin/submenus/opengraph-options-page-old.php:16
 #: includes/admin/submenus/opengraph-options-page-settings-api.php:15
-#: build/block-editor/resolution/index.js:11483
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:104
-#: build/block-editor/resolution/index.js:9546
 msgid "Open Graph Settings"
 msgstr ""
 
 #: includes/admin/settings-api.php:61
 #: includes/admin/submenus/opengraph-options-page-old.php:42
 #: includes/post-types/service-post-type.php:440
-#: build/block-editor/resolution/index.js:11485
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:106
-#: build/block-editor/resolution/index.js:9548
 msgid "Open Graph Title"
 msgstr ""
 
-#: build/blocks/office-location/index.js:520
+#: includes/blocks/document-explorer.php:289
+msgid "Open link"
+msgstr "Abrir enlace"
+
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:158
 msgid "Open Read More Link in:"
 msgstr ""
 
-#: build/blocks/link/index.js:424 build/blocks/office-location/index.js:486
+#: build/blocks/link/index.js:1 build/blocks/office-location/index.js:1
 #: src/blocks/link/index.js:48 src/blocks/office-location/index.js:122
 msgid "Open the link in:"
 msgstr ""
@@ -4476,44 +4680,43 @@ msgstr ""
 msgid "Our Services"
 msgstr "Nuestros Servicios"
 
-#: build/blocks/additional-information/index.js:508
-#: build/blocks/requirements/index.js:507
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:89
 #: src/blocks/requirements/index.js:88
 msgid "Out"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:514
-#: build/blocks/requirements/index.js:513
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:91
 #: src/blocks/requirements/index.js:90
 msgid "Out to down"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:517
-#: build/blocks/requirements/index.js:516
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:92
 #: src/blocks/requirements/index.js:91
 msgid "Out to left"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:520
-#: build/blocks/requirements/index.js:519
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:93
 #: src/blocks/requirements/index.js:92
 msgid "Out to right"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:511
-#: build/blocks/requirements/index.js:510
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:90
 #: src/blocks/requirements/index.js:89
 msgid "Out to up"
 msgstr ""
 
-#: build/block-editor/resolution/index.js:11501
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:128
-#: build/block-editor/resolution/index.js:9570
 msgid "Override Featured Image"
 msgstr ""
 
@@ -4858,31 +5061,34 @@ msgctxt ""
 msgid "Use as cover image"
 msgstr ""
 
-#: build/blocks/card/index.js:486 src/blocks/card/index.js:116
+#: build/blocks/card/index.js:1 src/blocks/card/index.js:116
 msgid "Padding"
 msgstr ""
 
-#: build/blocks/page-header/index.js:411 src/blocks/page-header/index.js:30
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:30
 msgctxt "page-header ToggleControl label"
 msgid "Show Category"
 msgstr ""
 
-#: build/blocks/list/index.js:404 src/blocks/list/index.js:31
+#: build/blocks/list/index.js:1 src/blocks/list/index.js:31
 msgctxt "PanelBody label"
 msgid "Settings"
 msgstr ""
 
-#: build/blocks/np-query/index.js:416 src/blocks/np-query/index.js:44
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:44
 msgctxt "PanelBody title"
 msgid "Settings"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:448 build/blocks/modal/index.js:447
-#: build/blocks/sheet/index.js:448 build/blocks/toggle-menu/index.js:450
-#: src/blocks/dropdown-menu/index.js:89 src/blocks/modal/index.js:75
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/toggle-menu/index.js:1 src/blocks/modal/index.js:75
 #: src/blocks/sheet/index.js:76 src/blocks/toggle-menu/index.js:79
 msgctxt "PanelColorSettings label"
 msgid "Colors"
+msgstr ""
+
+#: includes/post-types/document-post-type.php:71
+msgid "Parent"
 msgstr ""
 
 #: includes/post-types/achievement-post-type.php:23
@@ -4905,9 +5111,8 @@ msgstr ""
 msgid "Parent Dependencies:"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11486
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:123
-#: build/block-editor/dependency/index.js:9564
 msgid "Parent Dependency"
 msgstr ""
 
@@ -4959,17 +5164,17 @@ msgstr ""
 msgid "Parent:"
 msgstr ""
 
-#: build/blocks/office-location/index.js:479
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:116
 msgid "Paste link"
 msgstr ""
 
-#: build/blocks/office-location/index.js:518
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:155
 msgid "Paste the read more link to share"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:432 src/blocks/grid-list/index.js:41
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:41
 msgid "Pentagon"
 msgstr ""
 
@@ -4978,19 +5183,15 @@ msgstr ""
 msgid "Phone"
 msgstr "Teléfono"
 
-#: build/block-editor/dependency/index.js:11572
-#: build/block-editor/team/index.js:162
-#: build/blocks/office-location/index.js:584
+#: build/block-editor/dependency/index.js:1 build/block-editor/team/index.js:1
+#: build/blocks/office-location/index.js:1
 #: src/block-editor/dependency/sidebar.js:247
 #: src/block-editor/team/sidebar.js:116 src/blocks/office-location/index.js:228
-#: build/block-editor/dependency/index.js:9688
-#: build/block-editor/team/index.js:122
 msgid "Phone Number"
 msgstr "Número de teléfono"
 
-#: build/block-editor/service/index.js:11493
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:126
-#: build/block-editor/service/index.js:9567
 msgid "Phone service available"
 msgstr "Servicio telefónico disponible"
 
@@ -5183,15 +5384,12 @@ msgctxt "Post type singular name"
 msgid "Team"
 msgstr "Equipo"
 
-#: build/blocks/local-business/index.js:422
-#: build/blocks/local-business/index.js:465
-#: src/blocks/local-business/index.js:44 src/blocks/local-business/index.js:85
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:44
+#: src/blocks/local-business/index.js:85
 msgid "Postal Code"
 msgstr ""
 
-#: includes/blocks/carousel.php:145 includes/blocks/slideshow.php:31
-#: build/blocks/carousel/index.js:545 build/blocks/slideshow/index.js:4433
-#: src/blocks/carousel/index.js:191 src/blocks/slideshow/index.js:164
+#: includes/blocks/slideshow.php:31
 msgid "Previous"
 msgstr "Anterior"
 
@@ -5200,19 +5398,17 @@ msgstr "Anterior"
 msgid "Print"
 msgstr "Imprimir"
 
-#: build/blocks/page-options/index.js:451 src/blocks/page-options/index.js:86
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:86
 msgid "Print option shown"
 msgstr ""
 
 #: includes/post-types/service-post-type.php:233
-#: build/block-editor/service/index.js:11581
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:257
-#: build/block-editor/service/index.js:9698
 msgid "Procedure"
 msgstr ""
 
-#: build/block-editor/event/index.js:11446 src/block-editor/event/sidebar.js:70
-#: build/block-editor/event/index.js:9511
+#: build/block-editor/event/index.js:1 src/block-editor/event/sidebar.js:70
 msgid "Procedures"
 msgstr ""
 
@@ -5228,26 +5424,32 @@ msgid "Profile URL"
 msgstr ""
 
 #: includes/blocks/file-list.php:93 includes/blocks/file-list.php:154
-#: build/blocks/file-list/index.js:514 src/blocks/file-list/index.js:120
+#: build/blocks/document-manager/index.js:1 build/blocks/file-list/index.js:1
+#: src/blocks/document-manager/index.js:111 src/blocks/file-list/index.js:120
 msgid "Publication date"
 msgstr "Fecha de publicación"
 
 #: includes/admin/directory-form-fields.php:33
 #: includes/admin/directory-form-fields.php:96
 msgid "Publish"
-msgstr ""
+msgstr "Publicar"
 
 #: includes/admin/directory-form-fields.php:26
 #: includes/admin/directory-form-fields.php:87
 msgid "Published"
-msgstr ""
+msgstr "Publicado"
 
-#: build/blocks/np-query/index.js:426 src/blocks/np-query/index.js:57
+#: includes/blocks/document-explorer.php:304
+#: includes/blocks/document-explorer.php:321
+msgid "Published on"
+msgstr "Publicado el"
+
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:57
 msgctxt "RangeControl label"
 msgid "Columns"
 msgstr ""
 
-#: build/blocks/np-query/index.js:418 src/blocks/np-query/index.js:46
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:46
 msgctxt "RangeControl label"
 msgid "Number of Posts"
 msgstr ""
@@ -5256,41 +5458,31 @@ msgstr ""
 msgid "Rate this service"
 msgstr "Califica este servicio"
 
-#: build/block-editor/dependency/index.js:11482
-#: build/block-editor/document/index.js:11468
-#: build/block-editor/event/index.js:11432
-#: build/block-editor/faq/index.js:11479
-#: build/block-editor/gallery/index.js:11416
-#: build/block-editor/newsletter/index.js:11442
-#: build/block-editor/resolution/index.js:11440
-#: build/block-editor/service/index.js:11475
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/block-editor/faq/index.js:1 build/block-editor/gallery/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:114
-#: src/block-editor/document/sidebar.js:85 src/block-editor/event/sidebar.js:49
-#: src/block-editor/faq/sidebar.js:100 src/block-editor/gallery/sidebar.js:23
+#: src/block-editor/event/sidebar.js:49 src/block-editor/faq/sidebar.js:100
+#: src/block-editor/gallery/sidebar.js:23
 #: src/block-editor/newsletter/sidebar.js:53
 #: src/block-editor/resolution/sidebar.js:44
 #: src/block-editor/service/sidebar.js:97
-#: build/block-editor/dependency/index.js:9555
-#: build/block-editor/document/index.js:9527
-#: build/block-editor/event/index.js:9490 build/block-editor/faq/index.js:9541
-#: build/block-editor/gallery/index.js:9464
-#: build/block-editor/newsletter/index.js:9494
-#: build/block-editor/resolution/index.js:9486
-#: build/block-editor/service/index.js:9538
 msgid "Rating"
 msgstr ""
 
-#: build/blocks/rating/index.js:12500 rating/index.js:12507
+#: build/blocks/rating/index.js:1 rating/index.js:12507
 #: src/blocks/rating/index.js:32
 msgid "Rating mode"
 msgstr ""
 
-#: build/blocks/rating/index.js:12553 rating/index.js:12560
+#: build/blocks/rating/index.js:1 rating/index.js:12560
 #: src/blocks/rating/index.js:77
 msgid "Rating preview"
 msgstr ""
 
-#: build/blocks/rating/index.js:12498 rating/index.js:12505
+#: build/blocks/rating/index.js:1 rating/index.js:12505
 #: src/blocks/rating/index.js:30
 msgid "Rating settings"
 msgstr ""
@@ -5304,15 +5496,13 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: includes/blocks/carousel.php:120 build/blocks/carousel/index.js:526
-#: build/blocks/office-location/index.js:629
-#: build/blocks/office-location/index.js:725 src/blocks/carousel/index.js:159
-#: src/blocks/office-location/index.js:273
+#: build/blocks/carousel/index.js:1 build/blocks/office-location/index.js:1
+#: src/blocks/carousel/index.js:167 src/blocks/office-location/index.js:273
 #: src/blocks/office-location/index.js:389
 msgid "Read more"
 msgstr "Leer más"
 
-#: build/blocks/office-location/index.js:513
+#: build/blocks/office-location/index.js:1
 #: src/blocks/office-location/index.js:152
 msgid "Read More Link"
 msgstr ""
@@ -5321,27 +5511,27 @@ msgstr ""
 msgid "Read More..."
 msgstr ""
 
-#: build/blocks/grid-list/index.js:423 src/blocks/grid-list/index.js:38
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:38
 msgid "Rectangle"
 msgstr ""
 
-#: build/blocks/team-member/index.js:718 src/blocks/team-member/index.js:289
+#: build/blocks/team-member/index.js:1 src/blocks/team-member/index.js:289
 msgid "Remove"
 msgstr ""
 
-#: build/blocks/banner/index.js:533 build/blocks/hero-blank/index.js:473
-#: build/blocks/hero/index.js:562 build/blocks/office-location/index.js:476
-#: build/blocks/slide/index.js:469 src/blocks/banner/index.js:150
+#: build/blocks/banner/index.js:1 build/blocks/hero-blank/index.js:1
+#: build/blocks/hero/index.js:1 build/blocks/office-location/index.js:1
+#: build/blocks/slide/index.js:1 src/blocks/banner/index.js:150
 #: src/blocks/hero-blank/index.js:98 src/blocks/hero/index.js:188
-#: src/blocks/office-location/index.js:108 src/blocks/slide/index.js:90
+#: src/blocks/office-location/index.js:108 src/blocks/slide/index.js:108
 msgid "Remove image"
 msgstr ""
 
-#: build/blocks/banner/index.js:516 build/blocks/hero-blank/index.js:456
-#: build/blocks/hero/index.js:545 build/blocks/office-location/index.js:459
-#: build/blocks/slide/index.js:452 src/blocks/banner/index.js:131
+#: build/blocks/banner/index.js:1 build/blocks/hero-blank/index.js:1
+#: build/blocks/hero/index.js:1 build/blocks/office-location/index.js:1
+#: build/blocks/slide/index.js:1 src/blocks/banner/index.js:131
 #: src/blocks/hero-blank/index.js:78 src/blocks/hero/index.js:168
-#: src/blocks/office-location/index.js:88 src/blocks/slide/index.js:70
+#: src/blocks/office-location/index.js:88 src/blocks/slide/index.js:88
 msgid "Replace image"
 msgstr ""
 
@@ -5356,33 +5546,25 @@ msgstr "Requerido"
 
 #: includes/blocks/requirements.php:17
 #: includes/post-types/service-post-type.php:221
-#: build/block-editor/event/index.js:11442
-#: build/block-editor/service/index.js:11573
-#: build/blocks/requirements/index.js:656 src/block-editor/event/sidebar.js:65
+#: build/block-editor/event/index.js:1 build/block-editor/service/index.js:1
+#: build/blocks/requirements/index.js:1 src/block-editor/event/sidebar.js:65
 #: src/block-editor/service/sidebar.js:245 src/blocks/requirements/index.js:298
-#: build/block-editor/event/index.js:9506
-#: build/block-editor/service/index.js:9686
 msgid "Requirements"
 msgstr "Requisitos"
 
-#: build/block-editor/resolution/index.js:11466
-#: build/block-editor/resolution/index.js:11467
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:79
 #: src/block-editor/resolution/sidebar.js:82
-#: build/block-editor/resolution/index.js:9521
-#: build/block-editor/resolution/index.js:9524
 msgid "Resolution Date"
 msgstr ""
 
-#: build/block-editor/resolution/index.js:11430
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:39
-#: build/block-editor/resolution/index.js:9481
 msgid "Resolution Metadata"
 msgstr ""
 
-#: build/block-editor/resolution/index.js:11446
+#: build/block-editor/resolution/index.js:1
 #: src/block-editor/resolution/sidebar.js:55
-#: build/block-editor/resolution/index.js:9497
 msgid "Resolution Number"
 msgstr ""
 
@@ -5422,46 +5604,42 @@ msgstr "Unidad Responsable"
 msgid "Results for"
 msgstr "Resultados para"
 
-#: build/blocks/grid-list/index.js:429 src/blocks/grid-list/index.js:40
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:40
 msgid "Rhombus"
 msgstr ""
 
-#: build/blocks/list/index.js:425 src/blocks/list/index.js:55
+#: build/blocks/list/index.js:1 src/blocks/list/index.js:55
 msgctxt "RichText label"
 msgid "Add a custom title"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:601 build/blocks/modal/index.js:501
-#: build/blocks/sheet/index.js:504 build/blocks/toggle-menu/index.js:558
-#: src/blocks/dropdown-menu/index.js:297 src/blocks/modal/index.js:151
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/toggle-menu/index.js:1 src/blocks/modal/index.js:151
 #: src/blocks/sheet/index.js:153 src/blocks/toggle-menu/index.js:196
 msgctxt "RichText label"
 msgid "Click to add a title"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:457
-#: build/blocks/additional-information/index.js:484
-#: build/blocks/requirements/index.js:456
-#: build/blocks/requirements/index.js:483
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:63
 #: src/blocks/additional-information/index.js:76
 #: src/blocks/requirements/index.js:62 src/blocks/requirements/index.js:75
 msgid "Right"
 msgstr ""
 
-#: build/blocks/list/index.js:409 src/blocks/list/index.js:40
+#: build/blocks/list/index.js:1 src/blocks/list/index.js:40
 msgid "Row"
 msgstr ""
 
-#: build/blocks/banner/index.js:580 build/blocks/link/index.js:427
-#: build/blocks/office-location/index.js:489
-#: build/blocks/office-location/index.js:523 src/blocks/banner/index.js:202
+#: build/blocks/banner/index.js:1 build/blocks/link/index.js:1
+#: build/blocks/office-location/index.js:1 src/blocks/banner/index.js:202
 #: src/blocks/link/index.js:51 src/blocks/office-location/index.js:125
 #: src/blocks/office-location/index.js:161
 msgid "Same tab"
 msgstr ""
 
-#: build/blocks/banner/index.js:553 src/blocks/banner/index.js:173
+#: build/blocks/banner/index.js:1 src/blocks/banner/index.js:173
 msgid "Scale Down"
 msgstr ""
 
@@ -5470,7 +5648,7 @@ msgstr ""
 msgid "Schedule"
 msgstr "Horario"
 
-#: build/blocks/service-summary/index.js:454
+#: build/blocks/service-summary/index.js:1
 #: src/blocks/service-summary/index.js:59
 msgid "Schedule and place of provision"
 msgstr "Horario de prestación"
@@ -5774,8 +5952,8 @@ msgctxt ""
 msgid "Team list navigation"
 msgstr ""
 
-#: build/blocks/search-bar/index.js:408 build/blocks/search-bar/index.js:436
-#: src/blocks/search-bar/index.js:42 src/blocks/search-bar/index.js:64
+#: build/blocks/search-bar/index.js:1 src/blocks/search-bar/index.js:44
+#: src/blocks/search-bar/index.js:68
 msgid "Search"
 msgstr "Buscar"
 
@@ -5801,7 +5979,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:18
 msgid "Search Documents"
-msgstr ""
+msgstr "Buscar Documentos"
 
 #: includes/post-types/event-post-type.php:22
 msgid "Search Events"
@@ -5852,29 +6030,24 @@ msgstr "Ver más"
 msgid "See the post in %s"
 msgstr ""
 
-#: build/block-editor/newsletter/index.js:11448
-#: build/block-editor/service/index.js:11537
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/newsletter/sidebar.js:66
 #: src/block-editor/service/sidebar.js:191
-#: build/block-editor/newsletter/index.js:9507
-#: build/block-editor/service/index.js:9632
 msgctxt "Select control label"
 msgid "Select a Dependency"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11502
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:147
-#: build/block-editor/dependency/index.js:9588
 msgctxt "Select control label"
 msgid "Select a member"
 msgstr ""
 
-#: build/block-editor/document/index.js:11513
-#: build/block-editor/resource/index.js:9929
-#: src/block-editor/document/sidebar.js:141
+#: build/block-editor/document/index.js:1
+#: build/block-editor/resource/index.js:1
+#: src/block-editor/document/sidebar.js:207
 #: src/block-editor/resource/sidebar.js:85
-#: build/block-editor/document/index.js:9583
-#: build/block-editor/resource/index.js:8331
 msgid "Select file"
 msgstr ""
 
@@ -5884,222 +6057,167 @@ msgstr ""
 msgid "Select Image"
 msgstr "Seleccionar Imagen"
 
-#: build/block-editor/dependency/index.js:11488
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:127
-#: build/block-editor/dependency/index.js:9568
 msgid "Select Parent Dependency"
 msgstr ""
 
-#: build/block-editor/service/index.js:11535
-#: build/block-editor/system/index.js:158
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
 #: src/block-editor/service/sidebar.js:183
 #: src/block-editor/system/sidebar.js:94
-#: build/block-editor/service/index.js:9624
-#: build/block-editor/system/index.js:100
 msgid ""
 "Select, copy and paste an icon from Bootstrap Icons list from https://icons."
 "getbootstrap.com/"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:468
-#: build/blocks/toggle-menu/index.js:470 src/blocks/dropdown-menu/index.js:114
-#: src/blocks/toggle-menu/index.js:104
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:104
 msgctxt "SelectControl label"
 msgid "Absolute"
 msgstr ""
 
-#: build/blocks/page-options/index.js:435
-#: build/blocks/sharing-buttons/index.js:432
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:60 src/blocks/sharing-buttons/index.js:55
 msgctxt "SelectControl label"
 msgid "Around"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:505
-#: build/blocks/dropdown-menu/index.js:535
-#: build/blocks/toggle-menu/index.js:527 src/blocks/dropdown-menu/index.js:169
-#: src/blocks/dropdown-menu/index.js:219 src/blocks/toggle-menu/index.js:161
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:161
 msgctxt "SelectControl label"
 msgid "Bars"
 msgstr ""
 
-#: build/blocks/page-options/index.js:432
-#: build/blocks/sharing-buttons/index.js:429
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:56 src/blocks/sharing-buttons/index.js:51
 msgctxt "SelectControl label"
 msgid "Between"
 msgstr ""
 
-#: build/blocks/modal/index.js:474 build/blocks/sheet/index.js:475
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
 #: src/blocks/modal/index.js:112 src/blocks/sheet/index.js:113
 msgctxt "SelectControl label"
 msgid "Bottom Sheet"
 msgstr ""
 
-#: build/blocks/page-options/index.js:429
-#: build/blocks/sharing-buttons/index.js:426
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:52 src/blocks/sharing-buttons/index.js:47
 msgctxt "SelectControl label"
 msgid "Center"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:499
-#: src/blocks/dropdown-menu/index.js:157
-msgctxt "SelectControl label"
-msgid "Desktop menu icon"
-msgstr ""
-
-#: build/blocks/modal/index.js:479 build/blocks/sheet/index.js:480
-#: build/blocks/toggle-menu/index.js:495 src/blocks/modal/index.js:123
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/toggle-menu/index.js:1 src/blocks/modal/index.js:123
 #: src/blocks/sheet/index.js:124 src/blocks/toggle-menu/index.js:129
 msgctxt "SelectControl label"
 msgid "Display"
 msgstr ""
 
-#: build/blocks/page-options/index.js:426
-#: build/blocks/sharing-buttons/index.js:423
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:48 src/blocks/sharing-buttons/index.js:43
 msgctxt "SelectControl label"
 msgid "End"
 msgstr ""
 
-#: build/blocks/page-options/index.js:438
-#: build/blocks/sharing-buttons/index.js:435
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:64 src/blocks/sharing-buttons/index.js:59
 msgctxt "SelectControl label"
 msgid "Evenly"
 msgstr ""
 
-#: build/blocks/page-options/index.js:505 src/blocks/page-options/index.js:175
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:175
 msgctxt "SelectControl label"
 msgid "Export"
 msgstr ""
 
-#: build/blocks/modal/index.js:482 build/blocks/sheet/index.js:483
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
 #: src/blocks/modal/index.js:127 src/blocks/sheet/index.js:128
 msgctxt "SelectControl label"
 msgid "Flex"
 msgstr ""
 
-#: build/blocks/list/index.js:406 src/blocks/list/index.js:33
+#: build/blocks/list/index.js:1 src/blocks/list/index.js:33
 msgctxt "SelectControl label"
 msgid "Flex Direction"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:502
-#: build/blocks/dropdown-menu/index.js:532 build/blocks/modal/index.js:485
-#: build/blocks/sheet/index.js:486 build/blocks/toggle-menu/index.js:524
-#: src/blocks/dropdown-menu/index.js:165 src/blocks/dropdown-menu/index.js:215
-#: src/blocks/modal/index.js:131 src/blocks/sheet/index.js:132
-#: src/blocks/toggle-menu/index.js:157
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/toggle-menu/index.js:1 src/blocks/modal/index.js:131
+#: src/blocks/sheet/index.js:132 src/blocks/toggle-menu/index.js:157
 msgctxt "SelectControl label"
 msgid "Grid"
 msgstr ""
 
-#: build/blocks/page-options/index.js:417
-#: build/blocks/sharing-buttons/index.js:414
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:32 src/blocks/sharing-buttons/index.js:27
 msgctxt "SelectControl label"
 msgid "Justify Content"
 msgstr ""
 
-#: build/blocks/toggle-menu/index.js:521 src/blocks/toggle-menu/index.js:153
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:153
 msgctxt "SelectControl label"
 msgid "Menu icon"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:465
-#: build/blocks/toggle-menu/index.js:467 src/blocks/dropdown-menu/index.js:106
-#: src/blocks/toggle-menu/index.js:96
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:96
 msgctxt "SelectControl label"
 msgid "Menu position"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:552
-#: src/blocks/dropdown-menu/index.js:241
-msgctxt "SelectControl label"
-msgid "Mobile close menu icon"
-msgstr ""
-
-#: build/blocks/dropdown-menu/index.js:529
-#: src/blocks/dropdown-menu/index.js:207
-msgctxt "SelectControl label"
-msgid "Mobile menu icon"
-msgstr ""
-
-#: build/blocks/page-options/index.js:420
-#: build/blocks/sharing-buttons/index.js:417
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:40 src/blocks/sharing-buttons/index.js:35
 msgctxt "SelectControl label"
 msgid "Normal"
 msgstr ""
 
-#: build/blocks/page-options/index.js:487 src/blocks/page-options/index.js:147
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:147
 msgctxt "SelectControl label"
 msgid "Print"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:471
-#: build/blocks/toggle-menu/index.js:473 src/blocks/dropdown-menu/index.js:118
-#: src/blocks/toggle-menu/index.js:108
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:108
 msgctxt "SelectControl label"
 msgid "Relative"
 msgstr ""
 
-#: build/blocks/page-options/index.js:519 src/blocks/page-options/index.js:196
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:196
 msgctxt "SelectControl label"
 msgid "Send"
 msgstr ""
 
-#: build/blocks/page-options/index.js:423
-#: build/blocks/sharing-buttons/index.js:420
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:44 src/blocks/sharing-buttons/index.js:39
 msgctxt "SelectControl label"
 msgid "Start"
 msgstr ""
 
-#: build/blocks/page-options/index.js:441
-#: build/blocks/sharing-buttons/index.js:438
+#: build/blocks/page-options/index.js:1 build/blocks/sharing-buttons/index.js:1
 #: src/blocks/page-options/index.js:68 src/blocks/sharing-buttons/index.js:63
 msgctxt "SelectControl label"
 msgid "Stretch"
 msgstr ""
 
-#: build/blocks/modal/index.js:471 build/blocks/sheet/index.js:472
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
 #: src/blocks/modal/index.js:104 src/blocks/sheet/index.js:105
 msgctxt "SelectControl label"
 msgid "Top Sheet"
 msgstr ""
 
-#: build/blocks/modal/index.js:468 build/blocks/sheet/index.js:469
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
 #: src/blocks/modal/index.js:96 src/blocks/sheet/index.js:97
 msgctxt "SelectControl label"
 msgid "Transition direction"
 msgstr ""
 
-#: build/blocks/toggle-menu/index.js:478 src/blocks/toggle-menu/index.js:116
+#: build/blocks/toggle-menu/index.js:1 src/blocks/toggle-menu/index.js:116
 msgctxt "SelectControl label"
 msgid "Visibility"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:555
-#: src/blocks/dropdown-menu/index.js:249
-msgctxt "SelectControl label"
-msgid "X Circle"
-msgstr ""
-
-#: build/block-editor/dependency/index.js:11457
-#: build/block-editor/dependency/index.js:11465
-#: build/block-editor/faq/index.js:11440 build/block-editor/faq/index.js:11448
-#: build/block-editor/service/index.js:11458
+#: build/block-editor/dependency/index.js:1 build/block-editor/faq/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:89
 #: src/block-editor/dependency/sidebar.js:100
 #: src/block-editor/faq/sidebar.js:59 src/block-editor/faq/sidebar.js:70
 #: src/block-editor/service/sidebar.js:83
-#: build/block-editor/dependency/index.js:9530
-#: build/block-editor/dependency/index.js:9541
-#: build/block-editor/faq/index.js:9500 build/block-editor/faq/index.js:9511
-#: build/block-editor/service/index.js:9524
 msgctxt "SelectControl option label"
 msgid "No title"
 msgstr ""
@@ -6112,7 +6230,7 @@ msgstr ""
 msgid "Send by email"
 msgstr ""
 
-#: build/blocks/page-options/index.js:465 src/blocks/page-options/index.js:118
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:118
 msgid "Send option shown"
 msgstr ""
 
@@ -6124,15 +6242,12 @@ msgstr ""
 msgid "Service available on our mobile app"
 msgstr ""
 
-#: build/block-editor/service/index.js:11484
+#: build/block-editor/service/index.js:1
 #: src/block-editor/service/sidebar.js:112
-#: build/block-editor/service/index.js:9553
 msgid "Service Channels"
 msgstr ""
 
-#: build/block-editor/service/index.js:11465
-#: src/block-editor/service/sidebar.js:92
-#: build/block-editor/service/index.js:9533
+#: build/block-editor/service/index.js:1 src/block-editor/service/sidebar.js:92
 msgid "Service Metadata"
 msgstr ""
 
@@ -6157,27 +6272,24 @@ msgstr "Servicios"
 msgid "Set the order number to be assigned to the directory"
 msgstr ""
 
-#: build/block-editor/achievement/index.js:98
-#: build/block-editor/service/index.js:11479
-#: build/blocks/additional-information/index.js:540
-#: build/blocks/alias/index.js:441 build/blocks/awards/index.js:437
-#: build/blocks/bootstrap-icon/index.js:425
-#: build/blocks/breadcrumb/index.js:403 build/blocks/card/index.js:456
-#: build/blocks/cards/index.js:415 build/blocks/carousel/index.js:459
-#: build/blocks/contact-info/index.js:431
-#: build/blocks/dependency-responsible-member/index.js:454
-#: build/blocks/description/index.js:441
-#: build/blocks/dropdown-menu/index.js:463 build/blocks/faqs-list/index.js:452
-#: build/blocks/faqs/index.js:438 build/blocks/featured-services/index.js:485
-#: build/blocks/file-list/index.js:460 build/blocks/grid-list/index.js:404
-#: build/blocks/information/index.js:441 build/blocks/modal/index.js:462
-#: build/blocks/office-location/index.js:477
-#: build/blocks/office-locations/index.js:480
-#: build/blocks/page-options/index.js:415
-#: build/blocks/requirements/index.js:534
-#: build/blocks/service-responsible-info/index.js:441
-#: build/blocks/sharing-buttons/index.js:412 build/blocks/sheet/index.js:463
-#: build/blocks/team-member/index.js:582 build/blocks/toggle-menu/index.js:465
+#: build/block-editor/achievement/index.js:1
+#: build/block-editor/service/index.js:1
+#: build/blocks/additional-information/index.js:1 build/blocks/alias/index.js:1
+#: build/blocks/awards/index.js:1 build/blocks/bootstrap-icon/index.js:1
+#: build/blocks/breadcrumb/index.js:1 build/blocks/card/index.js:1
+#: build/blocks/cards/index.js:1 build/blocks/carousel/index.js:1
+#: build/blocks/contact-info/index.js:1
+#: build/blocks/dependency-responsible-member/index.js:1
+#: build/blocks/description/index.js:1 build/blocks/document-manager/index.js:1
+#: build/blocks/faqs-list/index.js:1 build/blocks/faqs/index.js:1
+#: build/blocks/featured-services/index.js:1 build/blocks/file-list/index.js:1
+#: build/blocks/grid-list/index.js:1 build/blocks/information/index.js:1
+#: build/blocks/modal/index.js:1 build/blocks/office-location/index.js:1
+#: build/blocks/office-locations/index.js:1
+#: build/blocks/page-options/index.js:1 build/blocks/requirements/index.js:1
+#: build/blocks/service-responsible-info/index.js:1
+#: build/blocks/sharing-buttons/index.js:1 build/blocks/sheet/index.js:1
+#: build/blocks/team-member/index.js:1 build/blocks/toggle-menu/index.js:1
 #: src/block-editor/achievement/sidebar.js:28
 #: src/block-editor/service/sidebar.js:106
 #: src/blocks/additional-information/index.js:123 src/blocks/alias/index.js:56
@@ -6186,7 +6298,7 @@ msgstr ""
 #: src/blocks/cards/index.js:32 src/blocks/carousel/index.js:65
 #: src/blocks/contact-info/index.js:36
 #: src/blocks/dependency-responsible-member/index.js:77
-#: src/blocks/description/index.js:56 src/blocks/dropdown-menu/index.js:104
+#: src/blocks/description/index.js:56 src/blocks/document-manager/index.js:51
 #: src/blocks/faqs-list/index.js:60 src/blocks/faqs/index.js:39
 #: src/blocks/featured-services/index.js:107 src/blocks/file-list/index.js:59
 #: src/blocks/grid-list/index.js:24 src/blocks/information/index.js:55
@@ -6196,20 +6308,17 @@ msgstr ""
 #: src/blocks/service-responsible-info/index.js:57
 #: src/blocks/sharing-buttons/index.js:25 src/blocks/sheet/index.js:90
 #: src/blocks/team-member/index.js:127 src/blocks/toggle-menu/index.js:94
-#: build/block-editor/achievement/index.js:34
-#: build/block-editor/service/index.js:9547
 msgid "Settings"
 msgstr ""
 
-#: build/blocks/featured-services/index.js:480
-#: build/blocks/office-locations/index.js:475
+#: build/blocks/featured-services/index.js:1
+#: build/blocks/office-locations/index.js:1
 #: src/blocks/featured-services/index.js:100
 #: src/blocks/office-locations/index.js:85
 msgid "Shadow"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:447
-#: src/blocks/bootstrap-icon/index.js:63
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:63
 msgid "Shape"
 msgstr ""
 
@@ -6229,12 +6338,12 @@ msgstr "Compartir en Linkedin"
 msgid "Share on Twitter"
 msgstr "Compartir en Twitter"
 
-#: build/blocks/additional-information/index.js:542
-#: build/blocks/alias/index.js:443 build/blocks/contact-info/index.js:433
-#: build/blocks/dependency-responsible-member/index.js:456
-#: build/blocks/description/index.js:443 build/blocks/information/index.js:443
-#: build/blocks/requirements/index.js:536
-#: build/blocks/service-responsible-info/index.js:443
+#: build/blocks/additional-information/index.js:1 build/blocks/alias/index.js:1
+#: build/blocks/contact-info/index.js:1
+#: build/blocks/dependency-responsible-member/index.js:1
+#: build/blocks/description/index.js:1 build/blocks/information/index.js:1
+#: build/blocks/requirements/index.js:1
+#: build/blocks/service-responsible-info/index.js:1
 #: src/blocks/additional-information/index.js:125 src/blocks/alias/index.js:58
 #: src/blocks/contact-info/index.js:38
 #: src/blocks/dependency-responsible-member/index.js:79
@@ -6249,7 +6358,7 @@ msgstr ""
 msgid "Show directory to the public"
 msgstr "Mostrar directorio al público"
 
-#: build/blocks/team-member/index.js:597 src/blocks/team-member/index.js:148
+#: build/blocks/team-member/index.js:1 src/blocks/team-member/index.js:148
 msgid "Show info"
 msgstr ""
 
@@ -6257,27 +6366,25 @@ msgstr ""
 msgid "Show or hide directory"
 msgstr ""
 
-#: build/blocks/breadcrumb/index.js:405 src/blocks/breadcrumb/index.js:22
+#: build/blocks/breadcrumb/index.js:1 src/blocks/breadcrumb/index.js:22
 msgid "Show Section Name"
 msgstr ""
 
-#: build/block-editor/document/index.js:11519
-#: src/block-editor/document/sidebar.js:154
-#: build/block-editor/document/index.js:9596
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:238
 msgid "Show the default WordPress icon for documents."
 msgstr ""
 
-#: build/blocks/carousel/index.js:495 src/blocks/carousel/index.js:103
+#: build/blocks/carousel/index.js:1 src/blocks/carousel/index.js:103
 msgid "Showing the excerpt"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:547
-#: build/blocks/alias/index.js:448 build/blocks/contact-info/index.js:438
-#: build/blocks/dependency-list/index.js:446
-#: build/blocks/dependency-responsible-member/index.js:461
-#: build/blocks/description/index.js:448 build/blocks/information/index.js:448
-#: build/blocks/requirements/index.js:541
-#: build/blocks/service-responsible-info/index.js:448
+#: build/blocks/additional-information/index.js:1 build/blocks/alias/index.js:1
+#: build/blocks/contact-info/index.js:1 build/blocks/dependency-list/index.js:1
+#: build/blocks/dependency-responsible-member/index.js:1
+#: build/blocks/description/index.js:1 build/blocks/information/index.js:1
+#: build/blocks/requirements/index.js:1
+#: build/blocks/service-responsible-info/index.js:1
 #: src/blocks/additional-information/index.js:132 src/blocks/alias/index.js:65
 #: src/blocks/contact-info/index.js:45 src/blocks/dependency-list/index.js:76
 #: src/blocks/dependency-responsible-member/index.js:86
@@ -6288,9 +6395,8 @@ msgid "Showing title by default"
 msgstr ""
 
 #: includes/blocks/file-list.php:146
-#: includes/post-types/document-post-type.php:138
-#: build/blocks/bootstrap-icon/index.js:454
-#: src/blocks/bootstrap-icon/index.js:68
+#: includes/post-types/document-post-type.php:142
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:68
 msgid "Size"
 msgstr "Tamaño"
 
@@ -6306,8 +6412,7 @@ msgstr ""
 msgid "Small Square"
 msgstr ""
 
-#: build/block-editor/team/index.js:204 src/block-editor/team/sidebar.js:176
-#: build/block-editor/team/index.js:182
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:176
 msgid "Social accounts"
 msgstr ""
 
@@ -6324,59 +6429,46 @@ msgstr ""
 msgid "Social Networks"
 msgstr ""
 
-#: build/blocks/page-header/index.js:434 src/blocks/page-header/index.js:63
+#: build/blocks/page-header/index.js:1 src/blocks/page-header/index.js:63
 msgid "Some Category"
 msgstr ""
 
 #: includes/post-types/dependency-post-type.php:96
-#: build/block-editor/dependency/index.js:11522
+#: build/block-editor/dependency/index.js:1
 #: src/block-editor/dependency/sidebar.js:178
-#: build/block-editor/dependency/index.js:9619
 msgid "Specific objective"
 msgstr ""
 
-#: includes/image-sizes.php:30 build/blocks/grid-list/index.js:420
+#: includes/image-sizes.php:30 build/blocks/grid-list/index.js:1
 #: src/blocks/grid-list/index.js:37
 msgid "Square"
 msgstr ""
 
-#: build/blocks/bootstrap-icon/index.js:434
-#: build/blocks/bootstrap-icon/index.js:450
-#: src/blocks/bootstrap-icon/index.js:49 src/blocks/bootstrap-icon/index.js:64
+#: build/blocks/bootstrap-icon/index.js:1 src/blocks/bootstrap-icon/index.js:49
+#: src/blocks/bootstrap-icon/index.js:64
 msgid "Star"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11474
-#: build/block-editor/document/index.js:11460
-#: build/block-editor/event/index.js:11424
-#: build/block-editor/faq/index.js:11471
-#: build/block-editor/gallery/index.js:11408
-#: build/block-editor/newsletter/index.js:11434
-#: build/block-editor/resolution/index.js:11432
-#: build/block-editor/service/index.js:11467
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/block-editor/faq/index.js:1 build/block-editor/gallery/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:111
-#: src/block-editor/document/sidebar.js:82 src/block-editor/event/sidebar.js:46
-#: src/block-editor/faq/sidebar.js:97 src/block-editor/gallery/sidebar.js:20
+#: src/block-editor/event/sidebar.js:46 src/block-editor/faq/sidebar.js:97
+#: src/block-editor/gallery/sidebar.js:20
 #: src/block-editor/newsletter/sidebar.js:50
 #: src/block-editor/resolution/sidebar.js:41
 #: src/block-editor/service/sidebar.js:94
-#: build/block-editor/dependency/index.js:9552
-#: build/block-editor/document/index.js:9524
-#: build/block-editor/event/index.js:9487 build/block-editor/faq/index.js:9538
-#: build/block-editor/gallery/index.js:9461
-#: build/block-editor/newsletter/index.js:9491
-#: build/block-editor/resolution/index.js:9483
-#: build/block-editor/service/index.js:9535
 msgid "Statistics"
 msgstr ""
 
-#: build/blocks/local-business/index.js:415
-#: build/blocks/local-business/index.js:458
-#: src/blocks/local-business/index.js:38 src/blocks/local-business/index.js:79
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:38
+#: src/blocks/local-business/index.js:79
 msgid "Street Address"
 msgstr ""
 
-#: includes/blocks/contact-form.php:99 build/blocks/contact-form/index.js:415
+#: includes/blocks/contact-form.php:99 build/blocks/contact-form/index.js:1
 #: src/blocks/contact-form/index.js:41
 msgid "Subject"
 msgstr "Asunto"
@@ -6401,8 +6493,7 @@ msgstr ""
 msgid "Sworn statement"
 msgstr ""
 
-#: build/block-editor/system/index.js:101 src/block-editor/system/sidebar.js:30
-#: build/block-editor/system/index.js:36
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:30
 msgid "System metadata"
 msgstr ""
 
@@ -6412,13 +6503,10 @@ msgstr ""
 
 #: includes/blocks/target-audience.php:19
 #: includes/post-types/service-post-type.php:209
-#: build/block-editor/service/index.js:11565
-#: build/block-editor/system/index.js:121
-#: build/blocks/target-audience/index.js:451
+#: build/block-editor/service/index.js:1 build/block-editor/system/index.js:1
+#: build/blocks/target-audience/index.js:1
 #: src/block-editor/service/sidebar.js:234
 #: src/block-editor/system/sidebar.js:56 src/blocks/target-audience/index.js:78
-#: build/block-editor/service/index.js:9675
-#: build/block-editor/system/index.js:62
 msgid "Target audience"
 msgstr "Público objetivo"
 
@@ -6536,14 +6624,12 @@ msgstr ""
 msgid "Team Member"
 msgstr "Miembro del equipo"
 
-#: build/block-editor/team/index.js:108 src/block-editor/team/sidebar.js:44
-#: build/block-editor/team/index.js:50
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:44
 msgid "Team Settings"
 msgstr ""
 
-#: build/blocks/local-business/index.js:434
-#: build/blocks/local-business/index.js:477
-#: src/blocks/local-business/index.js:56 src/blocks/local-business/index.js:95
+#: build/blocks/local-business/index.js:1 src/blocks/local-business/index.js:56
+#: src/blocks/local-business/index.js:95
 msgid "Telephone"
 msgstr ""
 
@@ -6555,29 +6641,27 @@ msgstr ""
 msgid "Telephone support not available"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:450 build/blocks/hero/index.js:585
-#: build/blocks/modal/index.js:449 build/blocks/page-header/index.js:420
-#: build/blocks/search-bar/index.js:392 build/blocks/sheet/index.js:450
-#: build/blocks/toggle-menu/index.js:452 src/blocks/dropdown-menu/index.js:92
+#: build/blocks/hero/index.js:1 build/blocks/modal/index.js:1
+#: build/blocks/page-header/index.js:1 build/blocks/search-bar/index.js:1
+#: build/blocks/sheet/index.js:1 build/blocks/toggle-menu/index.js:1
 #: src/blocks/hero/index.js:235 src/blocks/modal/index.js:78
-#: src/blocks/page-header/index.js:48 src/blocks/search-bar/index.js:24
+#: src/blocks/page-header/index.js:48 src/blocks/search-bar/index.js:26
 #: src/blocks/sheet/index.js:79 src/blocks/toggle-menu/index.js:82
 msgid "Text Color"
 msgstr ""
 
-#: build/blocks/featured-services/index.js:671
+#: build/blocks/featured-services/index.js:1
 #: src/blocks/featured-services/index.js:200
 msgid "Text color"
 msgstr ""
 
-#: build/blocks/modal/index.js:464 build/blocks/sheet/index.js:465
+#: build/blocks/modal/index.js:1 build/blocks/sheet/index.js:1
 #: src/blocks/modal/index.js:91 src/blocks/sheet/index.js:92
 msgctxt "TextControl label"
 msgid "Anchor"
 msgstr ""
 
-#: build/block-editor/award/index.js:9887 src/block-editor/award/sidebar.js:40
-#: build/block-editor/award/index.js:8285
+#: build/block-editor/award/index.js:1 src/block-editor/award/sidebar.js:40
 msgid "the award has expired."
 msgstr ""
 
@@ -6622,9 +6706,9 @@ msgstr ""
 msgid "The name field must not be empty."
 msgstr ""
 
-#: build/blocks/carousel/index.js:521 src/blocks/carousel/index.js:143
+#: build/blocks/carousel/index.js:1 src/blocks/carousel/index.js:151
 msgid "The Post Title will be displayed here on the frontend"
-msgstr ""
+msgstr "El título de la publicación se mostrará aquí en la interfaz."
 
 #: includes/post-types/achievement-post-type.php:30
 msgctxt ""
@@ -6736,126 +6820,112 @@ msgstr ""
 msgid "Theme Main Logo"
 msgstr ""
 
-#: build/blocks/target-audience/index.js:436
+#: includes/blocks/document-manager.php:158
+msgid "There are no documents published in this category"
+msgstr "No hay documentos publicados en esta categoría."
+
+#: build/blocks/target-audience/index.js:1
 #: src/blocks/target-audience/index.js:42
 msgid "This post type does not have a meta [target_audience] field."
 msgstr ""
 
-#: build/blocks/additional-information/index.js:537
+#: build/blocks/additional-information/index.js:1
 #: src/blocks/additional-information/index.js:112
 msgid "This post type does not have a meta additional_info field."
 msgstr ""
 
-#: build/blocks/alias/index.js:438 src/blocks/alias/index.js:45
+#: build/blocks/alias/index.js:1 src/blocks/alias/index.js:45
 msgid "This post type does not have a meta alias field."
 msgstr ""
 
-#: build/blocks/description/index.js:438 src/blocks/description/index.js:45
+#: build/blocks/description/index.js:1 src/blocks/description/index.js:45
 msgid "This post type does not have a meta description field."
 msgstr ""
 
-#: build/blocks/information/index.js:438 src/blocks/information/index.js:44
+#: build/blocks/information/index.js:1 src/blocks/information/index.js:44
 msgid "This post type does not have a meta information field."
 msgstr ""
 
-#: build/blocks/requirements/index.js:531 src/blocks/requirements/index.js:107
+#: build/blocks/requirements/index.js:1 src/blocks/requirements/index.js:107
 msgid "This post type does not have a meta requirements field."
 msgstr ""
 
-#: build/blocks/service-responsible-info/index.js:438
+#: build/blocks/service-responsible-info/index.js:1
 #: src/blocks/service-responsible-info/index.js:46
 msgid ""
 "This post type does not have a meta service_dependency_id field or a "
 "dependency has not been assigned yet."
 msgstr ""
 
-#: build/blocks/team-member/index.js:635 src/blocks/team-member/index.js:194
+#: build/blocks/team-member/index.js:1 src/blocks/team-member/index.js:194
 msgid "Title"
 msgstr ""
 
 #. Translators: %s is the document type
-#: includes/helper.php:68
+#: includes/helper.php:105
 msgid "To download the %s viewer"
 msgstr "Para descargar el visor %s"
 
-#: build/blocks/np-query/index.js:441 src/blocks/np-query/index.js:80
+#: includes/blocks/document-explorer.php:174
+#: includes/blocks/document-manager.php:220
+msgid "To view %s files, download %s by clicking %s"
+msgstr "Para ver los archivos %s, descarga %s haciendo clic %s"
+
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:80
 msgctxt "ToggleControl label"
 msgid "Show Date"
 msgstr ""
 
-#: build/blocks/page-options/index.js:453 src/blocks/page-options/index.js:91
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:91
 msgctxt "ToggleControl label"
 msgid "Show export option"
 msgstr ""
 
-#: build/blocks/np-query/index.js:434 src/blocks/np-query/index.js:64
+#: build/blocks/np-query/index.js:1 src/blocks/np-query/index.js:64
 msgctxt "ToggleControl label"
 msgid "Show Featured Image"
 msgstr ""
 
-#: build/blocks/dropdown-menu/index.js:492
-#: src/blocks/dropdown-menu/index.js:142
-msgctxt "ToggleControl label"
-msgid "Show on desktop"
-msgstr ""
-
-#: build/blocks/dropdown-menu/index.js:522
-#: src/blocks/dropdown-menu/index.js:192
-msgctxt "ToggleControl label"
-msgid "Show on mobile"
-msgstr ""
-
-#: build/blocks/page-options/index.js:460 src/blocks/page-options/index.js:107
+#: build/blocks/page-options/index.js:1 src/blocks/page-options/index.js:107
 msgctxt "ToggleControl label"
 msgid "Show send option"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:647
-#: build/blocks/requirements/index.js:637
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:274
 #: src/blocks/requirements/index.js:262
 msgid "Top - Bottom"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:656
-#: build/blocks/requirements/index.js:646
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:286
 #: src/blocks/requirements/index.js:274
 msgid "Top - Center"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11485
-#: build/block-editor/document/index.js:11471
-#: build/block-editor/event/index.js:11435
-#: build/block-editor/faq/index.js:11482
-#: build/block-editor/gallery/index.js:11419
-#: build/block-editor/newsletter/index.js:11445
-#: build/block-editor/resolution/index.js:11443
-#: build/block-editor/service/index.js:11478
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/block-editor/faq/index.js:1 build/block-editor/gallery/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:117
-#: src/block-editor/document/sidebar.js:88 src/block-editor/event/sidebar.js:52
-#: src/block-editor/faq/sidebar.js:103 src/block-editor/gallery/sidebar.js:26
+#: src/block-editor/event/sidebar.js:52 src/block-editor/faq/sidebar.js:103
+#: src/block-editor/gallery/sidebar.js:26
 #: src/block-editor/newsletter/sidebar.js:56
 #: src/block-editor/resolution/sidebar.js:47
 #: src/block-editor/service/sidebar.js:100
-#: build/block-editor/dependency/index.js:9558
-#: build/block-editor/document/index.js:9530
-#: build/block-editor/event/index.js:9493 build/block-editor/faq/index.js:9544
-#: build/block-editor/gallery/index.js:9467
-#: build/block-editor/newsletter/index.js:9497
-#: build/block-editor/resolution/index.js:9489
-#: build/block-editor/service/index.js:9541
 msgid "Total"
 msgstr ""
 
-#: build/blocks/grid-list/index.js:426 src/blocks/grid-list/index.js:39
+#: build/blocks/grid-list/index.js:1 src/blocks/grid-list/index.js:39
 msgid "Triangle"
 msgstr ""
 
 #: includes/admin/submenus/social-networks-options-page-old.php:127
 #: includes/post-types/team-post-type.php:151
-#: build/block-editor/team/index.js:230 src/block-editor/team/sidebar.js:210
-#: build/block-editor/team/index.js:216
+#: build/block-editor/team/index.js:1 src/block-editor/team/sidebar.js:210
 msgid "Twitter"
 msgstr ""
 
@@ -6864,25 +6934,23 @@ msgstr ""
 msgid "Unpublish"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:451
-#: build/blocks/additional-information/index.js:478
-#: build/blocks/requirements/index.js:450
-#: build/blocks/requirements/index.js:477
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:61
 #: src/blocks/additional-information/index.js:74
 #: src/blocks/requirements/index.js:60 src/blocks/requirements/index.js:73
 msgid "Up"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:466
-#: build/blocks/requirements/index.js:465
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:66
 #: src/blocks/requirements/index.js:65
 msgid "Up to left"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:463
-#: build/blocks/requirements/index.js:462
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:65
 #: src/blocks/requirements/index.js:64
 msgid "Up to right"
@@ -6896,69 +6964,47 @@ msgstr ""
 msgid "Update Tag"
 msgstr ""
 
-#: build/block-editor/system/index.js:113 build/blocks/team-member/index.js:681
+#: build/block-editor/system/index.js:1 build/blocks/team-member/index.js:1
 #: src/block-editor/system/sidebar.js:45 src/blocks/team-member/index.js:254
-#: build/block-editor/system/index.js:51
 msgid "URL"
 msgstr ""
 
 #: includes/post-types/service-post-type.php:183
-#: build/block-editor/document/index.js:11517
-#: src/block-editor/document/sidebar.js:150
-#: build/block-editor/document/index.js:9592
+#: build/block-editor/document/index.js:1
+#: src/block-editor/document/sidebar.js:234
 msgid "Use default icon"
 msgstr "Usar icono predeterminado"
 
-#: build/block-editor/dependency/index.js:11485
-#: build/block-editor/document/index.js:11471
-#: build/block-editor/event/index.js:11435
-#: build/block-editor/faq/index.js:11482
-#: build/block-editor/gallery/index.js:11419
-#: build/block-editor/newsletter/index.js:11445
-#: build/block-editor/resolution/index.js:11443
-#: build/block-editor/service/index.js:11478
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/block-editor/faq/index.js:1 build/block-editor/gallery/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:119
-#: src/block-editor/document/sidebar.js:90 src/block-editor/event/sidebar.js:54
-#: src/block-editor/faq/sidebar.js:105 src/block-editor/gallery/sidebar.js:28
+#: src/block-editor/event/sidebar.js:54 src/block-editor/faq/sidebar.js:105
+#: src/block-editor/gallery/sidebar.js:28
 #: src/block-editor/newsletter/sidebar.js:58
 #: src/block-editor/resolution/sidebar.js:49
 #: src/block-editor/service/sidebar.js:102
-#: build/block-editor/dependency/index.js:9560
-#: build/block-editor/document/index.js:9532
-#: build/block-editor/event/index.js:9495 build/block-editor/faq/index.js:9546
-#: build/block-editor/gallery/index.js:9469
-#: build/block-editor/newsletter/index.js:9499
-#: build/block-editor/resolution/index.js:9491
-#: build/block-editor/service/index.js:9543
 msgid "user rating"
 msgstr ""
 
-#: build/blocks/rating/index.js:12506 rating/index.js:12513
+#: build/blocks/rating/index.js:1 rating/index.js:12513
 #: src/blocks/rating/index.js:36
 msgid "Username"
 msgstr ""
 
-#: build/block-editor/dependency/index.js:11485
-#: build/block-editor/document/index.js:11471
-#: build/block-editor/event/index.js:11435
-#: build/block-editor/faq/index.js:11482
-#: build/block-editor/gallery/index.js:11419
-#: build/block-editor/newsletter/index.js:11445
-#: build/block-editor/resolution/index.js:11443
-#: build/block-editor/service/index.js:11478
+#: build/block-editor/dependency/index.js:1 build/block-editor/event/index.js:1
+#: build/block-editor/faq/index.js:1 build/block-editor/gallery/index.js:1
+#: build/block-editor/newsletter/index.js:1
+#: build/block-editor/resolution/index.js:1
+#: build/block-editor/service/index.js:1
 #: src/block-editor/dependency/sidebar.js:120
-#: src/block-editor/document/sidebar.js:91 src/block-editor/event/sidebar.js:55
-#: src/block-editor/faq/sidebar.js:106 src/block-editor/gallery/sidebar.js:29
+#: src/block-editor/event/sidebar.js:55 src/block-editor/faq/sidebar.js:106
+#: src/block-editor/gallery/sidebar.js:29
 #: src/block-editor/newsletter/sidebar.js:59
 #: src/block-editor/resolution/sidebar.js:50
 #: src/block-editor/service/sidebar.js:103
-#: build/block-editor/dependency/index.js:9561
-#: build/block-editor/document/index.js:9533
-#: build/block-editor/event/index.js:9496 build/block-editor/faq/index.js:9547
-#: build/block-editor/gallery/index.js:9470
-#: build/block-editor/newsletter/index.js:9500
-#: build/block-editor/resolution/index.js:9492
-#: build/block-editor/service/index.js:9544
 msgid "users rating"
 msgstr ""
 
@@ -6966,15 +7012,15 @@ msgstr ""
 msgid "Values"
 msgstr "Valores"
 
-#: build/blocks/additional-information/index.js:635
-#: build/blocks/requirements/index.js:625
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:252
 #: src/blocks/requirements/index.js:240
 msgid "Values from 0 to 3000, with step 50ms"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:617
-#: build/blocks/requirements/index.js:607
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:226
 #: src/blocks/requirements/index.js:214
 msgid "Values from 0 to 3000, with step 50ms, default 3000"
@@ -6984,8 +7030,7 @@ msgstr ""
 msgid "Vertical Map Location"
 msgstr ""
 
-#: build/blocks/file-manager/index.js:607
-#: build/blocks/file-manager/index.js:690 src/blocks/file-manager/index.js:312
+#: build/blocks/file-manager/index.js:1 src/blocks/file-manager/index.js:312
 #: src/blocks/file-manager/index.js:421
 msgid "View"
 msgstr ""
@@ -7008,7 +7053,7 @@ msgstr ""
 
 #: includes/post-types/document-post-type.php:16
 msgid "View Document"
-msgstr ""
+msgstr "Ver Documento"
 
 #: includes/post-types/event-post-type.php:20
 msgid "View Event"
@@ -7029,6 +7074,10 @@ msgstr ""
 #: includes/blocks/resources-section.php:69
 msgid "View more"
 msgstr "Ver más"
+
+#: includes/blocks/directories-tab.php:118
+msgid "View more in %s"
+msgstr ""
 
 #. Translators: %s is the url for the classifications.
 #: includes/blocks/service-summary.php:91
@@ -7069,11 +7118,11 @@ msgstr ""
 msgid "Vision"
 msgstr "Visión"
 
-#: build/blocks/additional-information/index.js:537
-#: build/blocks/alias/index.js:438 build/blocks/description/index.js:438
-#: build/blocks/information/index.js:438 build/blocks/requirements/index.js:531
-#: build/blocks/service-responsible-info/index.js:438
-#: build/blocks/target-audience/index.js:436
+#: build/blocks/additional-information/index.js:1 build/blocks/alias/index.js:1
+#: build/blocks/description/index.js:1 build/blocks/information/index.js:1
+#: build/blocks/requirements/index.js:1
+#: build/blocks/service-responsible-info/index.js:1
+#: build/blocks/target-audience/index.js:1
 #: src/blocks/additional-information/index.js:110 src/blocks/alias/index.js:43
 #: src/blocks/description/index.js:43 src/blocks/information/index.js:42
 #: src/blocks/requirements/index.js:105
@@ -7103,13 +7152,11 @@ msgstr ""
 msgid "WhatsApp HEX color"
 msgstr ""
 
-#: build/block-editor/system/index.js:130 src/block-editor/system/sidebar.js:61
-#: build/block-editor/system/index.js:67
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:61
 msgid "Workers"
 msgstr ""
 
-#: build/block-editor/system/index.js:139 src/block-editor/system/sidebar.js:68
-#: build/block-editor/system/index.js:74
+#: build/block-editor/system/index.js:1 src/block-editor/system/sidebar.js:68
 msgid "Workers/Candidates"
 msgstr ""
 
@@ -7155,8 +7202,8 @@ msgstr "Su nombre"
 msgid "YouTube"
 msgstr ""
 
-#: build/blocks/additional-information/index.js:571
-#: build/blocks/requirements/index.js:561
+#: build/blocks/additional-information/index.js:1
+#: build/blocks/requirements/index.js:1
 #: src/blocks/additional-information/index.js:171
 #: src/blocks/requirements/index.js:159
 msgid "Zoom"

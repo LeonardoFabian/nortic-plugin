@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/directories-tab",
+    "title": "Directories Tab",
+    "category": "widgets",
+    "description": "Muestra pestañas con términos de la taxonomía 'directory' y el último documento asociado.",
+    "keywords": ["directory", "categoría", "documento", "tabs"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "count": {
+            "type": "number",
+            "default": -1
+        },
+        "directories": {
+            "type": "array",
+            "default": []
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend-directories-tab.js"
+}

@@ -1,0 +1,7 @@
+.wp-block-nortic-plugin-mt-departamentos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 54px !important;
+  martin-top: 54px !important;
+}

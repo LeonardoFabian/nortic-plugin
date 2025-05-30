@@ -108,9 +108,9 @@ registerBlockType(block.name, {
         </InspectorControls>
         {/* <div {...blockProps} data-carousel="slide"> */}
         <div {...blockProps}>
-          {/* Carousel wrapper */}
+          {/* glide__track */}
           <div className="glide__track" data-glide-el="track">
-            <div className="glide__slides">
+            <ul className="glide__slides">
               {carouselPosts?.map((post) => {
                 {
                   /* console.log(post); */
@@ -124,83 +124,80 @@ registerBlockType(block.name, {
                 const date = dateI18n("F j, Y", post.date);
 
                 return (
-                  <div className="h-96 glide__slide">
+                  <li className="glide__slide">
                     {postFeaturedImage &&
                       postFeaturedImage.media_details.sizes.bannerHero && (
-                        <div
-                          className="carousel_bg-image pt-8"
-                          style={{
-                            backgroundImage: `url(${postFeaturedImage.media_details.sizes.bannerHero.source_url})`,
-                            backgroundRepeat: "no-repeat",
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                          }}
-                        >
-                          <div className="carousel_content absolute bottom-0 flex flex-col justify-end w-screen pb-10 cursor-pointer">
-                            <div className="container">
-                              <h5>
-                                {/* <RawHTML>{post.title.rendered[0]}</RawHTML> */}
-                                {__(
-                                  "The Post Title will be displayed here on the frontend",
-                                  "nortic-plugin"
-                                )}
-                              </h5>
-                              {show_the_excerpt && (
-                                <p className="carousel-content-excerpt">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipscing elit. Praesent mi tortor, vehicula
-                                  et porta vel, aliquam eu est.
-                                </p>
-                              )}
-                              <a
-                                href="javascript:void(0)"
-                                className="wp-block-button__link wp-element-button"
-                              >
-                                {__("Read more", "nortic-plugin")}
-                              </a>
-                            </div>
+                        <>
+                          <div
+                            className="carousel_image_container "
+                            // style={{
+                            //   backgroundImage: `url(${postFeaturedImage.media_details.sizes.bannerHero.source_url})`,
+                            //   backgroundRepeat: "no-repeat",
+                            //   backgroundPosition: "center",
+                            //   backgroundSize: "cover",
+                            // }}
+                          >
+                            <img
+                              src={
+                                postFeaturedImage.media_details.sizes.bannerHero
+                                  .source_url
+                              }
+                              alt={post.title.rendered}
+                            />
                           </div>
-                        </div>
+                          <div className="carousel_content ">
+                            <h2 className="carousel-content-title">
+                              {/* <RawHTML>{post.title.rendered[0]}</RawHTML> */}
+                              {__(
+                                "The Post Title will be displayed here on the frontend",
+                                "nortic-plugin"
+                              )}
+                            </h2>
+                            {show_the_excerpt && (
+                              <p className="carousel-content-excerpt">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipscing elit. Praesent mi tortor, vehicula et
+                                porta vel, aliquam eu est.
+                              </p>
+                            )}
+                            <a
+                              href="javascript:void(0)"
+                              className="wp-block-button__link wp-element-button"
+                            >
+                              {__("Read more", "nortic-plugin")}
+                            </a>
+                          </div>
+                        </>
                       )}
-                  </div>
+                  </li>
                 );
               })}
-            </div>
-            {/* Slider indicators  */}
-            <div className="glide__bullets slide-indicators absolute bottom-4 w-full z-30 flex items-center justify-center mx-auto space-x-3">
-              {carouselPosts?.map((bullets, index) => (
-                <button
-                  type="button"
-                  className="w-3 h-3 rounded-full"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                  data-glide-dir={index}
-                ></button>
-              ))}
-            </div>
+            </ul>
+          </div>
+          {/* end glide__track */}
+
+          {/* Slider indicators  */}
+          <div className="glide__bullets">
+            {carouselPosts?.map((bullets, index) => (
+              <button
+                type="button"
+                className="glide__bullet w-4 h-4 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-glide-dir={index}
+              ></button>
+            ))}
           </div>
 
           {/* Slider controls  */}
-          <button
-            type="button"
-            className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-prev
-          >
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full">
-              <i class="bi bi-arrow-left text-md"></i>
-              <span className="sr-only">{__("Previous", "nortic-plugin")}</span>
-            </span>
-          </button>
-          <button
-            type="button"
-            className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-next
-          >
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full">
-              <i class="bi bi-arrow-right text-md"></i>
-              <span className="sr-only">{__("Next", "nortic-plugin")}</span>
-            </span>
-          </button>
+          <div className="glide__arrows" data-glide-el="controls[nav]">
+            <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">
+              &lt;
+            </button>
+            <button class="glide__arrow glide__arrow--next" data-glide-dir=">">
+              &gt;
+            </button>
+          </div>
         </div>
       </>
     );

@@ -14,18 +14,22 @@ if (!function_exists('nortic_plugin_activation')) {
         }
 
         // Register plugin post types
+        nortic_plugin_achievement_post_type();
+        nortic_plugin_award_post_type();
         nortic_plugin_content_post_type();
         nortic_plugin_dependency_post_type();
         nortic_plugin_document_post_type();
+        nortic_plugin_event_post_type();
         nortic_plugin_faq_post_type();
         nortic_plugin_gallery_post_type();
         nortic_plugin_newsletter_post_type();
-        nortic_plugin_resolution_post_type();
         nortic_plugin_service_post_type();
+        nortic_plugin_system_post_type();
         nortic_plugin_team_post_type();
-        nortic_plugin_event_post_type();
-        nortic_plugin_achievement_post_type();
-        nortic_plugin_certificate_post_type();
+        // nortic_plugin_certificate_post_type();
+        
+        nortic_plugin_resolution_post_type();
+        nortic_plugin_resource_post_type();
 
         // rewrite the rules so that WordPress stores the path of the custom post types
         flush_rewrite_rules();

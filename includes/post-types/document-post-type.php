@@ -34,21 +34,137 @@ if (!function_exists('nortic_plugin_document_post_type')) {
         $args = array(
             'labels'             => $labels,
             'public'             => true,
+            'has_archive'        => false, // era true
+            'hierarchical'       => true, // era false
+            'show_in_rest'       => true,
             'publicly_queryable' => true,
             'show_ui'            => true,
             'show_in_menu'       => true,
             'query_var'          => true,
             'rewrite'            => array('slug' => 'documentos'),
             'capability_type'    => 'post',
-            'has_archive'        => true,
-            'hierarchical'       => false,
             'menu_position'      => 21,
             'supports'           => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'custom-fields', 'page-attributes'),
-            'show_in_rest'       => true,
             'description'        => __('A custom post type for documents', 'nortic-plugin'),
         );
 
         register_post_type('document', $args);
+
+        // Document type: folder, file, note or url
+        register_post_meta(
+            'document',
+            'document_type',
+            array(
+                'type'          => 'string',
+                'single'        => true,
+                'show_in_rest'  => true,
+                'description'   => __('Document Type', 'nortic-plugin'),
+                // 'sanitize_callback' => 'sanitize_text_field',
+                // 'auth_callback' => function () {
+                //     return current_user_can('edit_posts');
+                // }
+            )
+        );
+
+        register_post_meta('document', 'document_parent_id', [
+            'type' => 'integer',
+            'description' => __('Parent', 'nortic-plugin'),
+            'single' => true,
+            'default' => 0,
+            'show_in_rest' => true,
+        ]);
+
+        // Document url
+        register_post_meta(
+            'document',
+            'file_url',
+            array(
+                'description'   => __('File URL', 'nortic-plugin'),
+                'single'        => true,
+                'type'          => 'string',
+                'show_in_rest'  => true,
+                'sanitize_callback' => 'esc_url_raw',
+                'auth_callback' => function () {
+                    return current_user_can('edit_posts');
+                }
+            )
+        );
+
+         // Document external url
+         register_post_meta(
+            'document',
+            'document_external_url',
+            array(
+                'description'   => __('External URL', 'nortic-plugin'),
+                'single'        => true,
+                'type'          => 'string',
+                'show_in_rest'  => true,
+                'sanitize_callback' => 'esc_url_raw',
+                'auth_callback' => function () {
+                    return current_user_can('edit_posts');
+                }
+            )
+        );
+
+         // Document size readable
+         register_post_meta(
+            'document',
+            'document_external_url_label',
+            array(
+                'description'   => __('External URL Label', 'nortic-plugin'),
+                'single'        => true,
+                'type'          => 'string',
+                'show_in_rest'  => true,
+                'sanitize_callback' => 'sanitize_text_field',
+                'auth_callback' => function () {
+                    return current_user_can('edit_posts');
+                }
+            )
+        );
+
+         // Additional information
+         register_post_meta('document', 'note', [
+            'type'              => 'string',
+            'description'       => __('Note', 'nortic-plugin'),
+            'single'            => true,
+            'show_in_rest'      => true,
+            'sanitize_callback' => 'sanitize_textarea_field',
+            'auth_callback'     => function () {
+                return current_user_can('edit_posts');
+            }
+        ]);
+
+         // Document size readable
+         register_post_meta(
+            'document',
+            'file_size_readable',
+            array(
+                'description'   => __('Size', 'nortic-plugin'),
+                'single'        => true,
+                'type'          => 'string',
+                'show_in_rest'  => true,
+                'sanitize_callback' => 'sanitize_text_field',
+                'auth_callback' => function () {
+                    return current_user_can('edit_posts');
+                }
+            )
+        );
+
+        // Document size in bytes
+        register_post_meta(
+            'document',
+            'file_size_in_bytes',
+            array(
+                'description'   => __('File Size in Bytes', 'nortic-plugin'),
+                'single'        => true,
+                'type'          => 'integer',
+                'show_in_rest'  => true,
+                'sanitize_callback' => 'absint',
+                'auth_callback' => function () {
+                    return current_user_can('edit_posts');
+                }
+            )
+        );
 
         // Document title
         register_post_meta(
@@ -98,21 +214,7 @@ if (!function_exists('nortic_plugin_document_post_type')) {
             )
         );
 
-        // Document url
-        register_post_meta(
-            'document',
-            'file_url',
-            array(
-                'description'   => __('File URL', 'nortic-plugin'),
-                'single'        => true,
-                'type'          => 'string',
-                'show_in_rest'  => true,
-                'sanitize_callback' => 'esc_url_raw',
-                'auth_callback' => function () {
-                    return current_user_can('edit_posts');
-                }
-            )
-        );
+        
 
         // Document related post ID
         register_post_meta(
@@ -130,37 +232,7 @@ if (!function_exists('nortic_plugin_document_post_type')) {
             )
         );
 
-        // Document size readable
-        register_post_meta(
-            'document',
-            'file_size_readable',
-            array(
-                'description'   => __('Size', 'nortic-plugin'),
-                'single'        => true,
-                'type'          => 'string',
-                'show_in_rest'  => true,
-                'sanitize_callback' => 'sanitize_text_field',
-                'auth_callback' => function () {
-                    return current_user_can('edit_posts');
-                }
-            )
-        );
-
-        // Document size in bytes
-        register_post_meta(
-            'document',
-            'file_size_in_bytes',
-            array(
-                'description'   => __('File Size in Bytes', 'nortic-plugin'),
-                'single'        => true,
-                'type'          => 'integer',
-                'show_in_rest'  => true,
-                'sanitize_callback' => 'absint',
-                'auth_callback' => function () {
-                    return current_user_can('edit_posts');
-                }
-            )
-        );
+       
 
         // Document format
         register_post_meta(

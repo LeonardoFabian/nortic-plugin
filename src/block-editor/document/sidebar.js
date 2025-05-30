@@ -9,12 +9,18 @@ import {
   TextControl,
   TextareaControl,
   ToggleControl,
+  SelectControl,
   Button,
 } from "@wordpress/components";
 
 registerPlugin("nortic-plugin-sidebar", {
   render() {
     const {
+      document_type,
+      document_parent_id,
+      document_external_url,
+      document_external_url_label,
+      note,
       rating,
       total_ratings,
       icon,
@@ -55,7 +61,7 @@ registerPlugin("nortic-plugin-sidebar", {
     const handleImageSelect = (file) => {
       console.log(file);
 
-      let newIcon = `${pluginDirectoryUri}/dist/public/images/${file.subtype}.svg`;
+      const newIcon = `${pluginDirectoryUri}/dist/public/images/${file.subtype}.svg`;
 
       editPost({
         meta: {
@@ -76,10 +82,86 @@ registerPlugin("nortic-plugin-sidebar", {
     return (
       <PluginSidebar
         name="nortic_plugin_sidebar"
-        icon="menu-alt"
-        title={__("Document Metadata", "nortic-plugin")}
+        icon="admin-generic"
+        title={__("Document Settings", "nortic-plugin")}
       >
-        <PanelBody title={__("Statistics", "nortic-plugin")}>
+        <PanelBody title={__("Document Options", "nortic-plugin")}>
+          <SelectControl
+            label={__("Document type", "nortic-plugin")}
+            options={[
+              {
+                label: __("-- Select document type --", "nortic-plugin"),
+                value: "",
+              },
+              { label: __("File", "nortic-plugin"), value: "file" },
+              { label: __("Folder", "nortic-plugin"), value: "folder" },
+              {
+                label: __("External Link", "nortic-plugin"),
+                value: "external_link",
+              },
+              { label: __("Note", "nortic-plugin"), value: "note" },
+            ]}
+            value={document_type}
+            onChange={(value) =>
+              editPost({
+                meta: {
+                  document_type: value,
+                },
+              })
+            }
+          />
+          {document_type === "external_link" && (
+            <>
+              <TextControl
+                label={__("External URL", "nortic-plugin")}
+                value={document_external_url || ""}
+                onChange={(document_external_url) =>
+                  editPost({
+                    meta: {
+                      document_external_url,
+                    },
+                  })
+                }
+              />
+              <TextControl
+                label={__("External URL Label", "nortic-plugin")}
+                value={document_external_url_label || ""}
+                onChange={(document_external_url_label) =>
+                  editPost({
+                    meta: {
+                      document_external_url_label,
+                    },
+                  })
+                }
+              />
+              <TextareaControl
+                label={__("Description", "nortic-plugin")}
+                value={description}
+                onChange={(description) =>
+                  editPost({
+                    meta: {
+                      description,
+                    },
+                  })
+                }
+              />
+            </>
+          )}
+          {document_type === "note" && (
+            <TextareaControl
+              label={__("Note", "nortic-plugin")}
+              value={note}
+              onChange={(note) =>
+                editPost({
+                  meta: {
+                    note,
+                  },
+                })
+              }
+            />
+          )}
+        </PanelBody>
+        {/* <PanelBody title={__("Statistics", "nortic-plugin")}>
           <Rating value={rating} precision={0.5} readOnly />
           <Typography variant="body2" color="text.secondary">
             {__("Rating", "nortic-plugin")}: {rating}
@@ -90,84 +172,87 @@ registerPlugin("nortic-plugin-sidebar", {
               ? __("user rating", "nortic-plugin")
               : __("users rating", "nortic-plugin")}
           </Typography>
-        </PanelBody>
-        <PanelBody title={__("Information", "nortic-plugin")}>
-          <TextareaControl
-            label={__("File title", "nortic-plugin")}
-            value={file_title}
-            onChange={(file_title) =>
-              editPost({
-                meta: {
-                  file_title,
-                },
-              })
-            }
-          />
-          <TextareaControl
-            label={__("Description", "nortic-plugin")}
-            value={description}
-            onChange={(description) =>
-              editPost({
-                meta: {
-                  description,
-                },
-              })
-            }
-          />
-
-          <Typography variant="body2" color="text.secondary">
-            <strong>{__("File name", "nortic-plugin")}:</strong> {file_name}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            <strong>{__("File size", "nortic-plugin")}:</strong>{" "}
-            {file_size_readable}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            <strong>{__("File format", "nortic-plugin")}:</strong> {file_format}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            <strong>{__("File URL", "nortic-plugin")}:</strong>
-            <a href={file_url} target="_blank">
-              {file_url}
-            </a>
-          </Typography>
-
-          <MediaUploadCheck>
-            <MediaUpload
-              allowedTypes={ALLOWED_MEDIA_TYPES}
-              render={({ open }) => {
-                return (
-                  <Button isPrimary onClick={open}>
-                    {__("Select file", "nortic-plugin")}
-                  </Button>
-                );
-              }}
-              onSelect={handleImageSelect}
+        </PanelBody> */}
+        {document_type === "file" && (
+          <PanelBody title={__("Information", "nortic-plugin")}>
+            {/* <TextareaControl
+              label={__("File title", "nortic-plugin")}
+              value={file_title}
+              onChange={(file_title) =>
+                editPost({
+                  meta: {
+                    file_title,
+                  },
+                })
+              }
+            /> */}
+            <TextareaControl
+              label={__("Description", "nortic-plugin")}
+              value={description}
+              onChange={(description) =>
+                editPost({
+                  meta: {
+                    description,
+                  },
+                })
+              }
             />
-          </MediaUploadCheck>
 
-          <ToggleControl
-            label={__("Use default icon", "nortic-plugin")}
-            checked={use_default_icon}
-            help={
-              use_default_icon
-                ? __(
-                    "Show the default WordPress icon for documents.",
-                    "nortic-plugin"
-                  )
-                : __(
-                    "Show the plugin icon. The image is associated with the file format."
-                  )
-            }
-            onChange={(use_default_icon) =>
-              editPost({
-                meta: {
-                  use_default_icon,
-                },
-              })
-            }
-          />
-        </PanelBody>
+            <MediaUploadCheck>
+              <MediaUpload
+                allowedTypes={ALLOWED_MEDIA_TYPES}
+                render={({ open }) => {
+                  return (
+                    <Button isPrimary onClick={open}>
+                      {__("Select file", "nortic-plugin")}
+                    </Button>
+                  );
+                }}
+                onSelect={handleImageSelect}
+              />
+            </MediaUploadCheck>
+
+            <Typography variant="body2" color="text.secondary">
+              <strong>{__("File name", "nortic-plugin")}:</strong> {file_name}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <strong>{__("File size", "nortic-plugin")}:</strong>{" "}
+              {file_size_readable}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <strong>{__("File format", "nortic-plugin")}:</strong>{" "}
+              {file_format}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <strong>{__("File URL", "nortic-plugin")}:</strong>
+              <a href={file_url} target="_blank">
+                {file_url}
+              </a>
+            </Typography>
+
+            <ToggleControl
+              label={__("Use default icon", "nortic-plugin")}
+              checked={use_default_icon}
+              help={
+                use_default_icon
+                  ? __(
+                      "Show the default WordPress icon for documents.",
+                      "nortic-plugin"
+                    )
+                  : __(
+                      "Show the plugin icon. The image is associated with the file format."
+                    )
+              }
+              onChange={(use_default_icon) =>
+                editPost({
+                  meta: {
+                    use_default_icon,
+                  },
+                })
+              }
+            />
+          </PanelBody>
+        )}
       </PluginSidebar>
     );
   },

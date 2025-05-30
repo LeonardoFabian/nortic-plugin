@@ -5,14 +5,14 @@ if (!function_exists('nortic_plugin_breadcrumb_render_cb')) {
     {
         ob_start();
 ?>
-        <?php if (!is_front_page() && !is_home()) : ?>
+        <?php if (!is_front_page() && !is_home() && !is_404() && !is_search()) : ?>
             <div class="wp-block-nortic-plugin-breadcrumb shadow-sm">
                 <div class="py-4">
                     <div class="w-full px-4 flex flex-wrap items-center justify-between">
                         <?php if ($atts['showSectionName']) : ?>
-                            <h6 class="text-sm color-blue font-medium"><?php echo get_the_title(); ?></h6>
+                            <h6 class="text-md color-blue font-semibold"><?php echo get_the_title(); ?></h6>
                         <?php endif; ?>
-                        <div class="flex items-center flex-wrap">
+                        <div class="breadcrumb-nav flex items-center gap-2 flex-wrap">
                             <?php the_breadcrumb(); ?>
                         </div>
                     </div>

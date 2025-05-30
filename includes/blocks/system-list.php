@@ -28,7 +28,7 @@ if(!function_exists('nortic_plugin_system_list_render_cb')) {
                 </div>
             <?php endif; ?>
             <div <?php if($useGlidejs ) echo 'data-glide-el="track"'; ?> >
-                <div class="system-list-wrapper <?php $useGlidejs === true ? 'glide__slides' : ''; ?>">
+                <div class="system-list-wrapper grid grid-cols-2 md:flex md:items-center md:space-between gap-4 md:gap-0 <?php $useGlidejs === true ? 'glide__slides' : ''; ?>">
                     <?php if($query->have_posts()) : ?>
                         <?php while($query->have_posts()) : $query->the_post(); ?>
                             <?php 

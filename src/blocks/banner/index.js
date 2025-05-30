@@ -91,7 +91,7 @@ registerBlockType(block.name, {
       return select(blockEditorStore).getSettings().imageSizes;
     });
 
-    console.log(bannerImageSizes);
+    // console.log(bannerImageSizes);
 
     const getBannerImageSizeOptions = () => {
       if (!bannerImageObject) return [];
@@ -114,7 +114,7 @@ registerBlockType(block.name, {
     const [bannerImagePreview, setBannerImagePreview] = useState(imageUrl);
 
     const blockProps = useBlockProps({
-      className: `h-full relative`,
+      className: `h-auto relative`,
     });
 
     // handle image size select
@@ -235,7 +235,7 @@ registerBlockType(block.name, {
     const { title, imageID, imageAlt, imageUrl, objectFit, link, linkTarget } =
       attributes;
     const blockProps = useBlockProps.save({
-      className: `h-full relative`,
+      className: `h-auto relative`,
     });
 
     return (

@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 62 69" style="enable-background:new 0 0 62 69;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#EE2B24;}
-	.st1{fill:#FFFFFF;stroke:#D6DEE1;stroke-width:0.25;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#FF4C4C;stroke-width:2;stroke-miterlimit:10;}
-</style>
-<path class="st0" d="M-419.8-207.2v-10.1h-29.9v-4.1h-21.2v43h16.8h4.4h29.9v-1.3l8.9-27.5L-419.8-207.2L-419.8-207.2z
-	 M-452.7-218.2v3.5h29.8v7.5H-443l-5.1,6h-14.7l-4.9,15.3v-32.3H-452.7z"/>
-<path class="st1" d="M9.3,0.5C4.8,0.5,1,4.1,1,8.8v51.4c0,4.5,3.7,8.3,8.3,8.3h43.3c4.5,0,8.3-3.7,8.3-8.3V16.8L44.6,0.5H9.3z"/>
-<path class="st2" d="M31.1,25c-1-7.1-7.1,1.7,1.3,9.7c3.1,3.9,5.5,6.2,7.4,6.8c2.9,0.7,4.5-1.7,1.7-2.9c-2.9-1.2-7.9-0.8-10.8-0.4
-	c-12.1,1.3-14.7,11.4-8.7,7.3C26.1,40.6,31.5,31.6,31.1,25L31.1,25z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff4c4c;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        filter: url(#drop-shadow-1);
+        stroke: #d6dee1;
+        stroke-width: .2px;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="-6" y="-6" width="74" height="81" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#d2d2d2" flood-opacity=".8"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <path class="cls-2" d="M9.3.5C4.8.5,1,4.1,1,8.8v51.4c0,4.5,3.7,8.3,8.3,8.3h43.3c4.5,0,8.3-3.7,8.3-8.3V16.8L44.6.5H9.3Z"/>
+      <path class="cls-1" d="M31.1,25c-1-7.1-7.1,1.7,1.3,9.7,3.1,3.9,5.5,6.2,7.4,6.8,2.9.7,4.5-1.7,1.7-2.9-2.9-1.2-7.9-.8-10.8-.4-12.1,1.3-14.7,11.4-8.7,7.3,4.1-4.9,9.5-13.9,9.1-20.5h0Z"/>
+    </g>
+  </g>
 </svg>

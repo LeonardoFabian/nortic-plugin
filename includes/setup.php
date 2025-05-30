@@ -13,7 +13,7 @@ if (!function_exists('nortic_plugin_setup_theme')) {
         add_image_size('opengraph', 1200, 630, TRUE);
         add_image_size('cinema', 1900, 814, TRUE);
         add_image_size('fullScreenHero', 1200, 675, TRUE);
-        add_image_size('bannerHero', 1600, 400, TRUE);
+        add_image_size('bannerHero', 2880, 480, TRUE);
         add_image_size('postHeader', 1600, 350, TRUE);
         add_image_size('mobileHero', 800, 1200, TRUE);
         add_image_size('landscape', 1200, 900, TRUE);

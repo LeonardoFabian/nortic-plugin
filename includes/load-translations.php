@@ -113,6 +113,12 @@ if (!function_exists('nortic_plugin_block_translations')) {
             "nortic-plugin-province-rd-trabaja-jobs-editor-script",
             "nortic-plugin-province-cloud-editor-script",
             "nortic-plugin-newsletter-list-editor-script",
+            "nortic-plugin-mt-departamentos-editor-script",
+            "nortic-plugin-document-manager-editor-script",
+            "nortic-plugin-directories-tab-editor-script",
+            "nortic-plugin-gob-do-editor-script",
+            "nortic-plugin-powerbi-embed-editor-script",
+            "nortic-plugin-document-explorer-editor-script",
         ];
 
         // Loaded translations for all blocks

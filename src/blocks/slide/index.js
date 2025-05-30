@@ -5,9 +5,18 @@ import {
   MediaPlaceholder,
   BlockControls,
   MediaReplaceFlow,
+  InspectorControls,
+  PanelColorSettings,
 } from "@wordpress/block-editor";
 import { isBlobURL, revokeBlobURL } from "@wordpress/blob";
-import { ToolbarButton, Spinner } from "@wordpress/components";
+import {
+  ToolbarButton,
+  Spinner,
+  PanelBody,
+  ToggleControl,
+  TextControl,
+  TextareaControl,
+} from "@wordpress/components";
 import { useState } from "@wordpress/element";
 import { __ } from "@wordpress/i18n";
 import block from "./block.json";
@@ -17,14 +26,23 @@ import "./main.css";
 registerBlockType(block.name, {
   icon: icons.domo,
   edit({ attributes, setAttributes }) {
-    const { width, height, imageID, imageAlt, imageUrl } = attributes;
+    const {
+      title,
+      titleColor,
+      subTitle,
+      subTitleColor,
+      imageID,
+      imageUrl,
+      imageAlt,
+      showTitle,
+      showSubTitle,
+      buttonLabel,
+      buttonUrl,
+      buttonColor,
+      showButton,
+    } = attributes;
     const blockProps = useBlockProps({
-      className: "w-full h-96 glide__slide",
-      style: {
-        width: width,
-        height: height,
-        "max-height": height,
-      },
+      className: "glide__slide relative",
     });
 
     const handleHeroBlankImageSelect = (image) => {
@@ -91,26 +109,74 @@ registerBlockType(block.name, {
             </ToolbarButton>
           </BlockControls>
         )}
+        <InspectorControls>
+          <PanelBody title={__("Settings", block.textdomain)}>
+            <TextControl
+              label={__("Title", block.textdomain)}
+              value={title}
+              onChange={(title) => setAttributes({ title })}
+            />
+            <ToggleControl
+              label={__("Show title", block.textdomain)}
+              checked={showTitle}
+              onChange={(showTitle) => setAttributes({ showTitle })}
+            />
+            <TextControl
+              label={__("Sub title", block.textdomain)}
+              value={subTitle}
+              onChange={(subTitle) => setAttributes({ subTitle })}
+            />
+            <ToggleControl
+              label={__("Show sub title", block.textdomain)}
+              checked={showSubTitle}
+              onChange={(showSubTitle) => setAttributes({ showSubTitle })}
+            />
+            <ToggleControl
+              label={__("Show button", block.textdomain)}
+              checked={showButton}
+              onChange={(showButton) => setAttributes({ showButton })}
+            />
+            {showButton && (
+              <>
+                <TextControl
+                  label={__("Button label", block.textdomain)}
+                  value={buttonLabel}
+                  onChange={(buttonLabel) => setAttributes({ buttonLabel })}
+                />
+                <TextControl
+                  label={__("Button url", block.textdomain)}
+                  value={buttonUrl}
+                  onChange={(buttonUrl) => setAttributes({ buttonUrl })}
+                />
+              </>
+            )}
+          </PanelBody>
+          <PanelColorSettings
+            title={__("Colors", block.textdomain)}
+            initialOpen={true}
+            colorSettings={[
+              {
+                value: titleColor,
+                onChange: (newColor) => setAttributes({ titleColor: newColor }),
+                label: __("Title color", block.textdomain),
+              },
+              {
+                value: subTitleColor,
+                onChange: (newColor) =>
+                  setAttributes({ subTitleColor: newColor }),
+                label: __("Sub title color", block.textdomain),
+              },
+              {
+                value: buttonColor,
+                onChange: (newColor) =>
+                  setAttributes({ buttonColor: newColor }),
+                label: __("Button color", block.textdomain),
+              },
+            ]}
+          />
+        </InspectorControls>
         <li {...blockProps}>
-          <div
-            className="slide_bg-image pt-8 pb-8"
-            style={{
-              backgroundImage: `url(${imageUrl})`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-            }}
-          >
-            <div className="slide_content flex flex-col justify-end container pt-8 pb-8">
-              <InnerBlocks
-                allowedBlocks={[
-                  "core/heading",
-                  "core/paragraph",
-                  "core/buttons",
-                  "core/list",
-                ]}
-              />
-            </div>
+          <div className="slide_bg-image-container">
             {isBlobURL(imageUrl) && <Spinner />}
             <MediaPlaceholder
               allowedTypes={["image/png", "image/jpeg"]}
@@ -121,38 +187,90 @@ registerBlockType(block.name, {
               disableMediaButtons={imageUrl}
               onSelectURL={handleHeroBlankImageSelectUrl}
             />
+            <img className="slide_bg-image" src={imageUrl} alt={imageAlt} />
+          </div>
+          <div className="slide_content">
+            {showTitle && (
+              <h2
+                className="slide_title  text-2xl font-bold"
+                style={{ color: titleColor }}
+              >
+                {title}
+              </h2>
+            )}
+            {showSubTitle && (
+              <p
+                className="slide_sub-title text-lg"
+                style={{ color: subTitleColor }}
+              >
+                {subTitle}
+              </p>
+            )}
+            {showButton && (
+              <a
+                href={buttonUrl}
+                className="inline-block mt-4 px-4 py-2 rounded text-white"
+                style={{ backgroundColor: buttonColor }}
+              >
+                {buttonLabel}
+              </a>
+            )}
           </div>
         </li>
       </>
     );
   },
   save({ attributes }) {
-    const { width, height, imageID, imageAlt, imageUrl } = attributes;
+    const {
+      title,
+      titleColor,
+      subTitle,
+      subTitleColor,
+      imageID,
+      imageUrl,
+      imageAlt,
+      showTitle,
+      showSubTitle,
+      buttonLabel,
+      buttonUrl,
+      buttonColor,
+      showButton,
+    } = attributes;
     const blockProps = useBlockProps.save({
-      className: "w-full h-96 glide__slide",
-      style: {
-        width: width,
-        height: height,
-        "max-height": height,
-      },
+      className: "glide__slide relative",
     });
 
     return (
       <li {...blockProps}>
-        <div
-          className="slide_bg-image"
-          style={{
-            backgroundImage: `url(${imageUrl})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
-        >
-          <div className="slide_content absolute bottom-0 flex flex-col w-screen py-2 cursor-pointer">
-            <div className="container">
-              <InnerBlocks.Content />
-            </div>
-          </div>
+        <div className="slide_bg-image-container">
+          <img className="slide_bg-image" src={imageUrl} alt={imageAlt} />
+        </div>
+        <div className="slide_content">
+          {showTitle && (
+            <h1
+              className="slide_title text-2xl font-bold"
+              style={{ color: titleColor }}
+            >
+              {title}
+            </h1>
+          )}
+          {showSubTitle && (
+            <p
+              className="slide_sub-title text-lg"
+              style={{ color: subTitleColor }}
+            >
+              {subTitle}
+            </p>
+          )}
+          {showButton && (
+            <a
+              href={buttonUrl}
+              className="inline-block mt-4 px-4 py-2 rounded text-white"
+              style={{ backgroundColor: buttonColor }}
+            >
+              {buttonLabel}
+            </a>
+          )}
         </div>
       </li>
     );

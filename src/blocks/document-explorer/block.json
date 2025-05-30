@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/document-explorer",
+    "title": "Document Explorer",
+    "category": "widgets",
+    "description": "Add a custom document explorer",
+    "keywords": ["document", "documento", "file", "item", "pdf", "txt", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "ods", "csv", "image", "audio", "video"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "parentId": {
+            "type": "number",
+            "default": 0
+        },
+        "order": {
+            "type": "string",
+            "default": "desc"
+        },
+        "orderBy": {
+            "type": "string",
+            "default": "date"
+        }
+    },
+    "style": "file:./index.css"
+}

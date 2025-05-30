@@ -3,7 +3,7 @@
   margin-bottom: 2rem !important;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 30px;
 }
 
@@ -72,8 +72,8 @@
 /* .wp-block-nortic-plugin-service-list .service-list-item span {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 0.5rem;
 } */
 .wp-block-nortic-plugin-service-list
@@ -107,7 +107,7 @@
   .service-list-rating {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
 }
@@ -118,7 +118,7 @@
   ul {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   flex-wrap: nowrap !important;
   gap: 4px;
 }

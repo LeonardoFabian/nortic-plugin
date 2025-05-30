@@ -37,7 +37,7 @@ registerBlockType(block.name, {
         </InspectorControls>
         <div {...blockProps}>
           <RichText
-            tagName="h2"
+            tagName="h1"
             className="nortic-title"
             placeholder={__("Click to edit", "nortic-plugin")}
             value={title}
@@ -63,7 +63,7 @@ registerBlockType(block.name, {
 
     return (
       <div {...blockProps}>
-        <RichText.Content className="nortic-title" tagName="h2" value={title} />
+        <RichText.Content className="nortic-title" tagName="h1" value={title} />
       </div>
     );
   },

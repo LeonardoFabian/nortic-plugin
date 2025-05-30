@@ -177,6 +177,8 @@ add_action('add_meta_boxes', 'nortic_plugin_add_meta_boxes');
 # Head tags
 add_action('wp_head', 'nortic_plugin_wp_head');
 
+
+
 # Translations
 add_action('init', 'nortic_plugin_load_php_translations');
 add_action('wp_enqueue_scripts', 'nortic_plugin_block_translations', 100);
@@ -223,3 +225,10 @@ add_filter('rest_after_insert_post', 'nortic_plugin_rest_after_insert_new_newsle
 add_filter('rest_after_insert_post', 'nortic_plugin_rest_after_insert_new_award', 10, 3);
 add_filter('rest_after_insert_post', 'nortic_plugin_rest_after_insert_new_system', 10, 3);
 
+// MT CMS API ENDPOINTS 
+add_action('rest_api_init', function () {
+    register_rest_route('nortic/v1', '/departamentos', [
+        'methods' => 'GET',
+        'callback' => 'nortic_plugin_fetch_departamentos',
+    ]);
+});

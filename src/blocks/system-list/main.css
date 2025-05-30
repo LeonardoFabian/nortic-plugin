@@ -27,10 +27,10 @@
 
 .editor-styles-wrapper .wp-block-nortic-plugin-system-list .system-list-wrapper,
 .wp-block-nortic-plugin-system-list .system-list-wrapper {
-  display: flex;
-  flex-direction: row;
+  /* display: grid; */
+  /* flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   padding-top: 54px;
   padding-bottom: 30px;
 }
@@ -43,7 +43,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
 }

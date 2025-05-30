@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "nortic-plugin/gob-do",
+    "title": "Certificado sitio web perteneciente al Estado Dominicano",
+    "category": "widgets",
+    "description": "Muestra un certificado de sitio web perteneciente a un organismo del Estado Dominicano.",
+    "keywords": ["barra gubernamental", "certificado", "gob", "mil", "gov", "do", "gob.do", "gov.do", "mil.do"],
+    "version": "1",
+    "textdomain": "nortic-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {},
+    "style": "file:./index.css",
+    "script": "file:./frontend-gob-do.js"
+}

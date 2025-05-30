@@ -13,7 +13,9 @@ registerBlockType(block.name, {
   icon: icons.domo,
   edit({ attributes, setAttributes }) {
     const { color, bgColor } = attributes;
-    const blockProps = useBlockProps();
+    const blockProps = useBlockProps({
+      className: "h-11",
+    });
     return (
       <>
         <InspectorControls>
@@ -52,7 +54,9 @@ registerBlockType(block.name, {
   },
   save({ attributes }) {
     const { color, bgColor } = attributes;
-    const blockProps = useBlockProps.save();
+    const blockProps = useBlockProps.save({
+      className: "h-11",
+    });
 
     return (
       <div {...blockProps}>

@@ -44,10 +44,9 @@ registerBlockType(block.name, {
     } = attributes;
 
     const blockProps = useBlockProps({
-      className: `max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col justify-between`,
+      className: `max-w-sm p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition duration-700 ease-in-out flex flex-col justify-between`,
       style: {
         color: textColor,
-        backgroundColor: bgColor,
       },
     });
 
@@ -129,11 +128,18 @@ registerBlockType(block.name, {
         <div {...blockProps}>
           <div className="text-center flex flex-col justify-between gap-4">
             {useIcon ? (
-              <div className="service-card-image-wrapper text-center h-24">
-                <Dashicon icon={icon} style={{ color: "#ee2a24" }} />
+              <div
+                className="service-card-image-wrapper flex items-center justify-center text-center h-16 w-16 rounded-full"
+                style={{ backgroundColor: bgColor }}
+              >
+                <Dashicon
+                  icon={icon}
+                  style={{ color: iconColor }}
+                  className="h-12 max-h-12"
+                />
               </div>
             ) : (
-              <div className="service-card-image-wrapper text-center h-24">
+              <div className="service-card-image-wrapper text-center h-16">
                 {imagePreview && (
                   <img
                     src={imageUrl}
@@ -155,34 +161,36 @@ registerBlockType(block.name, {
                 />
               </div>
             )}
-            <RichText
-              tagName="h5"
-              className="mb-2 text-2xl font-semibold tracking-tight"
-              placeholder={__("Click to add a title", block.textdomain)}
-              value={title}
-              onChange={(title) => setAttributes({ title })}
-              allowedFormats={["core/bold", "core/link", "core/text-color"]}
-            />
-            <RichText
-              tagName="p"
-              className="mb-3 font-normal"
-              placeholder={__("Click to add a description", block.textdomain)}
-              value={description}
-              onChange={(description) => setAttributes({ description })}
-              allowedFormats={["core/italic", "core/text-color"]}
-            />
-          </div>
-          <div className="flex items-center justify-center">
-            <InnerBlocks
-              orientation="horizontal"
-              allowedBlocks={["core/buttons", "core/button"]}
-            />
-            {/* <a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-                            Ver más
-                            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-                            </svg>
-                        </a> */}
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-col">
+                <RichText
+                  tagName="h6"
+                  className="mb-2 text-sm font-semibold tracking-tight"
+                  placeholder={__("Click to add a title", block.textdomain)}
+                  value={title}
+                  onChange={(title) => setAttributes({ title })}
+                  allowedFormats={["core/bold", "core/link", "core/text-color"]}
+                />
+                <RichText
+                  tagName="p"
+                  className="mb-3 font-normal"
+                  placeholder={__(
+                    "Click to add a description",
+                    block.textdomain
+                  )}
+                  value={description}
+                  onChange={(description) => setAttributes({ description })}
+                  allowedFormats={["core/italic", "core/text-color"]}
+                />
+              </div>
+
+              <div className="flex items-center justify-center">
+                <InnerBlocks
+                  orientation="horizontal"
+                  allowedBlocks={["core/buttons", "core/button"]}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </>
@@ -203,10 +211,9 @@ registerBlockType(block.name, {
     } = attributes;
 
     const blockProps = useBlockProps.save({
-      className: `glide__slide max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col justify-between`,
+      className: `glide__slide max-w-sm p-6 bg-white bg-opacity-50 border border-gray-200 rounded-lg hover:shadow-lg transition duration-700 ease-in-out flex flex-col justify-between`,
       style: {
         color: textColor,
-        backgroundColor: bgColor,
       },
     });
 
@@ -214,11 +221,18 @@ registerBlockType(block.name, {
       <div {...blockProps}>
         <div className="text-center flex flex-col justify-between gap-4">
           {useIcon ? (
-            <div className="service-card-image-wrapper text-center h-24">
-              <Dashicon icon={icon} style={{ color: "#ee2a24" }} />
+            <div
+              className="service-card-image-wrapper text-center h-16 w-16 rounded-full"
+              style={{ backgroundColor: bgColor }}
+            >
+              <Dashicon
+                icon={icon}
+                style={{ color: iconColor }}
+                className="h-12 max-h-12"
+              />
             </div>
           ) : (
-            <div className="service-card-image-wrapper text-center h-24">
+            <div className="service-card-image-wrapper text-center h-16">
               <img
                 src={imageUrl}
                 alt={imageAlt}
@@ -226,25 +240,25 @@ registerBlockType(block.name, {
               />
             </div>
           )}
-          <RichText.Content
-            tagName="h5"
-            className="mb-2 text-2xl font-semibold tracking-tight"
-            value={title}
-          />
-          <RichText.Content
-            tagName="p"
-            className="mb-3 font-normal"
-            value={description}
-          />
-        </div>
-        <div className="flex items-center justify-center">
-          <InnerBlocks.Content />
-          {/* <a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
-                        Ver más
-                        <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-                        </svg>
-                    </a> */}
+          <div className="flex flex-col gap-2">
+            <div className=" flex flex-col">
+              <RichText.Content
+                tagName="h6"
+                className="mb-2 text-sm font-semibold tracking-tight"
+                value={title}
+              />
+              {description && (
+                <RichText.Content
+                  tagName="p"
+                  className="mb-3 font-normal"
+                  value={description}
+                />
+              )}
+            </div>
+            <div className="flex items-center justify-center">
+              <InnerBlocks.Content />
+            </div>
+          </div>
         </div>
       </div>
     );

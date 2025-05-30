@@ -70,14 +70,14 @@ if (!function_exists('nortic_plugin_resources_section_render_cb')) {
                 </a>
             </div>
 
-            <div class="glide__arrows" data-glide-el="controls">
+            <!-- <div class="glide__arrows" data-glide-el="controls">
                 <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
                     prev
                 </button>
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
                     next
                 </button>
-            </div>
+            </div> -->
         </section>
 <?php
 

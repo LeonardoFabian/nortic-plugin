@@ -1,0 +1,33 @@
+.wp-block-nortic-plugin-document-manager {
+  margin-bottom: 2rem;
+}
+
+.wp-block-nortic-plugin-document-manager .document-manager-tabs .tab-button {
+  padding: 8px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  background: var(--wp--preset--color--nortic-light-blue);
+  color: var(--wp--preset--color--nortic-blue);
+  transition: background 0.3s;
+}
+
+.wp-block-nortic-plugin-document-manager
+  .document-manager-tabs
+  .tab-button.active {
+  background: var(--wp--preset--color--nortic-blue);
+  color: white;
+}
+
+.wp-block-nortic-plugin-document-manager .document-manager-tab-section {
+  display: none;
+}
+
+.wp-block-nortic-plugin-document-manager .document-manager-tab-section.hidden {
+  display: none;
+}
+
+.wp-block-nortic-plugin-document-manager
+  .document-manager-tab-section:not(.hidden) {
+  display: block;
+}

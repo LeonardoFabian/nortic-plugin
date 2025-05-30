@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "nortic-plugin/mt-departamentos",
+  "title": "Listado de Departamentos",
+  "category": "widgets",
+  "description": "Añade un listado de despartamentos desde cms",
+  "keywords": [
+    "dependency",
+    "dependency list",
+    "list",
+    "place",
+    "location",
+    "map",
+    "dependencies",
+    "directus",
+    "cms",
+    "mt",
+    "departamentos"
+  ],
+  "version": "1",
+  "textdomain": "nortic-plugin",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Departamentos"
+    },
+    "use_default_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "ENDPOINT": {
+      "type": "string",
+      "default": "departamentos"
+    },
+    "departamentos": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "supports": {
+    "multiple": false
+  },
+  "style": "file:./index.css"
+}

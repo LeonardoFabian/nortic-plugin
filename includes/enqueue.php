@@ -4,9 +4,17 @@ if (!function_exists('nortic_plugin_enqueue_scripts')) {
     function nortic_plugin_enqueue_scripts()
     {
         // https://michalsnik.github.io/aos/
+        // wp_register_style(
+        //     'nortic_plugin_aos_css',
+        //     'https://unpkg.com/aos@2.3.1/dist/aos.css',
+        //     [],
+        //     '2.3.1',
+        //     'all'
+        // );
+
         wp_register_style(
             'nortic_plugin_aos_css',
-            'https://unpkg.com/aos@2.3.1/dist/aos.css',
+            NORTIC_PLUGIN_URL . 'dist/public/css/aos.css',
             [],
             '2.3.1',
             'all'
@@ -15,9 +23,9 @@ if (!function_exists('nortic_plugin_enqueue_scripts')) {
         // https://swiperjs.com/get-started#use-swiper-from-cdn
         wp_register_style(
             'nortic_plugin_swiper_css',
-            'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
+            NORTIC_PLUGIN_URL . 'dist/public/css/swiper-bundle.min.css', // 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
             [],
-            null,
+            '11.2.8',
             'all'
         );
 
@@ -62,21 +70,21 @@ if (!function_exists('nortic_plugin_enqueue_scripts')) {
         );
 
 
-        // https://michalsnik.github.io/aos/
+        // https://unpkg.com/aos@2.3.1/dist/aos.js
         wp_register_script(
             'aos-js',
-            'https://unpkg.com/aos@2.3.1/dist/aos.js',
+            NORTIC_PLUGIN_URL . 'dist/public/js/aos-2-3-1.js', // 'https://unpkg.com/aos@2.3.1/dist/aos.js',
             [],
             '2.3.1',
             true
         );
         
-        // https://swiperjs.com/get-started#use-swiper-from-cdn
+        // https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
         wp_register_script(
             'nortic_plugin_swiper_js',
-            'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
+            NORTIC_PLUGIN_URL . 'dist/public/js/swiper-bundle-11-2-8.min.js', // 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
             [],
-            null,
+            '11.2.8',
             true
         );
 
@@ -128,6 +136,10 @@ if (!function_exists('nortic_plugin_enqueue_scripts')) {
 
         // enqueue public scripts
 
+        if (!is_admin()) {
+            wp_enqueue_script('jquery');
+        }
+
         wp_enqueue_script('aos-js');
         wp_enqueue_script('nortic_plugin_aos_custom_js');
         wp_enqueue_script('nortic_plugin_glidejs');
@@ -139,7 +151,8 @@ if (!function_exists('nortic_plugin_enqueue_scripts')) {
             'nortic_plugin_public',
             'pluginData',  
             [
-                'pluginUrl' => NORTIC_PLUGIN_URL
+                'pluginUrl' => NORTIC_PLUGIN_URL,
+                'nonce' => nortic_get_nonce(),
             ]
         );
     }

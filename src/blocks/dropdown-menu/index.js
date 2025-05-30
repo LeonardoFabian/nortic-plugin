@@ -54,13 +54,13 @@ registerBlockType(block.name, {
 
     useEffect(() => {
       setAttributes({
-        desktop_menu_icon_url: `https://mt.gob.do/images/svg/icons/${desktop_menu_icon}.svg`,
+        desktop_menu_icon_url: `/wp-content/plugins/nortic-plugin/dist/public/images/icons/${desktop_menu_icon}.svg`,
       });
     }, [desktop_menu_icon]);
 
     useEffect(() => {
       setAttributes({
-        mobile_menu_icon_url: `https://mt.gob.do/images/svg/icons/${mobile_menu_icon}.svg`,
+        mobile_menu_icon_url: `/wp-content/plugins/nortic-plugin/dist/public/images/icons/${mobile_menu_icon}.svg`,
       });
     }, [mobile_menu_icon]);
 
@@ -86,36 +86,44 @@ registerBlockType(block.name, {
       <>
         <InspectorControls>
           <PanelColorSettings
-            title={_x("Colors", "PanelColorSettings label", "nortic-plugin")}
+            title={_x("Colors", "PanelColorSettings label", block.textdomain)}
             colorSettings={[
               {
-                label: __("Text Color", "nortic-plugin"),
+                label: __("Text Color", block.textdomain),
                 value: color,
                 onChange: (color) => setAttributes({ color }),
               },
               {
-                label: __("Background Color", "nortic-plugin"),
+                label: __("Background Color", block.textdomain),
                 value: background_color,
                 onChange: (background_color) =>
                   setAttributes({ background_color }),
               },
             ]}
           />
-          <PanelBody title={__("Settings", "nortic-plugin")}>
+          <PanelBody title={__("Settings", block.textdomain)}>
             <SelectControl
               label={_x(
                 "Menu position",
                 "SelectControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               value={menu_position}
               options={[
                 {
-                  label: _x("Absolute", "SelectControl label", "nortic-plugin"),
+                  label: _x(
+                    "Absolute",
+                    "SelectControl label",
+                    block.textdomain
+                  ),
                   value: "absolute",
                 },
                 {
-                  label: _x("Relative", "SelectControl label", "nortic-plugin"),
+                  label: _x(
+                    "Relative",
+                    "SelectControl label",
+                    block.textdomain
+                  ),
                   value: "relative",
                 },
               ]}
@@ -123,7 +131,7 @@ registerBlockType(block.name, {
             />
 
             <RangeControl
-              label={__("Desktop Columns", "nortic-plugin")}
+              label={__("Desktop Columns", block.textdomain)}
               onChange={(desktop_columns) => setAttributes({ desktop_columns })}
               value={desktop_columns}
               min={1}
@@ -131,7 +139,7 @@ registerBlockType(block.name, {
             />
 
             <RangeControl
-              label={__("Mobile Columns", "nortic-plugin")}
+              label={__("Mobile Columns", block.textdomain)}
               onChange={(mobile_columns) => setAttributes({ mobile_columns })}
               value={mobile_columns}
               min={1}
@@ -142,14 +150,14 @@ registerBlockType(block.name, {
               label={_x(
                 "Show on desktop",
                 "ToggleControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               checked={show_on_desktop}
               onChange={(show_on_desktop) => setAttributes({ show_on_desktop })}
               help={
                 show_on_desktop
-                  ? __("Desktop shown", "nortic-plugin")
-                  : __("Hide menu", "nortic-plugin")
+                  ? __("Desktop shown", block.textdomain)
+                  : __("Hide menu", block.textdomain)
               }
             />
 
@@ -157,17 +165,17 @@ registerBlockType(block.name, {
               label={_x(
                 "Desktop menu icon",
                 "SelectControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               value={desktop_menu_icon}
               options={[
                 {
-                  label: _x("Grid", "SelectControl label", "nortic-plugin"),
-                  value: "menu-grid-r",
+                  label: _x("Grid", "SelectControl label", block.textdomain),
+                  value: "dropdown-menu-grid",
                 },
                 {
-                  label: _x("Bars", "SelectControl label", "nortic-plugin"),
-                  value: "menu-outline",
+                  label: _x("Bars", "SelectControl label", block.textdomain),
+                  value: "dropdown-menu-hamburger",
                 },
               ]}
               onChange={handleDesktopMenuIcon}
@@ -182,7 +190,7 @@ registerBlockType(block.name, {
                 }}
               >
                 <img
-                  src={`https://mt.gob.do/images/svg/icons/${desktop_menu_icon}.svg`}
+                  src={`/wp-content/plugins/nortic-plugin/dist/public/images/icons/${desktop_menu_icon}.svg`}
                   style={{ width: "32px" }}
                 />
               </HStack>
@@ -192,14 +200,14 @@ registerBlockType(block.name, {
               label={_x(
                 "Show on mobile",
                 "ToggleControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               checked={show_on_mobile}
               onChange={(show_on_mobile) => setAttributes({ show_on_mobile })}
               help={
                 show_on_mobile
-                  ? __("Mobile shown", "nortic-plugin")
-                  : __("Hide menu", "nortic-plugin")
+                  ? __("Mobile shown", block.textdomain)
+                  : __("Hide menu", block.textdomain)
               }
             />
 
@@ -207,17 +215,17 @@ registerBlockType(block.name, {
               label={_x(
                 "Mobile menu icon",
                 "SelectControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               value={mobile_menu_icon}
               options={[
                 {
-                  label: _x("Grid", "SelectControl label", "nortic-plugin"),
-                  value: "menu-grid-r",
+                  label: _x("Grid", "SelectControl label", block.textdomain),
+                  value: "dropdown-menu-grid",
                 },
                 {
-                  label: _x("Bars", "SelectControl label", "nortic-plugin"),
-                  value: "menu-outline",
+                  label: _x("Bars", "SelectControl label", block.textdomain),
+                  value: "dropdown-menu-hamburger",
                 },
               ]}
               onChange={handleMobileMenuIcon}
@@ -232,7 +240,7 @@ registerBlockType(block.name, {
                 }}
               >
                 <img
-                  src={`https://mt.gob.do/images/svg/icons/${mobile_menu_icon}.svg`}
+                  src={`/wp-content/plugins/nortic-plugin/dist/public/images/icons/${mobile_menu_icon}.svg`}
                   style={{ width: "32px" }}
                 />
               </HStack>
@@ -241,13 +249,21 @@ registerBlockType(block.name, {
               label={_x(
                 "Mobile close menu icon",
                 "SelectControl label",
-                "nortic-plugin"
+                block.textdomain
               )}
               value={close_menu_icon}
               options={[
                 {
-                  label: _x("X Circle", "SelectControl label", "nortic-plugin"),
-                  value: "x-circle",
+                  label: _x(
+                    "X Circle",
+                    "SelectControl label",
+                    block.textdomain
+                  ),
+                  value: "dropdown-menu-close-circle",
+                },
+                {
+                  label: _x("X", "SelectControl label", block.textdomain),
+                  value: "dropdown-menu-close",
                 },
               ]}
               onChange={handleMobileCloseMenuIcon}
@@ -262,7 +278,7 @@ registerBlockType(block.name, {
                 }}
               >
                 <img
-                  src={`https://mt.gob.do/images/svg/icons/${close_menu_icon}.svg`}
+                  src={`/wp-content/plugins/nortic-plugin/dist/public/images/icons/${close_menu_icon}.svg`}
                   style={{ width: "32px" }}
                 />
               </HStack>
@@ -297,7 +313,7 @@ registerBlockType(block.name, {
                 placeholder={_x(
                   "Click to add a title",
                   "RichText label",
-                  "nortic-plugin"
+                  block.textdomain
                 )}
                 value={title}
                 onChange={(title) => setAttributes({ title })}

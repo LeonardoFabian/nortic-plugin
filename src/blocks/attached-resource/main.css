@@ -31,14 +31,14 @@
 .wp-block-nortic-plugin-attached-resource.file div {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 16px;
 }
 
 .wp-block-nortic-plugin-attached-resource.file div div {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 4px;
 }
 

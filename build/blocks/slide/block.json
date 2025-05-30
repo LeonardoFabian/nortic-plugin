@@ -11,6 +11,59 @@
   "version": "1",
   "textdomain": "",
   "editorScript": "file:./index.js",
-  "attributes": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "subTitleColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSubTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "Leer más"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "buttonColor": {
+      "type": "string",
+      "default": "#003876"
+    },
+    "showButton": {
+      "type": "boolean",
+      "default": true
+    }
+  },
   "style": "file:./index.css"
 }
