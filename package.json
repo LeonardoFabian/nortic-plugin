@@ -41,6 +41,8 @@
     "embla-carousel-react": "^8.2.1",
     "flowbite": "^1.6.5",
     "openai": "^3.2.1",
+    "react-organizational-chart": "^2.2.1",
+    "styled-components": "^6.1.18",
     "swiper": "^11.1.12"
   },
   "type": "module"

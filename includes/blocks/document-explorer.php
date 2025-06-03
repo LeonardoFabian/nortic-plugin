@@ -7,6 +7,13 @@ if (!function_exists('nortic_plugin_document_explorer_render_cb')) {
 
         $breadcrumbs = [];
         $current_id = $root_id;
+        $current_document = get_post($current_id);       
+        $content = $current_document->post_content;        
+        $content = apply_filters('the_content', $content);
+        $content = str_replace(']]>', ']]&gt;', $content);
+        // echo $content;
+        // var_dump($content);
+
         while ($current_id && $parent = get_post($current_id)) {
             array_unshift($breadcrumbs, [
                 'id' => $parent->ID,
@@ -44,24 +51,18 @@ if (!function_exists('nortic_plugin_document_explorer_render_cb')) {
                         <?php _e('Back', 'nortic-plugin'); ?>
                     </a>
                 <?php endif; ?> -->
-                <?php if (!empty($breadcrumbs)) : ?>
-                <!-- <nav class="document-explorer-breadcrumbs">
-                    <a href="?folder=0">Inicio</a>
-                    <?php foreach ($breadcrumbs as $crumb) : ?>
-                        &nbsp;&raquo;&nbsp;<a href="?folder=<?php echo $crumb['id']; ?>"><?php echo esc_html($crumb['title']); ?></a>
-                    <?php endforeach; ?>
-                </nav> -->
-                <nav class="document-explorer-breadcrumbs">
-                    <a href="?folder=0">Inicio</a>
-                    <?php for ($i = 0; $i < count($breadcrumbs) - 1; $i++) : ?>
-                        &nbsp;&raquo;&nbsp;<a href="?folder=<?php echo $breadcrumbs[$i]['id']; ?>"><?php echo esc_html($breadcrumbs[$i]['title']); ?></a>
-                    <?php endfor; ?>
-                </nav>
+                <?php if (!empty($breadcrumbs)) : ?>           
+                    <nav class="document-explorer-breadcrumbs">
+                        <a href="?folder=0">Inicio</a>
+                        <?php for ($i = 0; $i < count($breadcrumbs) - 1; $i++) : ?>
+                            &nbsp;&raquo;&nbsp;<a href="?folder=<?php echo $breadcrumbs[$i]['id']; ?>"><?php echo esc_html($breadcrumbs[$i]['title']); ?></a>
+                        <?php endfor; ?>
+                    </nav>
 
-                <?php $last = end($breadcrumbs); ?>
-                <h2 class="document-explorer-breadcrumbs-current-title mt-2 mb-4"><?php echo esc_html($last['title']); ?></h2>
-            <?php endif; ?>
-
+                    <?php $last = end($breadcrumbs); ?>
+                    <h2 class="document-explorer-breadcrumbs-current-title mt-2 mb-4"><?php echo esc_html($last['title']); ?></h2>
+                <?php endif; ?>
+               
                 <?php 
                     $document_formats = []; // almacena los formatos de archivos
                     $folders = []; // para validar que al menos se está mostrando un folder para cambiar el display a grid
@@ -78,6 +79,12 @@ if (!function_exists('nortic_plugin_document_explorer_render_cb')) {
                         }
                     }
                 ?>
+
+                <?php if (!empty($content)): ?>
+                    <div class="document-explorer-content">
+                        <?php echo $content; ?>
+                    </div>
+                <?php endif; ?>
 
                 <!-- Renderizar folders en grid -->
                 <?php if(!empty($folders) && !is_search()): ?>

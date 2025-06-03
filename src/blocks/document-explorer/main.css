@@ -37,6 +37,13 @@
   color: var(--wp--preset--color--nortic-blue);
 }
 
+/* content */
+.wp-block-nortic-plugin-document-explorer .document-explorer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .wp-block-nortic-plugin-document-explorer ul.document-explorer-list.items-list {
   list-style: none;
   list-style-type: none !important;

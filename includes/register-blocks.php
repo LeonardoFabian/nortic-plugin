@@ -197,6 +197,9 @@ if (!function_exists('nortic_plugin_register_blocks')) {
             ["name" => "document-explorer", "options" => [
                 "render_callback" => "nortic_plugin_document_explorer_render_cb"
             ]],
+            ["name" => "organizational-chart", "options" => [
+                "render_callback" => "nortic_plugin_organizational_chart_render_cb"
+            ]]
         ];
 
 

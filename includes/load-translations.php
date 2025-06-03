@@ -119,6 +119,7 @@ if (!function_exists('nortic_plugin_block_translations')) {
             "nortic-plugin-gob-do-editor-script",
             "nortic-plugin-powerbi-embed-editor-script",
             "nortic-plugin-document-explorer-editor-script",
+            "nortic-plugin-organizational-chart-editor-script",
         ];
 
         // Loaded translations for all blocks
