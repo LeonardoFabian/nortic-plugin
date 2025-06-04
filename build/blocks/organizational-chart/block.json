@@ -17,11 +17,15 @@
   "attributes": {
     "endPoint": {
       "type": "string",
-      "default": "http://test.mt.gob.do/wp-json/wp/v2/dependency"
+      "default": "http://test.mt.gob.do/wp-json/wp/v2"
     },
     "rootParentId": {
       "type": "number",
       "default": 0
+    },
+    "postType": {
+      "type": "string",
+      "default": "dependency"
     }
   },
   "style": "file:./index.css",
