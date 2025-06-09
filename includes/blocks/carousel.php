@@ -13,15 +13,20 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
             $current_province_id = $current_province_term->term_id;
 
             $args = [
-                'post_type' => 'post',
+                'post_type' => ['post', 'slide'],
                 'posts_per_page' => $atts['count'],
                 'orderby' => $atts['orderBy'],
                 'order' => $atts['order'],
                 'tax_query' => [
+                     'relation' => 'OR',
                     [
                         'taxonomy' => 'province',
                         'field' => 'term_id',
                         'terms' => $current_province_id
+                    ],
+                    [
+                        'taxonomy' => 'province',
+                        'operator' => 'NOT EXISTS', // Esto incluye a los CPTs como slide que no tienen provincia
                     ]
                 ],
             ];
@@ -37,7 +42,7 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
             }
         } else {
             $args = [
-                'post_type' => 'post',
+                'post_type' => ['post', 'slide'],
                 'posts_per_page' => $atts['count'],
                 'orderby' => $atts['orderBy'],
                 'order' => $atts['order']
@@ -45,10 +50,15 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
     
             if (!empty($categoriesIDs)) {
                 $args['tax_query'] = [
+                    'relation' => 'OR',
                     [
                         'taxonomy' => 'category',
                         'field' => 'term_id',
                         'terms' => $categoriesIDs
+                    ],
+                    [
+                        'taxonomy' => 'province',
+                        'operator' => 'NOT EXISTS', // Esto incluye a los CPTs como slide que no tienen provincia
                     ]
                 ];
             }
@@ -60,13 +70,15 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
         ob_start();
 ?>
         <?php if ($query->have_posts()) : ?>
-        <div class="wp-block-nortic-plugin-carousel glide-carousel relative ">
+        <div class="wp-block-nortic-plugin-carousel glide-carousel relative max-w-[1750px] mx-auto">
             <!-- Carousel wrapper -->
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                         <?php while ($query->have_posts()) : $query->the_post(); ?>
                             <?php
                             $post_id = get_the_ID();
+                            $post_title = get_the_title();
+                            $post_excerpt = get_the_excerpt();
                             $imageURL = wp_get_attachment_url(get_post_thumbnail_id($post_id, 'bannerHero'));
                             $cats = get_the_category($post_id);
                             // $post_date = get_the_date('Y-m-d', $post_id); // 1986-09-20
@@ -82,15 +94,24 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
                                 $category_id = $first_cat->term_id;
                             }
                             ?>
-                            <li class="glide__slide relative" >
+                            <li class="glide__slide relative grid h-[58vh] max-h-[680px]" >
                                  <!-- IMG CENTRADA + OPACIDAD EN HOVER -->
-                                <div class="carousel_image_container">
-                                <img class="nortic-plugin-carousel-image" src="<?php echo $imageURL; ?>" alt="<?php the_title(); ?>" />
+                                <div class="carousel_image_container absolute inset-0">
+                                    <figure style="width: auto;">
+                                        <img class="nortic-plugin-carousel-image" src="<?php echo $imageURL; ?>" alt="<?php the_title(); ?>" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" />
+                                    </figure>
                                 </div>
                                         
                                 <!-- CONTENIDO -->
-                                <div class="carousel_content" data-aos="fade-right" data-aos-duration="1000">
-                                    <h2 class="carousel-content-title"><?php echo get_the_title(); ?></h2>
+                                <div class="carousel_content z-0 ml-12 mr-48 flex max-w-lg flex-col justify-center md:mx-28 lg:mx-36" data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="flex flex-col gap-1">                                        
+                                        <?php if(!empty($post_title)): ?>
+                                            <h1 class="carousel-content-title p-2 text-2xl md:text-4xl"><?php echo esc_html($post_title); ?></h1>
+                                        <?php endif; ?>
+                                        <?php if (!empty($post_excerpt)): ?>
+                                            <p><?php echo esc_html($post_excerpt); ?></p>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>                   
                             </li>
                         <?php endwhile; ?>                   

@@ -148,6 +148,12 @@ add_action('init', 'nortic_plugin_newsletter_post_type');
 add_action('save_post_newsletter', 'nortic_plugin_save_post_newsletter');
 add_action('init', 'nortic_plugin_newsletter_category_taxonomy');
 
+// Slide CPT
+add_action('init', 'nortic_plugin_slide_cpt');
+// add_action('save_post_slide', 'nortic_plugin_save_post_slide');
+add_action('add_meta_boxes', 'nortic_register_slide_metabox');
+add_action('save_post', 'nortic_save_slide_metabox_data');
+
 # gallery 
 add_action('init', 'nortic_plugin_gallery_post_type');
 

@@ -24,7 +24,7 @@
   .glide__slide
   .carousel_image_container {
   position: relative;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -46,8 +46,8 @@
   img {
   width: 100%;
   object-fit: cover;
-  height: 400px;
-  max-height: 400px;
+  /* height: 400px; */
+  /* max-height: 400px; */
 }
 
 /* content */
