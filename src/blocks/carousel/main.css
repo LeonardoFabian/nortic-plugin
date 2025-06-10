@@ -57,15 +57,17 @@
   .glide__slide
   .carousel_content {
   position: absolute;
-  top: 50%;
+  top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
+  width: 40vw !important;
   max-width: 100%;
-  padding: 2rem;
+  background-color: var(--wp--preset--color--nortic-light-blue);
+  /* padding: 2rem; */
   z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   overflow: hidden;
 }
@@ -77,9 +79,50 @@
   .carousel_content
   .carousel-content-title {
   max-width: 100%;
-  color: #fff;
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: 700;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+.wp-block-nortic-plugin-carousel
+  .glide__track
+  ul.glide__slides
+  .glide__slide
+  .carousel_content
+  .carousel-content-description {
+  max-width: 100%;
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* button */
+.wp-block-nortic-plugin-carousel
+  .glide__track
+  ul.glide__slides
+  .glide__slide
+  .carousel_content
+  .carousel-content-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.wp-block-nortic-plugin-carousel
+  .glide__track
+  ul.glide__slides
+  .glide__slide
+  .carousel_content
+  .carousel-content-actions
+  .carousel-button {
+  background-color: var(--wp--preset--color--nortic-red);
+  color: var(--wp--preset--color--nortic-white);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  text-decoration: none;
 }
 
 /* bullets */

@@ -77,6 +77,13 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
                         <?php while ($query->have_posts()) : $query->the_post(); ?>
                             <?php
                             $post_id = get_the_ID();
+                            $post_type = get_post_type($post_id);
+                            if ($post_type === 'slide') {
+                                $slide_template_style = get_post_meta($post_id, 'template_style', true);
+                                $slide_description = get_post_meta($post_id, 'description', true);
+                                $slide_button_url = get_post_meta($post_id, 'url', true);
+                                $slide_button_text = get_post_meta($post_id, 'url_label', true);
+                            }
                             $post_title = get_the_title();
                             $post_excerpt = get_the_excerpt();
                             $imageURL = wp_get_attachment_url(get_post_thumbnail_id($post_id, 'bannerHero'));
@@ -103,16 +110,30 @@ if (!function_exists('nortic_plugin_carousel_render_cb')) {
                                 </div>
                                         
                                 <!-- CONTENIDO -->
-                                <div class="carousel_content z-0 ml-12 mr-48 flex max-w-lg flex-col justify-center md:mx-28 lg:mx-36" data-aos="fade-right" data-aos-duration="1000">
-                                    <div class="flex flex-col gap-1">                                        
-                                        <?php if(!empty($post_title)): ?>
-                                            <h1 class="carousel-content-title p-2 text-2xl md:text-4xl"><?php echo esc_html($post_title); ?></h1>
-                                        <?php endif; ?>
-                                        <?php if (!empty($post_excerpt)): ?>
-                                            <p><?php echo esc_html($post_excerpt); ?></p>
-                                        <?php endif; ?>
-                                    </div>
-                                </div>                   
+                                <?php if (
+                                    $post_type === 'post' ||
+                                    (
+                                        $post_type === 'slide' &&
+                                        !empty($slide_template_style) && 
+                                        $slide_template_style === 'image-with-blocks'
+                                    )
+                                ): ?>    
+                                    <div class="carousel_content z-0 flex" data-aos="fade-right" data-aos-duration="1000">
+                                        <div class="flex flex-col justify-center gap-1 ml-12 mr-48 md:mx-28 lg:mx-36">                                        
+                                            <?php if(!empty($post_title)): ?>
+                                                <h1 class="carousel-content-title"><?php echo esc_html($post_title); ?></h1>
+                                            <?php endif; ?>
+                                            <?php if ($post_type === 'slide' && !empty($slide_template_style) && $slide_template_style === 'image-with-blocks' && !empty($slide_description)): ?>
+                                                <p class="carousel-content-description"><?php echo esc_html($slide_description); ?></p>
+                                            <?php endif; ?>
+                                            <?php if($slide_button_url): ?>
+                                                <div class="mt-8 carousel-content-actions">
+                                                    <a class="carousel-button" href="<?php echo esc_url($slide_button_url); ?>"><?php echo !empty($slide_button_text) ? esc_html($slide_button_text) : __('Read more', 'nortic-plugin'); ?></a>
+                                                </div>
+                                            <?php endif; ?>
+                                        </div>
+                                    </div>       
+                                <?php endif; ?>
                             </li>
                         <?php endwhile; ?>                   
                 </ul>                 

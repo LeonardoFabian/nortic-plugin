@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/gob-do/index.css","mappings":";;;AAAA;EACE,uDAAuD;AACzD","sources":["webpack://nortic-plugin/./src/blocks/gob-do/main.css"],"sourcesContent":[".wp-block-nortic-plugin-gob-do {\r\n  background-color: var(--wp--preset--color--nortic-blue);\r\n}\r\n"],"names":[],"sourceRoot":""}

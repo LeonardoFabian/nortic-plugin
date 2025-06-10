@@ -1,1 +1,14 @@
-.wp-block-nortic-plugin-team-member-basic-info{margin-bottom:1rem;margin-top:1rem}.editor-styles-wrapper .wp-block-nortic-plugin-team-member-basic-info h3,.wp-block-nortic-plugin-team-member-basic-info h3{font-size:var(--wp--preset--font-size--large);margin-bottom:1rem}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/team-member-basic-info/main.css ***!
+  \************************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-team-member-basic-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-team-member-basic-info h3, .wp-block-nortic-plugin-team-member-basic-info h3 {
+    margin-bottom: 1rem;
+    font-size: var(--wp--preset--font-size--large);
+}
+
+/*# sourceMappingURL=index.css.map*/

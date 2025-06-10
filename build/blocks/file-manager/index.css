@@ -1,1 +1,21 @@
-.wp-block-nortic-plugin-file-manager .file-meta h5.file-name{font-size:.875rem;font-weight:500}.file-download-btn:hover,.file-view-btn:hover{opacity:.8}.wp-block-nortic-plugin-file-manager .components-spinner{left:9px;position:absolute;top:15px}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/file-manager/main.css ***!
+  \**************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-file-manager .file-meta h5.file-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.file-view-btn:hover, .file-download-btn:hover {
+    opacity: .8;
+}
+
+/* Spinner  */
+.wp-block-nortic-plugin-file-manager .components-spinner {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+
+
+
+/*# sourceMappingURL=index.css.map*/

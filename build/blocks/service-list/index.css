@@ -1,1 +1,180 @@
-.wp-block-nortic-plugin-service-list{align-items:flex-start;display:flex;flex-direction:column;gap:30px;margin-bottom:2rem!important;margin-top:1rem!important}.wp-block-nortic-plugin-service-list .service-list-heading{color:var(--wp--preset--color--nortic-blue);font-size:var(--wp--preset--font-size--h-5);font-weight:700;margin-bottom:1rem}.wp-block-nortic-plugin-service-list .service-list-subheading{color:var(--wp--preset--color--nortic-black);font-size:var(--wp--preset--font-size--h-6)}.wp-block-nortic-plugin-service-list .service-list-taxonomy-heading{border-left:2px solid var(--wp--preset--color--nortic-red);color:var(--wp--preset--color--nortic-blue);font-size:var(--wp--preset--font-size--h-6);padding-left:16px}.wp-block-nortic-plugin-service-list .service-list-wrapper{grid-gap:16px;display:grid;list-style:none}.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-1{grid-template-columns:repeat(1,1fr)}.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-2{grid-template-columns:repeat(2,1fr)}.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-3{grid-template-columns:repeat(3,1fr)}.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-4{grid-template-columns:repeat(4,1fr)}@media (max-width:576px){.wp-block-nortic-plugin-service-list .service-list-wrapper{display:flex;flex-direction:column;gap:8px}}.wp-block-nortic-plugin-service-list .service-list-item{align-items:center;background-color:var(--wp--preset--color--nortic-white);border-radius:4px;box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);display:flex;flex-direction:row;gap:20px;overflow:hidden;padding:20px}.wp-block-nortic-plugin-service-list .service-list-item:hover{box-shadow:0 10px 40px 0 rgba(6,22,58,.1)}.wp-block-nortic-plugin-service-list .service-list-item i{color:var(--wp--preset--color--nortic-blue);font-size:40px}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-item-title,.wp-block-nortic-plugin-service-list .service-list-item span .service-list-item-title a{color:var(--wp--preset--color--nortic-blue);font-size:14px;font-weight:700}.wp-block-nortic-plugin-service-list .service-list-item:hover span .service-list-item-title a{color:var(--wp--preset--color--nortic-blue)}.wp-block-nortic-plugin-service-list .service-list-item:hover i{color:var(--wp--preset--color--nortic-red)}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating{align-items:center;display:flex;flex-direction:row;gap:.5rem;justify-content:flex-start}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul{display:flex;flex-direction:row;flex-wrap:nowrap!important;gap:4px;justify-content:flex-start}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul li i{font-size:12px}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul li i.bi-star,.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul li i.bi-star-fill{color:rgba(0,0,0,.26)}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul li i.bi-star-fill,.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating ul li i.bi-star-half{color:#faaf00}.wp-block-nortic-plugin-service-list .service-list-item span .service-list-rating span{white-space:nowrap}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/service-list/main.css ***!
+  \**************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-service-list {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.wp-block-nortic-plugin-service-list .service-list-heading {
+  margin-bottom: 1rem;
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+.wp-block-nortic-plugin-service-list .service-list-subheading {
+  color: var(--wp--preset--color--nortic-black);
+  font-size: var(--wp--preset--font-size--h-6);
+}
+.wp-block-nortic-plugin-service-list .service-list-taxonomy-heading {
+  color: var(--wp--preset--color--nortic-blue);
+  font-size: var(--wp--preset--font-size--h-6);
+  border-left: 2px solid var(--wp--preset--color--nortic-red);
+  padding-left: 16px;
+}
+.wp-block-nortic-plugin-service-list .service-list-wrapper {
+  list-style: none;
+  display: grid;
+  grid-gap: 16px;
+}
+
+.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.wp-block-nortic-plugin-service-list .service-list-wrapper.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 576px) {
+  .wp-block-nortic-plugin-service-list .service-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.wp-block-nortic-plugin-service-list .service-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--wp--preset--color--nortic-white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.wp-block-nortic-plugin-service-list .service-list-item:hover {
+  box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+}
+.wp-block-nortic-plugin-service-list .service-list-item i {
+  color: var(--wp--preset--color--nortic-blue);
+  font-size: 40px;
+}
+/* .wp-block-nortic-plugin-service-list .service-list-item span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+} */
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-item-title,
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-item-title
+  a {
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.wp-block-nortic-plugin-service-list
+  .service-list-item:hover
+  span
+  .service-list-item-title
+  a {
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-service-list .service-list-item:hover i {
+  color: var(--wp--preset--color--nortic-red);
+}
+
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap !important;
+  gap: 4px;
+}
+
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul
+  li
+  i {
+  font-size: 12px;
+}
+
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul
+  li
+  i.bi-star-fill,
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul
+  li
+  i.bi-star {
+  color: rgba(0, 0, 0, 0.26);
+}
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul
+  li
+  i.bi-star-fill,
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  ul
+  li
+  i.bi-star-half {
+  color: #faaf00;
+}
+.wp-block-nortic-plugin-service-list
+  .service-list-item
+  span
+  .service-list-rating
+  span {
+  white-space: nowrap;
+}
+
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,1 +1,68 @@
-.wp-block-nortic-plugin-faqs-list h5{color:var(--wp--preset--color--nortic-blue);font-size:var(--wp--preset--font-size--h-5);font-weight:700;margin-bottom:2rem!important;margin-top:1rem!important}.wp-block-nortic-plugin-faqs-list .faqs-container{display:flex;flex-direction:column;gap:1rem}.wp-block-nortic-plugin-faqs-list .faq-item{background-color:var(--wp--preset--color--nortic-white);box-shadow:0 10px 40px 0 rgba(6,22,58,.1)}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header{padding:1rem 2rem}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header a{color:var(--wp--preset--color--nortic-blue);font-size:14px}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header.active a{color:var(--wp--preset--color--nortic-red);font-size:14px}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header .faq-icon-wrapper{align-items:center;background-color:var(--wp--preset--color--nortic-gray);border-radius:50%;display:flex;height:25px;justify-content:center;min-width:25px;width:25px}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header .faq-icon-wrapper .faq-icon{color:var(--wp--preset--color--nortic-blue);font-size:1rem}.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header .faq-icon-wrapper .faq-icon:hover,.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header.active .faq-icon-wrapper .faq-icon{color:var(--wp--preset--color--nortic-red)}
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/faqs-list/main.css ***!
+  \***********************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-faqs-list h5 {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+.wp-block-nortic-plugin-faqs-list .faqs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.wp-block-nortic-plugin-faqs-list .faq-item {
+  background-color: var(--wp--preset--color--nortic-white);
+
+  box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+}
+.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header {
+  padding: 1rem 2rem;
+}
+.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header a {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-blue);
+}
+.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header.active a {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-red);
+}
+.wp-block-nortic-plugin-faqs-list .faq-item .faq-item-header .faq-icon-wrapper {
+  background-color: var(--wp--preset--color--nortic-gray);
+  width: 25px;
+  min-width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-nortic-plugin-faqs-list
+  .faq-item
+  .faq-item-header
+  .faq-icon-wrapper
+  .faq-icon {
+  color: var(--wp--preset--color--nortic-blue);
+  font-size: 1rem;
+}
+
+.wp-block-nortic-plugin-faqs-list
+  .faq-item
+  .faq-item-header.active
+  .faq-icon-wrapper
+  .faq-icon {
+  color: var(--wp--preset--color--nortic-red);
+}
+
+.wp-block-nortic-plugin-faqs-list
+  .faq-item
+  .faq-item-header
+  .faq-icon-wrapper
+  .faq-icon:hover {
+  color: var(--wp--preset--color--nortic-red);
+}
+
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,1 +1,153 @@
-.wp-block-nortic-plugin-service-summary{align-items:stretch;display:flex;gap:1rem;margin-bottom:2rem!important;margin-top:1rem!important}@media (max-width:640px){.wp-block-nortic-plugin-service-summary{display:block;margin-left:0}}.wp-block-nortic-plugin-service-summary .service-summary-card{align-items:center;background-color:var(--wp--preset--color--nortic-white)!important;box-shadow:0 10px 40px 0 rgba(6,22,58,.1);color:var(--wp--preset--color--nortic-blue)!important;display:flex;flex-direction:column;justify-content:center;padding:2rem 1rem}.wp-block-nortic-plugin-service-summary .service-summary-card .service-summary-card-content{align-items:center;display:flex;flex-direction:column;gap:1rem;justify-content:flex-start}.wp-block-nortic-plugin-service-summary .service-summary-card:hover{transition:all .3s ease-in-out}.wp-block-nortic-plugin-service-summary .service-summary-card div.relative i{color:var(--wp--preset--color--nortic-red)!important;font-size:50px}.wp-block-nortic-plugin-service-summary .service-summary-card:hover div.relative h4{color:var(--wp--preset--color--nortic-blue)!important}.wp-block-nortic-plugin-service-summary .service-summary-card div.relative>div.nortic-plugin-service-summary-data{color:var(--wp--preset--color--nortic-black)!important;font-size:14px;margin-top:1rem}.wp-block-nortic-plugin-service-summary .service-summary-card:hover div.relative>div.nortic-plugin-service-summary-data{color:var(--wp--preset--color--nortic-black)!important}a.access-now-button{background-color:var(--wp--preset--color--nortic-blue)!important;border:1px solid var(--wp--preset--color--nortic-blue)!important}a.access-now-button,a.access-now-button:hover{color:var(--wp--preset--color--nortic-white)!important}a.access-now-button:hover{background-color:var(--wp--preset--color--nortic-red)!important;border:1px solid var(--wp--preset--color--nortic-red)!important}.wp-block-nortic-plugin-service-summary .service-summary-card:hover div.relative>div.nortic-plugin-service-summary-data a:visited{color:var(--wp--preset--color--nortic-white)}@media (max-width:640px){.frontend-wp-block-nortic-plugin-service-summary .service-summary-card:not(:first-child),.wp-block-nortic-plugin-service-summary .service-summary-card{margin:1rem auto}}.wp-block-nortic-plugin-service-summary .relative i.bi{align-items:center;border-radius:50%;display:flex;font-size:2rem;justify-content:center}.wp-block-nortic-plugin-service-summary .relative h4.service-summary-title{font-size:1rem;font-weight:700;line-height:1.2;margin-top:1.5rem}.service-summary-view-more{color:var(--wp--preset--color--nortic-dark)!important}.service-summary-view-more,.service-summary-view-more span a{font-size:1rem!important}.service-summary-view-more span a{color:var(--wp--preset--color--nortic-blue)!important}.service-summary-view-more span a:hover{color:var(--wp--preset--color--nortic-red)!important}.service-summary-view-more span:hover{color:var(--wp--preset--color--nortic-red)}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/service-summary/main.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-service-summary {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  /* margin-left: 1rem;  */
+}
+@media (max-width: 640px) {
+  .wp-block-nortic-plugin-service-summary {
+    display: block;
+    margin-left: 0;
+  }
+}
+.wp-block-nortic-plugin-service-summary .service-summary-card {
+  color: var(--wp--preset--color--nortic-blue) !important;
+  padding: 2rem 1rem;
+}
+.wp-block-nortic-plugin-service-summary .service-summary-card {
+  background-color: var(--wp--preset--color--nortic-white) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); */
+  box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+}
+/* .wp-block-nortic-plugin-service-summary .service-summary-card:hover {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+} */
+
+.wp-block-nortic-plugin-service-summary
+  .service-summary-card
+  .service-summary-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.wp-block-nortic-plugin-service-summary .service-summary-card:hover {
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; */
+}
+
+.wp-block-nortic-plugin-service-summary .service-summary-card div.relative i {
+  color: var(--wp--preset--color--nortic-red) !important;
+  font-size: 50px;
+}
+
+.wp-block-nortic-plugin-service-summary
+  .service-summary-card:hover
+  div.relative
+  h4 {
+  color: var(--wp--preset--color--nortic-blue) !important;
+}
+
+.wp-block-nortic-plugin-service-summary
+  .service-summary-card
+  div.relative
+  > div.nortic-plugin-service-summary-data {
+  /* position: relative;
+    opacity: 1;  */
+  color: var(--wp--preset--color--nortic-black) !important;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.wp-block-nortic-plugin-service-summary
+  .service-summary-card:hover
+  div.relative
+  > div.nortic-plugin-service-summary-data {
+  /* opacity: 1;     */
+  color: var(--wp--preset--color--nortic-black) !important;
+}
+
+a.access-now-button {
+  color: var(--wp--preset--color--nortic-white) !important;
+  background-color: var(--wp--preset--color--nortic-blue) !important;
+  border: 1px solid var(--wp--preset--color--nortic-blue) !important;
+}
+
+a.access-now-button:hover {
+  color: var(--wp--preset--color--nortic-white) !important;
+  background-color: var(--wp--preset--color--nortic-red) !important;
+  border: 1px solid var(--wp--preset--color--nortic-red) !important;
+}
+.wp-block-nortic-plugin-service-summary
+  .service-summary-card:hover
+  div.relative
+  > div.nortic-plugin-service-summary-data
+  a:visited {
+  color: var(--wp--preset--color--nortic-white);
+}
+
+/* .wp-block-nortic-plugin-service-summary
+  .service-summary-card:not(:first-child) {
+  margin-left: 1rem;
+} */
+@media (max-width: 640px) {
+  .wp-block-nortic-plugin-service-summary .service-summary-card,
+  .frontend-wp-block-nortic-plugin-service-summary
+    .service-summary-card:not(:first-child) {
+    /* width: 90%; */
+    /* height: 200px; */
+    margin: 1rem auto;
+  }
+}
+
+.wp-block-nortic-plugin-service-summary .relative i.bi {
+  font-size: 2rem;
+  /* height: 100px;
+  width: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.wp-block-nortic-plugin-service-summary .relative h4.service-summary-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  line-height: 1.2;
+}
+
+.service-summary-view-more {
+  color: var(--wp--preset--color--nortic-dark) !important;
+}
+
+.service-summary-view-more,
+.service-summary-view-more span a {
+  font-size: 1rem !important;
+}
+
+.service-summary-view-more span a {
+  color: var(--wp--preset--color--nortic-blue) !important;
+}
+
+.service-summary-view-more span a:hover {
+  color: var(--wp--preset--color--nortic-red) !important;
+}
+
+.service-summary-view-more span:hover {
+  color: var(--wp--preset--color--nortic-red);
+}
+
+
+/*# sourceMappingURL=index.css.map*/

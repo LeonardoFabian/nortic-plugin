@@ -1,1 +1,22 @@
-.wp-block-nortic-plugin-awards .stamp-container{align-items:center;display:flex;justify-content:space-around}.wp-block-nortic-plugin-awards .stamp-container .stamp-box{align-self:center;justify-self:center;width:100%}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/awards/main.css ***!
+  \********************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-awards .stamp-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wp-block-nortic-plugin-awards .stamp-container .stamp-box {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+/* @media (max-width: 768px) {
+    .wp-block-nortic-plugin-awards {
+        display: none;
+    }
+} */
+
+/*# sourceMappingURL=index.css.map*/

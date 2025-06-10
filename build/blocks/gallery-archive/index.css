@@ -1,1 +1,50 @@
-.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper{display:grid}@media (max-width:576px){.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper{display:block}}.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure{position:relative}.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure>figcaption{align-items:center;background:hsla(0,0%,100%,.8)!important;bottom:0;color:var(--wp--preset--color--nortic-color-black);display:flex;flex-wrap:wrap;justify-content:center;left:0;opacity:0;padding:2rem;position:absolute;right:0;top:0}.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure>figcaption:hover{opacity:1;transition:opacity .25s ease-in-out}.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure>figcaption h3{font-weight:600}.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure>figcaption time{color:var(--wp--preset--color--nortic-color-gray);text-transform:uppercase}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/gallery-archive/main.css ***!
+  \*****************************************************************************************************************************************************************************************/
+/* Gallery Archive */
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper {
+    display: grid;
+}
+
+@media (max-width: 576px) {
+    .wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper {
+        display: block;
+    }
+}
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure {
+    position: relative;
+}
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure > figcaption {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, .8) !important;
+    color: var(--wp--preset--color--nortic-color-black);
+}
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure > figcaption:hover {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure > figcaption h3 {
+    font-weight: 600;
+}
+
+.wp-block-nortic-plugin-gallery-archive .nortic-plugin-gallery-archive-wrapper .nortic-plugin-gallery-archive-item figure > figcaption time {
+    color: var(--wp--preset--color--nortic-color-gray);
+    text-transform: uppercase;
+}
+
+/*# sourceMappingURL=index.css.map*/

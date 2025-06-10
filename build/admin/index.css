@@ -1,1 +1,31 @@
-.nortic-image-preview-container{background-color:rgba(0,0,0,.1)!important;padding:.5rem}#np-og-img-preview,#np-theme-footer-logo-preview,#np-theme-logo-preview{display:block;margin-bottom:1rem;max-width:600px}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/admin/main.css ***!
+  \************************************************************************************************************************************************************************/
+.nortic-image-preview-container {
+    background-color: rgba(0,0,0,.1) !important;
+    padding: .5rem;
+}
+
+/* Options Page */
+
+#np-theme-logo-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+#np-theme-footer-logo-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+/* Open Graph options page */
+
+#np-og-img-preview {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+/*# sourceMappingURL=index.css.map*/

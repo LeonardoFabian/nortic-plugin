@@ -1,1 +1,64 @@
-(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{function t(t){document.getElementById("tab-content-section")?.classList.add("hidden"),document.getElementById("tab-documents-section")?.classList.add("hidden"),document.getElementById("tab-content")?.classList.remove("active"),document.getElementById("tab-documents")?.classList.remove("active"),"content"===t?(document.getElementById("tab-content-section")?.classList.remove("hidden"),document.getElementById("tab-content")?.classList.add("active")):"documents"===t&&(document.getElementById("tab-documents-section")?.classList.remove("hidden"),document.getElementById("tab-documents")?.classList.add("active"))}const e=document.getElementById("tab-content"),n=document.getElementById("tab-documents");document.querySelectorAll(".tab-button").forEach((e=>{e.addEventListener("click",(()=>{t(e.getAttribute("data-tab"))}))})),e&&n||e&&null===n?t("content"):e&&!document.querySelector("#tab-content-section").classList.contains("hidden")?(t("content"),e.classList.add("hidden")):n&&(t("documents"),n.classList.add("hidden"))}))})();
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	// The require scope
+/******/ 	var __webpack_require__ = {};
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+/*!******************************************************************!*\
+  !*** ./src/blocks/document-manager/frontend-document-manager.js ***!
+  \******************************************************************/
+__webpack_require__.r(__webpack_exports__);
+document.addEventListener("DOMContentLoaded", () => {
+  function showTab(tab) {
+    document.getElementById("tab-content-section")?.classList.add("hidden");
+    document.getElementById("tab-documents-section")?.classList.add("hidden");
+    document.getElementById("tab-content")?.classList.remove("active");
+    document.getElementById("tab-documents")?.classList.remove("active");
+    if (tab === "content") {
+      document.getElementById("tab-content-section")?.classList.remove("hidden");
+      document.getElementById("tab-content")?.classList.add("active");
+    } else if (tab === "documents") {
+      document.getElementById("tab-documents-section")?.classList.remove("hidden");
+      document.getElementById("tab-documents")?.classList.add("active");
+    }
+  }
+  const contentTab = document.getElementById("tab-content");
+  const documentsTab = document.getElementById("tab-documents");
+
+  // Agregar eventos a los botones de pestañas si existen
+  document.querySelectorAll(".tab-button").forEach(button => {
+    button.addEventListener("click", () => {
+      const tab = button.getAttribute("data-tab"); // Obtener el atributo data-tab
+      showTab(tab);
+    });
+  });
+
+  // Determinar qué pestaña mostrar por defecto
+  if (contentTab && documentsTab) {
+    showTab("content"); // Si ambas pestañas existen, mostrar "Content" por defecto
+  } else if (contentTab && documentsTab === null) {
+    showTab("content"); // Si solo existe "Content", mostrarlo
+  } else if (contentTab && !document.querySelector("#tab-content-section").classList.contains("hidden")) {
+    showTab("content"); // Si el contenido está presente, mostrar la pestaña
+    contentTab.classList.add("hidden"); // Ocultar botón de contenido si no hay contenido
+  } else if (documentsTab) {
+    showTab("documents"); // Si solo existe "Documents", mostrarlo
+    documentsTab.classList.add("hidden"); // Ocultar botón de documentos si no hay otra pestaña
+  }
+});
+/******/ })()
+;
+//# sourceMappingURL=frontend-document-manager.js.map

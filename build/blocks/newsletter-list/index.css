@@ -1,1 +1,115 @@
-.wp-block-nortic-plugin-nortic-newsletter-list{margin-bottom:54px!important}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container{display:flex;flex-direction:column;gap:16px;justify-content:space-between}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container h5{color:var(--wp--preset--color--nortic-blue);font-size:var(--wp--preset--font-size--h-5);font-weight:700}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper{display:grid;gap:8px;grid-template-columns:repeat(4,1fr);row-gap:30px}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item{display:flex;flex-direction:column;gap:16px;justify-content:flex-start}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-list-item-img-container{align-items:center;background-color:var(--wp--preset--color--nortic-light-gray);display:flex;height:250px;justify-content:center;width:100%}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-list-item-img-container img{height:200px;-o-object-fit:cover;object-fit:cover;overflow:hidden;width:150px}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-title,.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-title a{color:var(--wp--preset--color--nortic-black);font-size:14px}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-meta{display:flex;flex-direction:column;gap:4px}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-meta .newsletter-category-name{color:var(--wp--preset--color--nortic-dark-gray);font-size:12px}.wp-block-nortic-plugin-nortic-newsletter-list .wp-block-nortic-plugin-nortic-newsletter-list-container .wp-block-nortic-plugin-nortic-newsletter-list-wrapper .wp-block-nortic-plugin-nortic-newsletter-list-item .newsletter-meta .newsletter-dependency-name{color:var(--wp--preset--color--nortic-black);font-size:12px}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/newsletter-list/main.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-nortic-newsletter-list {
+  margin-bottom: 54px !important;
+}
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+/* title */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  h5 {
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+
+/* list wrapper */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  row-gap: 30px;
+}
+/* list item */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+/* image container */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-list-item-img-container {
+  width: 100%;
+  height: 250px;
+  background-color: var(--wp--preset--color--nortic-light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* image */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-list-item-img-container
+  img {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+/* newsletter title */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-title,
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-title
+  a {
+  font-size: 14px;
+  color: var(--wp--preset--color--nortic-black);
+}
+/* newsletter meta */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+/* newsletter meta cats */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-meta
+  .newsletter-category-name {
+  color: var(--wp--preset--color--nortic-dark-gray);
+  font-size: 12px;
+}
+/* newsletter meta dependency name */
+.wp-block-nortic-plugin-nortic-newsletter-list
+  .wp-block-nortic-plugin-nortic-newsletter-list-container
+  .wp-block-nortic-plugin-nortic-newsletter-list-wrapper
+  .wp-block-nortic-plugin-nortic-newsletter-list-item
+  .newsletter-meta
+  .newsletter-dependency-name {
+  color: var(--wp--preset--color--nortic-black);
+  font-size: 12px;
+}
+
+
+/*# sourceMappingURL=index.css.map*/

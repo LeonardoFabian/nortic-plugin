@@ -1,1 +1,13 @@
-.wp-block-nortic-plugin-mt-departamentos{martin-top:54px!important;display:flex;flex-direction:column;gap:16px;margin-bottom:54px!important}
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/mt-departamentos/main.css ***!
+  \******************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-mt-departamentos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 54px !important;
+  martin-top: 54px !important;
+}
+
+
+/*# sourceMappingURL=index.css.map*/

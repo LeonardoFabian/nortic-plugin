@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/powerbi-embed/index.css","mappings":";;;AAAA;EACE,mBAAmB;AACrB","sources":["webpack://nortic-plugin/./src/blocks/powerbi-embed/main.css"],"sourcesContent":[".wp-block-nortic-plugin-powerbi-embed {\r\n  margin-bottom: 2rem;\r\n}\r\n"],"names":[],"sourceRoot":""}

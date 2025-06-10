@@ -1,1 +1,23 @@
-.wp-block-nortic-plugin-description{margin-bottom:2rem!important;margin-top:1rem}.editor-styles-wrapper .wp-block-nortic-plugin-description h5,.wp-block-nortic-plugin-description h5{color:var(--wp--preset--color--nortic-blue);font-size:var(--wp--preset--font-size--h-5);font-weight:700;margin-bottom:1rem}.wp-block-nortic-plugin-description p{font-size:var(--wp--preset--font-size--paragraph);line-height:1.5rem}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/description/main.css ***!
+  \*************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-description {
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
+}
+
+.editor-styles-wrapper .wp-block-nortic-plugin-description h5,
+.wp-block-nortic-plugin-description h5 {
+  margin-bottom: 1rem;
+  font-size: var(--wp--preset--font-size--h-5);
+  color: var(--wp--preset--color--nortic-blue);
+  font-weight: bold;
+}
+
+.wp-block-nortic-plugin-description p {
+  font-size: var(--wp--preset--font-size--paragraph);
+  line-height: 1.5rem;
+}
+
+
+/*# sourceMappingURL=index.css.map*/

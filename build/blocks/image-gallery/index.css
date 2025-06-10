@@ -1,1 +1,67 @@
-.wp-block-nortic-plugin-image-gallery{background-color:var(--wp--preset--color--nortic-white)}.wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container{display:grid}@media (max-width:576px){.wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container{display:block}.wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container .nortic-image-gallery-upload-wrapper{margin-bottom:1rem}}.wp-block-nortic-plugin-image-gallery button[type=button].components-button{background:linear-gradient(to right bottom,var(--wp--preset--color--nortic-blue),var(--wp--preset--color--nortic-blue))!important;background-repeat:no-repeat!important;background-size:0 100%!important;border-color:var(--wp--preset--color--nortic-blue)!important;border-radius:0!important;border-style:solid!important;border-width:5px!important;color:var(--wp--preset--color--nortic-blue)!important;font-size:1rem!important;font-weight:600!important;padding:.7rem 1.5rem!important;transition:background .5s cubic-bezier(.1,.7,.6,.9)!important}.wp-block-nortic-plugin-image-gallery button[type=button].components-button:hover{background-size:100% 100%!important;box-shadow:0 10px 15px -3px rgba(0,56,118,.1)!important;color:var(--wp--preset--color--nortic-white)!important}.nortic-image-gallery-upload-wrapper figure{position:relative}.nortic-image-gallery-upload-wrapper figure>figcaption{align-items:center;background:hsla(0,0%,100%,.8)!important;bottom:0;color:var(--wp--preset--color--nortic-color-black);display:flex;flex-wrap:wrap;justify-content:center;left:0;opacity:0;padding:2rem;position:absolute;right:0;top:0}.nortic-image-gallery-upload-wrapper figure>figcaption:hover{opacity:1;transition:opacity .25s ease-in-out}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/image-gallery/main.css ***!
+  \***************************************************************************************************************************************************************************************/
+.wp-block-nortic-plugin-image-gallery {
+    background-color: var(--wp--preset--color--nortic-white);
+}
+.wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container {
+    display: grid;
+}
+@media (max-width: 576px) {
+    .wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container {
+        display: block;
+    }
+
+    .wp-block-nortic-plugin-image-gallery .nortic-plugin-image-gallery-container .nortic-image-gallery-upload-wrapper {
+        margin-bottom: 1rem;
+    }
+}
+.wp-block-nortic-plugin-image-gallery button[type='button'].components-button {
+    transition: background 500ms cubic-bezier(0.1, 0.7, 0.6, 0.9) !important;
+    border-width: 5px !important;
+    border-style: solid !important;
+    padding-top: .7rem !important;
+    padding-bottom: .7rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--wp--preset--color--nortic-blue) !important;
+    background: linear-gradient(to right bottom, var(--wp--preset--color--nortic-blue) , var(--wp--preset--color--nortic-blue)) !important;
+    border-color: var(--wp--preset--color--nortic-blue) !important;
+    background-size: 0 100% !important;
+    background-repeat: no-repeat !important;
+    border-radius: 0 !important;
+}
+.wp-block-nortic-plugin-image-gallery button[type='button'].components-button:hover {
+    color: var(--wp--preset--color--nortic-white) !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 56, 118,.1) !important;
+    background-size: 100% 100% !important;
+}
+
+.nortic-image-gallery-upload-wrapper figure {
+    position: relative;
+}
+
+.nortic-image-gallery-upload-wrapper figure > figcaption {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, .8) !important;
+    color: var(--wp--preset--color--nortic-color-black);
+}
+
+.nortic-image-gallery-upload-wrapper figure > figcaption:hover {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+
+/*# sourceMappingURL=index.css.map*/

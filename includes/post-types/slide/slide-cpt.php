@@ -55,6 +55,8 @@ if (!function_exists('nortic_plugin_slide_cpt')) {
     }
 }
 
+// TODO registrar un post meta tipo boolean para mostrar u ocultar el titulo
+
 
 register_post_meta( '', 'url_label', [
     'type'              => 'string',
@@ -67,3 +69,16 @@ register_post_meta( '', 'url_label', [
         return current_user_can('edit_posts');
     }
 ] );
+
+
+register_post_meta( '', 'template_style', [
+    'type'              => 'string',
+    'default'           => '',
+    'description'       => __('Template style', 'nortic-plugin'),
+    'single'            => true,
+    'show_in_rest'      => true,
+    'sanitize_callback' => 'sanitize_text_field',
+    'auth_callback'     => function () {
+        return current_user_can('edit_posts');
+    }
+]);
